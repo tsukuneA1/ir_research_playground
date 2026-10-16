@@ -17,9 +17,11 @@ RUN apt-get update \
     && rm -rf /var/lib/apt/lists/*
 
 # Mount the host dotfiles repository at /root/dotfiles when running.
-RUN mkdir -p /root/.config \
-    && ln -s /root/dotfiles/fish /root/.config/fish \
-    && ln -s /root/dotfiles/nvim /root/.config/nvim
+# Keep the config directories writable for fish_variables and editor state.
+RUN mkdir -p /root/.config/fish /root/.config/nvim \
+    && ln -s /root/dotfiles/fish/config.fish /root/.config/fish/config.fish \
+    && ln -s /root/dotfiles/nvim/init.lua /root/.config/nvim/init.lua \
+    && ln -s /root/dotfiles/nvim/snippets /root/.config/nvim/snippets
 
 # Install the CPU build first so Pyserini does not pull CUDA dependencies.
 RUN python -m pip install --no-cache-dir \
