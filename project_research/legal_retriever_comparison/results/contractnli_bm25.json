@@ -1,0 +1,67 @@
+{
+  "dataset": "LegalBench-RAG / ContractNLI",
+  "questions": 977,
+  "contracts": 95,
+  "chunks": 989,
+  "parameters": {
+    "chunk_size_word_tokens": 200,
+    "overlap_word_tokens": 40,
+    "top_k": 5,
+    "bm25_k1": 1.2,
+    "bm25_b": 0.75
+  },
+  "metrics": {
+    "all_contracts": {
+      "document_hit": 0.4176,
+      "evidence_hit": 0.1863,
+      "precision": 0.0097,
+      "recall": 0.1407
+    },
+    "known_contract": {
+      "document_hit": 1,
+      "evidence_hit": 0.8721,
+      "precision": 0.0604,
+      "recall": 0.79
+    }
+  },
+  "seconds": {
+    "index": 0.021,
+    "search_and_evaluate": 3.535
+  },
+  "example": {
+    "query": "Consider the Non-Disclosure Agreement between CopAcc and ToP Mentors; Does the document indicate that the Agreement does not grant the Receiving Party any rights to the Confidential Information?",
+    "gold_file": "contractnli/CopAcc_NDA-and-ToP-Mentors_2.0_2017.txt",
+    "top_hits": [
+      {
+        "rank": 1,
+        "file": "contractnli/TSE-TSE-OK-WHK-Mutual-NDA-Fill-in-Blanks-4-29-2019.txt",
+        "score": 14.946,
+        "excerpt": "party shall assign this Agreement or any rights hereunder without the prior written consent of the other party.\n12. Term. The parties shall continue to protect the secrecy of the Confidential Information for as long as the information remai"
+      },
+      {
+        "rank": 2,
+        "file": "contractnli/INFOMAGNET%20NDA.txt",
+        "score": 14.101,
+        "excerpt": "that monetary damages may not be a sufficient remedy for unauthorised disclosure of Confidential Information and that Disclosing Party shall be entitled, without waiving any other rights or remedies, to such compensation as may be deemed pr"
+      },
+      {
+        "rank": 3,
+        "file": "contractnli/WECC_Confidentiality_Agreement.txt",
+        "score": 13.321,
+        "excerpt": "WECC Information Sharing Policy.\n7. Term and Termination\na. This Agreement shall continue in effect until terminated. This Agreement may be terminated by WECC or Data Recipient at any time at their sole discretion.\nb. Upon any termination o"
+      },
+      {
+        "rank": 4,
+        "file": "contractnli/thoughtbot-mutual-nda.txt",
+        "score": 12.679,
+        "excerpt": "Disclosing Party and shall be promptly returned to the Disclosing Party upon the Disclosing Party’s request.\n8. No License\nNothing in this Agreement is intended to grant any rights to either party under any patent, mask work right or copyri"
+      },
+      {
+        "rank": 5,
+        "file": "contractnli/QuickBooks-NDA-template.txt",
+        "score": 12.351,
+        "excerpt": "and Recipient shall have no right to use Confidential Information except as provided herein. No patent, copyright, trademark or other proprietary right or licence is conveyed by this Agreement with respect to Confidential Information.\n5. Re"
+      }
+    ]
+  }
+}
