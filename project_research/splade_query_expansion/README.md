@@ -5,6 +5,7 @@
 悪化した質問の追加語、順位、BM25加点を追った結果は[失敗例の分析](failure_analysis.md)にまとめています。
 追加語の加点を弱める実験とzero-hit fallbackの判定結果は[重みとfallbackの分析](weight_analysis.md)にまとめています。
 BEIRで報告されたクエリ・文書両側のSPLADEとの数値比較は[既存研究との比較](literature_comparison.md)にまとめています。
+元クエリとの類似度で追加語を選ぶ予備実験は[類似度による選択](similarity_analysis.md)にまとめています。
 
 このディレクトリは `legal_retriever_comparison` から独立しています。[BEIR](https://github.com/beir-cellar/beir) の **SciFact**（科学文献、5,183文書・test 300問）、**FiQA**（金融、57,638文書・test 648問）、**ArguAna**（議論、8,674文書・test 1,406問）、**NFCorpus**（医療・栄養、3,633文書・test 323問）を使います。文書はタイトルと本文を連結し、小文字の英数字列でトークン化します。BM25は `k1=1.2, b=0.75`。SPLADEは質問だけに適用し、元の質問にない上位語をBM25へ追加します。文書の拡張、SPLADEの語の重み、SPLADE検索スコアとの融合は使いません。
 

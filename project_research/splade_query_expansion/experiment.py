@@ -55,7 +55,7 @@ class BM25:
         self.avg_length = statistics.mean(lengths)
         self.lengths = lengths
 
-    def search(self, query_terms, limit=10):
+    def search(self, query_terms, limit=10, exclude_id=None):
         scores = defaultdict(float)
         total = len(self.ids)
         for term in query_terms:
@@ -66,7 +66,11 @@ class BM25:
             for index, frequency in posting:
                 norm = self.k1 * (1 - self.b + self.b * self.lengths[index] / self.avg_length)
                 scores[index] += idf * frequency * (self.k1 + 1) / (frequency + norm)
-        ranked = heapq.nlargest(limit, scores.items(), key=lambda item: (item[1], -item[0]))
+        ranked = heapq.nlargest(
+            limit,
+            ((index, value) for index, value in scores.items() if self.ids[index] != exclude_id),
+            key=lambda item: (item[1], -item[0]),
+        )
         return [self.ids[index] for index, _ in ranked]
 
 
@@ -160,8 +164,9 @@ def main():
     for qid, query in questions.items():
         original = terms(query)
         added = [item["term"] for item in expansions[qid][:args.terms]]
-        baseline = score(index.search(original), gold[qid])
-        expanded = score(index.search(original | set(added)), gold[qid])
+        exclude_id = qid if args.dataset == "arguana" else None
+        baseline = score(index.search(original, exclude_id=exclude_id), gold[qid])
+        expanded = score(index.search(original | set(added), exclude_id=exclude_id), gold[qid])
         rows.append({"query_id": qid, "query": query, "expansion": added,
                      "baseline": baseline, "expanded": expanded})
     metrics = {

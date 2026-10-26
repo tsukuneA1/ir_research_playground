@@ -13,10 +13,11 @@ from experiment import BM25, ROOT, load_data, score, terms
 WEIGHTS = (0.0, 0.1, 0.25, 0.5, 1.0)
 
 
-def rank(index, scores, cutoff=100):
+def rank(index, scores, cutoff=100, exclude_id=None):
     hits = heapq.nlargest(
         cutoff,
-        ((doc_index, value) for doc_index, value in scores.items() if value > 0),
+        ((doc_index, value) for doc_index, value in scores.items()
+         if value > 0 and index.ids[doc_index] != exclude_id),
         key=lambda pair: (pair[1], -pair[0]),
     )
     return [index.ids[doc_index] for doc_index, _ in hits]
@@ -37,9 +38,12 @@ def main():
 
     documents, questions, gold = load_data(ROOT / "data", args.dataset)
     index = BM25(documents)
+    id_to_index = {doc_id: doc_index for doc_index, doc_id in enumerate(index.ids)}
     expansions = json.loads(args.expansions.read_text(encoding="utf-8"))
     rows = []
     for qid, relevant in gold.items():
+        exclude_id = qid if args.dataset == "arguana" else None
+        excluded_index = id_to_index.get(exclude_id)
         base = defaultdict(float)
         extra = defaultdict(float)
         for term in sorted(terms(questions[qid])):
@@ -53,13 +57,14 @@ def main():
             if weight:
                 for doc_index, value in extra.items():
                     scores[doc_index] += weight * value
-            conditions[str(weight)] = evaluate(rank(index, scores), relevant)
+            conditions[str(weight)] = evaluate(rank(index, scores, exclude_id=exclude_id), relevant)
         # This trigger is observable without relevance labels.
-        zero_hit = not base
+        baseline_candidate_count = len(base) - int(excluded_index in base)
+        zero_hit = baseline_candidate_count == 0
         fallback = conditions["1.0"] if zero_hit else conditions["0.0"]
         rows.append({"query_id": qid, "query": questions[qid],
                      "expansion": added, "zero_hit": zero_hit,
-                     "baseline_candidate_count": len(base),
+                     "baseline_candidate_count": baseline_candidate_count,
                      "conditions": conditions, "fallback": fallback})
 
     metrics = ("ndcg@10", "recall@10", "recall@100")

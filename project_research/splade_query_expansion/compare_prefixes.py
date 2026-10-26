@@ -24,8 +24,13 @@ def add_term(index, scores, term):
         scores[doc_index] += idf * frequency * (index.k1 + 1) / (frequency + norm)
 
 
-def rank(index, scores):
-    found = heapq.nlargest(100, scores.items(), key=lambda pair: (pair[1], -pair[0]))
+def rank(index, scores, exclude_id=None):
+    found = heapq.nlargest(
+        100,
+        ((doc_index, value) for doc_index, value in scores.items()
+         if index.ids[doc_index] != exclude_id),
+        key=lambda pair: (pair[1], -pair[0]),
+    )
     return [index.ids[doc_index] for doc_index, _ in found]
 
 
@@ -55,15 +60,16 @@ def main():
     for qid, relevant in gold.items():
         original = terms(questions[qid])
         added = [item["term"] for item in expansions[qid][:3]]
+        exclude_id = qid if args.dataset == "arguana" else None
         scores = defaultdict(float)
         for term in sorted(original):
             add_term(index, scores, term)
-        original_ranked = rank(index, scores)
+        original_ranked = rank(index, scores, exclude_id=exclude_id)
         metrics = {"0": evaluate(original_ranked, scores, relevant, id_to_index)}
         top10 = {"0": original_ranked[:10]}
         for count, term in enumerate(added, 1):
             add_term(index, scores, term)
-            ranked = rank(index, scores)
+            ranked = rank(index, scores, exclude_id=exclude_id)
             metrics[str(count)] = evaluate(ranked, scores, relevant, id_to_index)
             top10[str(count)] = ranked[:10]
         per_query.append({"query_id": qid, "query": questions[qid],
