@@ -1,0 +1,649 @@
+query_id,query,expansion,bm25_ndcg10,expanded_ndcg10,delta_ndcg10
+8,How to deposit a cheque issued to an associate in my business into my business account?,che | step | method,0.613147,0.613147,0.0
+15,Can I send a money order from USPS as a business?,coin | us | sent,0.0,0.0,0.0
+18,1 EIN doing business under multiple business names,multi | both | separate,0.356207,0.430677,0.074469
+26,Applying for and receiving business credit,application | qualify | receipt,0.184576,0.0,-0.184576
+34,401k Transfer After Business Closure,closed | retirement | cancel,0.0,0.0,0.0
+42,What are the ins/outs of writing equipment purchases off as business expenses in a home based business?,written | hardware | gear,0.0,0.0,0.0
+56,Can a entrepreneur hire a self-employed business owner?,entrepreneurship | employment | employee,0.0,0.0,0.0
+68,Intentions of Deductible Amount for Small Business,de | large | tax,0.0,0.0,0.0
+89,How can I deposit a check made out to my business into my personal account?,step | method | make,0.117063,0.100867,-0.016195
+90,Filing personal with 1099s versus business s-corp?,vs | corporation | company,0.356207,0.63093,0.274723
+94,Using credit card points to pay for tax deductible business expenses,payment | de | accounting,0.430677,0.5,0.069323
+98,"How can I make $250,000.00 from trading/investing/business within 5 years?",price | salary | five,0.0,0.0,0.0
+104,Investing/business with other people's money: How does it work?,coin | person | finance,0.0,0.0,0.0
+106,What approaches are there for pricing a small business?,cost | large | marketing,0.0,0.0,0.0
+109,How to account for money earned and spent prior to establishing business bank accounts?,before | spend | step,0.430677,0.386853,-0.043824
+475,Do I need a new EIN since I am hiring employees for my LLC?,replacement | yes | you,0.386853,0.386853,0.0
+503,Privacy preferences on creditworthiness data,credit | private | tracking,0.0,0.0,0.0
+504,Have plenty of cash flow but bad credit,enough | lots | you,0.0,0.0,0.0
+515,financial institution wants share member break down for single member LLC,solo | broken | cancel,1.0,1.0,0.0
+529,Sole proprietorship or LLC?,proprietor | business | company,0.0,0.0,0.0
+547,What percentage of my company should I have if I only put money?,percent | coin | businesses,0.0,0.0,0.0
+549,Where to request ACH Direct DEBIT of funds from MY OWN personal bank account?,ac | tab | de,0.0,0.0,0.0
+559,"Challenged an apparently bogus credit card charge, what happens now?",bog | alleged | fraud,0.0,0.0,0.0
+570,Employer options when setting up 401k for employees,retirement | plan | start,0.0,0.0,0.0
+585,Following an investment guru a good idea?,broker | excellent | advice,0.0,0.0,0.0
+588,Is there a reason to buy a 0% yield bond?,zero | percent | purchase,0.613147,0.613147,0.0
+594,Should a retail trader bother about reading SEC filings,trading | broker | stock,0.386853,0.613147,0.226294
+603,Will one’s education loan application be rejected if one doesn't have a payslip providing collateral?,yes | pay | cancel,0.0,0.0,0.0
+604,"Is there a dollar amount that, when adding Massachusetts Sales Tax, precisely equals $200?",price | ma | mass,0.0,0.0,0.0
+620,Is it wise to have plenty of current accounts in different banks?,enough | various | both,0.0,0.0,0.0
+622,"Accidentally opened a year term CD account, then realized I need the money sooner. What to do?",earlier | soon | later,0.0,0.0,0.0
+659,Buying from an aggressive salesperson,sales | purchase | advanced,0.312049,0.233651,-0.078398
+672,Credit and Debit,de | accounting | finance,0.0,0.0,0.0
+684,"Beyond RRSP deductions, how does a high income earner save on taxes?",rr | earn | highest,0.0,0.0,0.0
+687,Online tool to connect to my bank account and tell me what I spend in different categories?,internet | various | your,0.0,0.0,0.0
+689,Receive credit card payment sending my customer details to a credit card processing company?,processor | sent | receipt,0.0,0.0,0.0
+691,How to categorize credit card payments?,cat | step | classification,0.386853,1.0,0.613147
+699,Prepaid Rent (Accrual Based Accounting),prep | acc | rental,0.430677,0.386853,-0.043824
+701,What are the ins/outs of writing-off part of one's rent for working at home?,rental | written | writer,0.0,0.0,0.0
+715,what would you do with $100K saving?,price | dollar | retirement,0.0,0.0,0.0
+721,What are “upstream investments” and “downstream investments” in this context?,finance | technology | river,0.5,0.5,0.0
+744,What options are available for a home loan with poor credit but a good rental history?,rent | bad | past,0.0,0.0,0.0
+750,Paid part of my state refund back last year; now must declare the initial amount as income?,ref | tax | return,0.806574,0.806574,0.0
+753,Taxes due for hobbyist Group Buy,hobby | purchase | fee,0.0,0.306574,0.306574
+766,Will the ex-homeowner still owe money after a foreclosure?,fore | debt | home,0.0,0.0,0.0
+776,"Can saving/investing 15% of your income starting age 25, likely make you a millionaire?",wealth | percent | fifteen,0.220092,0.220092,0.0
+810,Can I open a bank account in the US remotely? Will I pay taxes for the money on it?,yes | payment | online,0.0,0.0,0.0
+813,Income Tax and Investments,finance | accounting | wealth,0.0,0.0,0.0
+849,Accounting for reimbursements that exceed actual expenses,rei | exceeded | over,0.0,0.0,0.0
+852,Dalbar: How can the average investor lose money?,dal | loss | investment,0.921787,0.921787,0.0
+853,What will my taxes be as self employed?,employment | employee | your,0.0,0.0,0.0
+858,Is it bad practice to invest in stocks that fluctuate by single points throughout the day?,flu | daily | during,0.0,0.0,0.0
+859,"Any reason to keep around my account with my old, 'big' bank?",large | older | your,0.0,0.0,0.0
+864,Why use accounting software like Quickbooks instead of Excel spreadsheets?,quick | spreads | rather,0.286381,0.286381,0.0
+879,Capital improvement and depreciation in restaurant LLC,de | company | kitchen,0.63093,0.63093,0.0
+885,How long do credit cards keep working after you disappear?,years | period | last,0.0,0.0,0.0
+895,California tells me I didn't file documents for an LLC that isn't mine. What do I do?,ca | yes | not,1.0,1.0,0.0
+904,How do I set up Quickbooks for a small property rental company that holds its properties in separate LLC's?,quick | rent | step,0.63093,0.63093,0.0
+928,How can I determine if a FHA loan refinance offer is from a reputable lender,rep | ref | lend,0.306574,0.264068,-0.042505
+929,Freelancer: Should I start a second bank account?,another | third | two,1.0,1.0,0.0
+932,Is freelance income earned by a U.S. citizen while living abroad subject to state income tax?,overseas | salary | resident,0.388958,0.218407,-0.170551
+939,How to correct a tax return filed electronically and already approved?,step | method | accepted,0.315465,0.289065,-0.0264
+945,Paid by an American company but working from France: where should I pay taxes?,french | us | europe,0.0,0.0,0.0
+957,How can I withdraw money from my LLC?,step | method | cancel,0.477624,0.463242,-0.014381
+988,Where should I invest my savings?,your | best | retirement,0.0,0.0,0.0
+1074,How common is “pass-through” health insurance?,ins | medical | popular,0.0,0.0,0.0
+1085,How do disputed debts work on credit reports?,contested | method | fraud,0.0,0.0,0.0
+1090,Need a formula to determine monthly payments received at time t if I'm reinvesting my returns,rein | calculate | equation,0.0,0.0,0.0
+1150,How are the best way to make and save money at 22 years old,age | coin | retirement,0.0,0.0,0.0
+1157,Personal taxes for Shopify / Paypal shop?,pay | fee | store,0.386853,0.264068,-0.122785
+1159,what is the best way to do a freelancing job over the summer for a student,free | august | desert,0.0,0.0,0.0
+1198,What are the consequences of IRS “reclassification” on both employer and employee?,rec | tax | effect,1.0,1.0,0.0
+1230,How does Walmart account their expired food,wal | ex | stale,0.0,0.0,0.0
+1281,How FTB and IRS find mistakes in amended tax returns? Are their processes reliable?,ft | errors | audit,0.0,0.0,0.0
+1284,Tax consequences when foreign currency changes in value,coin | effect | exchange,1.0,1.0,0.0
+1297,Why aren't there solutions for electronic itemized receipt for retail in-store purchases?,fraud | marketing | useful,0.315465,0.5,0.184535
+1306,"I made an investment with a company that contacted me, was it safe?",dangerous | make | secure,0.529436,0.269183,-0.260253
+1309,Why does FlagStar Bank harass you about payments within grace period?,flags | fraud | cancel,0.253278,0.253278,0.0
+1310,Is is possible to take a mortgage using Bitcoin as collateral?,bit | loan | yes,0.5,0.63093,0.13093
+1321,"Are social media accounts (e.g. YouTube, Twitter, Instagram, etc.) considered assets?",ins | facebook | website,0.0,0.0,0.0
+1322,Is this follow-up after a car crash a potential scam?,sc | possible | accident,0.0,0.0,0.0
+1391,How is taxation for youtube/twitch etc monetization handled in the UK?,tax | mon | video,0.0,0.0,0.0
+1393,"Which is better when working as a contractor, 1099 or incorporating?",best | contract | alternative,0.0,0.087472,0.087472
+1415,I am not VAT registered. Do I need to buy from my supplier with excl VAT prices or incl VAT?,va | inc | yes,1.0,1.0,0.0
+1416,US resident with Canadian income via T4A-NR,canada | immigration | united,0.0,0.0,0.0
+1441,What's the difference between Market Cap and NAV?,na | finance | accounting,0.904717,0.904717,0.0
+1451,"How do you find an ethical, honest independent insurance broker in Canada?",canadian | ins | step,1.0,0.63093,-0.36907
+1469,Why do some companies report how well their EBITDA performed even if their overall net profit did equally well?,success | accounting | businesses,1.0,1.0,0.0
+1530,"What is the proper way to report additional income for taxes (specifically, Android development)?",mobile | extra | method,0.0,0.0,0.0
+1670,Investing in hemp producers in advance of possible legalization in Canada?,hem | canadian | production,0.765361,0.765361,0.0
+1676,W2 vs 1099 Employee status,difference | employment | portal,0.58557,0.363318,-0.222253
+1736,How can people have such high credit card debts?,highest | person | fraud,0.553146,0.315648,-0.237498
+1748,"How high should I set my KickStarter funding goal in order to have $35,000 left over?",kick | price | max,0.296082,0.296082,0.0
+1783,Freelancing Tax implication,free | implied | consequence,0.0,0.0,0.0
+1812,splitting a joint mortgage - one owner in home,loan | separate | owned,0.613147,0.613147,0.0
+1815,Rules for SEP contributions in an LLC?,september | penalty | business,1.0,1.0,0.0
+1819,Found an old un-cashed paycheck. How long is it good for? What to do if it's expired?,pay | find | check,0.0,0.0,0.0
+1824,Is there a way to open a U.S. bank account for my LLC remotely?,method | united | yes,0.0,0.0,0.0
+1826,"Is the contribution towards Employment Insurance (EI) wasted if I never get fired, or are my premiums refunded?",employee | ref | ins,0.831872,0.831872,0.0
+1832,Warren Buffett and Charles Munger advice for small investors?,buffet | mu | investment,0.5,0.5,0.0
+1871,Is there any US bank that does not charge for incoming wire transfers?,fee | yes | cost,0.39038,0.168128,-0.222253
+1877,"As a Sole Proprietor, will “employer” Solo 401k contributions count towards gross income?",employee | yes | business,0.63093,0.63093,0.0
+1889,Reporting financial gains from my online store,internet | growth | your,0.0,0.0,0.0
+1915,Should I pay a company who failed to collect VAT from me over 6 months ago?,va | payment | six,0.386853,0.386853,0.0
+1920,Clarification on student expenses - To file the tax for the next year,cl | college | school,0.0,0.0,0.0
+1933,UK sole trader who often buys products/services on behalf of clients – do I deduct from declared income or claim as allowable expenses?,de | purchase | broker,1.0,1.0,0.0
+1948,Which colors can one use to fill out a check in the US?,red | united | blue,0.386853,1.0,0.613147
+1994,Does the IRS reprieve those who have to commute for work?,tax | rep | com,0.282634,0.26688,-0.015754
+2010,Paypal website donations without being a charity,pay | charitable | not,0.296082,0.16716,-0.128921
+2051,Where to find the 5 or 10 year returns for a mutual fund?,five | ten | calculate,0.0,0.0,0.0
+2070,"Advantage of credit union or local community bank over larger nationwide banks such as BOA, Chase, etc.?",bo | benefit | branch,0.469279,0.469279,0.0
+2075,Are stories of turning a few thousands into millions by trading stocks real?,news | couple | convert,0.235046,0.235046,0.0
+2076,Can vet / veterinary bills be considered deductions (tax-deductible) for Income Tax purposes [Canada]?,de | yes | pet,0.0,0.0,0.0
+2088,How would I go about selling the stock of a privately held company?,sale | step | method,0.0,0.0,0.0
+2108,Can I pay taxes using bill pay from my on-line checking account?,payment | you | yes,0.0,0.0,0.0
+2118,What happened in Argentina in 2001 bank sector? did the banks closed? all or some?,argentine | crash | failed,0.0,0.0,0.0
+2154,"What tax software automatically determines the best filing status, etc?",program | tool | calculate,0.0,0.0,0.0
+2181,What are the risks & rewards of being a self-employed independent contractor / consultant vs. being a permanent employee?,employment | success | benefits,0.0,0.0,0.0
+2183,Why are there many small banks and more banks in the U.S.?,united | large | smaller,0.302602,0.252169,-0.050434
+2204,What's an economic explanation for why greeting cards are so expensive?,cost | hello | cheap,0.70942,0.745791,0.036371
+2264,Personal Tax Return software for Linux?,tool | program | jeremy,0.306574,0.237198,-0.069376
+2296,How does a bank make money on an interest free secured loan?,earn | method | coin,0.31877,0.313394,-0.005376
+2306,To whom should I report fraud on both of my credit cards?,deception | person | two,0.613147,0.613147,0.0
+2316,What exchange rate does El Al use when converting final payment amount to shekels?,she | calculate | currency,0.919721,0.919721,0.0
+2318,F1 student and eBay selling tax,sale | registration | school,0.0,0.0,0.0
+2330,How can I determine if a debt consolidation offer is real or a scam?,sc | fraud | fake,0.613147,0.613147,0.0
+2334,How do you determine “excess cash” for Enterprise Value calculations from a balance sheet?,accounting | business | step,0.296082,0.296082,0.0
+2348,Why can't you just have someone invest for you and split the profits (and losses) with him?,person | himself | separate,0.31488,0.358954,0.044074
+2376,Why do gas stations charge different amounts in the same local area?,fuel | fee | cost,0.572665,0.652459,0.079795
+2383,Should I Purchase Health Insurance Through My S-Corp,ins | corporation | buy,0.613147,0.613147,0.0
+2384,Tax: 1099 paper form,letter | receipt | number,0.0,0.0,0.0
+2385,"As director, can I invoice my self-owned company?",directed | businesses | you,0.613147,0.613147,0.0
+2388,Do financial advisors get better deals on mortgages?,loan | best | finance,1.0,1.0,0.0
+2395,Freelance site with lowest commission fees?,low | website | lower,0.63093,0.63093,0.0
+2398,Frustrated Landlord,rent | disappointed | confused,0.0,0.0,0.0
+2399,Where do web sites get foreign exchange currency rate / quote information?,find | international | website,0.5,1.0,0.5
+2400,Will I be paid dividends if I own shares?,divide | stock | pay,0.202107,0.16716,-0.034947
+2407,How long to wait after getting a mortgage to increase my credit limit?,loan | years | raise,0.39038,0.39038,0.0
+2416,Why should a company go public?,businesses | private | publicly,0.507896,0.251901,-0.255995
+2423,At what age should I start or stop saving money?,old | coin | retirement,0.274876,0.274876,0.0
+2443,What are some way to transfer money from Hong Kong to India on a monthly basis?,indian | coin | month,0.0,0.0,0.0
+2445,How do I notify the IRS of a new member to an LLC?,step | tax | not,1.0,1.0,0.0
+2460,What are the consequences of not respecting a notice period when leaving a job?,employee | employment | penalty,0.469279,0.671386,0.202107
+2465,Can capital expenses for volunteer purposes be deducted from income?,de | tax | yes,0.0,0.0,0.0
+2472,How do I deal with a mistaken attempt to collect a debt from me that is owed by someone else?,confused | mis | step,0.0,0.0,0.0
+2486,"Is working on a W2 basis, with benefits paid to me, a good idea?",pay | yes | job,0.430677,0.5,0.069323
+2498,How do I calculate tax liability on the turnover of a small vendor?,accounting | large | step,0.0,0.0,0.0
+2513,How does revenue shared with someone else go into my tax return in Canada?,canadian | person | other,0.0,0.0,0.0
+2516,Which banks have cash-deposit machines in Germany?,german | offer | company,0.39038,0.39038,0.0
+2549,How to graph the market year over year? for example Dow Jones Index,calculate | step | after,0.0,0.0,0.0
+2551,How to find cheaper alternatives to a traditional home telephone line?,cheap | phone | step,0.0,0.181542,0.181542
+2568,How to pay with cash when car shopping?,payment | step | vehicle,0.0,0.0,0.0
+2579,What to do when a job offer is made but with a salary less than what was asked for?,employment | fewer | lower,0.0,0.0,0.0
+2580,Stock market vs. baseball card trading analogy,mlb | comparison | difference,0.765361,0.765361,0.0
+2587,Typically how many digits are in a cheque number?,che | usually | check,1.0,1.0,0.0
+2589,How can I detect potential fraud in a company before investing in them?,deception | possible | prior,0.436747,0.650821,0.214074
+2590,Are non-residents or foreigners permitted to buy or own shares of UK companies?,purchase | british | stock,0.148041,0.181542,0.033501
+2593,Am I “cheating the system” by opening up a tiny account with a credit union and then immediately applying for a huge loan?,small | big | you,0.703918,0.636439,-0.067479
+2598,Is it possible for US retail forex traders to trade exotic currencies?,fore | coin | broker,0.204382,0.237198,0.032815
+2648,How does unemployment insurance work?,employment | ins | function,1.0,1.0,0.0
+2676,Tax question about selling a car,sale | vehicle | asked,0.0,0.386853,0.386853
+2685,What ways are there for us to earn a little extra side money?,coin | method | additional,0.079795,0.126471,0.046677
+2695,"Buy a parking spot and rent it out, or invest savings in an interest-bearing account?",purchase | rental | finance,1.0,1.0,0.0
+2713,Physical Checks - Mailing,postal | test | tracking,0.177239,0.0,-0.177239
+2724,How do you determine the dividend payout date for Mutual Funds?,divide | calculate | pay,0.237198,0.237198,0.0
+2737,What to do with an old building to get money,coin | older | ancient,0.30103,0.0,-0.30103
+2747,What evidence do I need to declare tutoring income on my income tax?,proof | teacher | school,0.0,0.0,0.0
+2749,Is it possible to create a self-managed superannuation fund to act as a mortage offset? (Australia),mort | super | yes,0.386853,0.613147,0.226294
+2790,Should I pay more than 20% down on a home?,percent | payment | house,0.137438,0.173428,0.035989
+2801,If I deposit money as cash does it count as direct deposit?,coin | you | receipt,0.613147,0.613147,0.0
+2856,How can I cash out a check internationally?,international | global | step,0.15102,0.15102,0.0
+2857,"I have around 60K $. Thinking about investing in Oil, how to proceed?",price | sixty | fee,0.0,0.0,0.0
+2880,Can I transfer my investment property into a SMSF?,sms | text | move,1.0,1.0,0.0
+2885,Merits of buying apartment houses and renting them,rental | purchase | landlord,0.0,0.0,0.0
+2891,May I claim money earned but not received in 2012,coin | yes | tax,1.0,1.0,0.0
+2895,Where should a young student put their money?,coin | teen | youth,0.0,0.0,0.0
+2903,How should I file my taxes as a contractor?,contract | step | method,0.0,0.0,0.0
+2923,Should I give to charity by check or credit card?,charitable | donation | gift,0.290391,0.572463,0.282071
+2964,Unmarried Couple Splitting up with Joint Ownership of Home,married | marriage | owner,0.0,0.0,0.0
+2968,Should I prioritize retirement savings inside of my HSA?,hs | prior | within,0.264068,0.386853,0.122785
+2994,Work on the side for my wife's company,marriage | job | wives,0.0,0.0,0.0
+3006,"Strategies for putting away money for a child's future (college, etc.)?",coin | children | saving,0.100867,0.151301,0.050434
+3008,What are my chances at getting a mortgage with Terrible credit but High income,loan | bad | risk,0.0,0.0,0.0
+3014,What investments are positively related to the housing market decline?,property | home | drop,0.0,0.0,0.0
+3033,Tax consequences of changing state residency?,effect | penalty | immigration,0.0,0.0,0.0
+3039,Can increasing my tax withholding from my full-time job cover FICA taxes for my freelance work?,fi | raise | yes,0.430677,1.0,0.569323
+3049,How to calculate my estimated taxes. 1099 MISC + Self Employment,mis | step | employee,0.139056,0.15102,0.011963
+3051,What items are exempt from the VAT? [U.K.],va | uk | list,0.797723,0.850345,0.052622
+3067,Should I make extra payments to my under water mortgage or increase my savings?,loan | additional | you,0.0,0.0,0.0
+3085,How long can I convert 401(k) to Roth 401(k)?,years | retirement | calculate,0.0,0.0,0.0
+3091,Am I considered in debt if I pay a mortgage?,loan | payment | you,0.086714,0.0,-0.086714
+3103,"AVS Address Verification System of BOTH Credit and Debit Cards - WHERE, HOW?",verify | separate | de,0.386853,0.430677,0.043824
+3115,How can I live outside of the rat race of American life with 300k?,out | survive | you,0.493523,0.453904,-0.03962
+3125,"Claiming mileage allowances, what are the rules/guidelines?",mile | tax | requirements,0.315465,0.430677,0.115212
+3148,Can a car company refuse to give me a copy of my contract or balance details?,vehicle | cancel | yes,0.553146,0.553146,0.0
+3149,Tips for insurance coverage for one-man-teams,ins | step | advice,0.0,0.0,0.0
+3177,Vanguard ETF vs mutual fund,et | difference | stock,0.181542,0.148041,-0.033501
+3179,"Calculation, timing, and taxes related to profit distribution of an S-corp?",corporation | accounting | company,0.306574,0.264068,-0.042505
+3186,United States Treasury Not Endorsing Checks,end | us | yes,0.850345,0.850345,0.0
+3189,Diversify my retirement investments with a Roth IRA,divers | diving | your,0.0,0.0,0.0
+3254,Why do people buy US dollars on the black market?,purchase | coin | money,0.469279,0.469279,0.0
+3264,Pros and Cons of Interest Only Loans,disadvantage | finance | advantage,0.0,0.0,0.0
+3357,Why big clients want the contractor to be incorporated before giving them work,large | contract | prior,1.0,1.0,0.0
+3369,Why should one only contribute up to the employer's match in a 401(k)?,employee | disadvantage | advantage,0.0,0.0,0.0
+3394,What is the easiest way to back-test index funds and ETFs?,easy | et | method,0.0,0.0,0.0
+3404,"In US, is it a good idea to hire a tax consultant for doing taxes?",specialist | recruit | best,0.0,0.0,0.0
+3405,Non Resident aliens - Question of standard vs itemized,difference | immigration | person,0.0,0.0,0.0
+3446,What's the difference between Term and Whole Life insurance?,ins | finance | heath,0.233865,0.233865,0.0
+3451,Should you keep your stocks if you are too late to sell?,sale | cancel | when,0.0,0.0,0.0
+3453,How does spot-futures arbitrage work in the gold market?,ar | calculate | method,0.306574,0.306574,0.0
+3480,Why is OkPay not allowed in the United States?,ok | us | illegal,0.831872,0.831872,0.0
+3490,Tax Witholding for Stock Sale,sell | penalty | accounting,0.0,0.0,0.0
+3500,Why invest in becoming a landlord?,rent | being | important,0.321245,0.493523,0.172279
+3503,Is there any instance where less leverage will get you a better return on a rental property?,rent | equity | fewer,0.137438,0.097913,-0.039525
+3512,"As an employee, when is it inappropriate to request to see your young/startup company's financial statements?",appropriate | ask | start,0.386853,0.386853,0.0
+3528,"In the US, does getting a loan with a cosigner, help your credit rating?",co | yes | benefit,0.289065,0.0,-0.289065
+3530,How to exclude stock from mutual fund,exclusion | step | avoid,0.0,0.234639,0.234639
+3534,Why do dishonour fees exist?,dish | fraud | penalty,0.0,0.0,0.0
+3566,"Where can I buy stocks if I only want to invest a little bit at a time, and not really be involved in trading?",purchase | you | shop,0.296082,0.202107,-0.093975
+3569,Funds in closed bank account have gone to the government,parliament | go | open,0.0,0.0,0.0
+3594,"If I were to get into a life situation where I would not be able to make regular payments, do lenders typically provide options other than default?",lend | loan | usually,0.0,0.0,0.0
+3612,How can I buy and sell the same stock on the same day?,sale | purchase | trade,0.0,0.0,0.0
+3615,My previous and current employers both use Fidelity for 401(k). Does it make sense to rollover?,roll | yes | employee,0.177239,0.0,-0.177239
+3625,What should I do with my paper financial documents?,finance | your | accounting,0.0,0.0,0.0
+3682,Short selling - lender's motivation,lend | sale | loan,0.0,0.0,0.0
+3683,Can I trust the Motley Fool?,mo | yes | let,0.130324,0.130324,0.0
+3694,Has anyone created a documentary about folks who fail to save enough for retirement?,failure | pension | invented,0.613147,0.386853,-0.226294
+3724,Should you always max out contributions to your 401k?,maximum | retirement | never,0.0,0.0,0.0
+3735,Shorting Stocks And Margin Account Minimum,required | max | investment,0.0,0.0,0.0
+3759,Simplifying money management,sim | coin | finance,0.0,0.0,0.0
+3767,What should I be doing to protect myself from identity theft?,stolen | prevent | yourself,0.0,0.0,0.0
+3771,Best way to buy Japanese yen for travel?,japan | purchase | method,0.0,0.0,0.0
+3781,What is the rough estimate of salary value for a taxpayer to pay AMT?,am | tax | payment,1.0,1.0,0.0
+3789,How to work around the Owner Occupancy Affidavit to buy another home in less than a year?,step | af | purchase,0.754199,0.636682,-0.117516
+3791,"""When people say 'Interest rates are at all time low!"""" … Which interest rate are they actually referring to?""",lower | said | finance,0.469279,0.469279,0.0
+3801,Can a bunch of wealthy people force Facebook to go public?,social | wealth | rich,0.613147,0.613147,0.0
+3822,How to change a large quantity of U.S. dollars into Euros?,step | convert | method,0.0,0.0,0.0
+3829,Are all VISA cards connected with bank accounts?,related | portal | yes,0.0,0.0,0.0
+3830,US citizen transferring money to Indian fiance to buy property,marriage | purchase | coin,0.30103,0.30103,0.0
+3837,"Opening a Roth IRA account, what is the fee structure for Vanguard, Scottrade and TIAA-CREF",tia | scott | fund,0.5,0.5,0.0
+3859,Buying an investment property in Australia - what are the advantages and disadvantages of building a house vs buying an existing one?,australian | purchase | estate,0.0,0.0,0.0
+3875,Does freedom to provide services allow me contracting in Germany without paying taxes there (but in my home EU country)?,german | free | yes,0.831555,0.831555,0.0
+3888,Why I can't view my debit card pre-authorized amounts?,approved | de | see,0.0,0.0,0.0
+3909,How to rescue my money from negative interest?,step | coin | method,0.0,0.0,0.0
+3932,How do historically low interest rates affect real estate prices?,effect | property | lower,0.0,0.0,0.0
+3934,Should market based health insurance premiums be factored into 6 months emergency fund savings?,six | ins | medical,0.168128,0.15102,-0.017108
+3995,"I have more than $250,000 in a US Bank account… mistake?",price | much | amount,0.0,0.0,0.0
+4007,What is a reasonable salary for the owner and sole member of a small S-Corp?,pay | corporation | price,0.625705,0.610546,-0.015159
+4011,How can I deal with a spouse who compulsively spends?,marriage | com | husband,0.469279,0.469279,0.0
+4019,How and Should I Invest (As a college 18 year old with minimal living expenses)?,minimum | age | eighteen,0.0,0.113053,0.113053
+4031,28 years old and just inherited large amount of money and real estate - unsure what to do with it,age | uncertain | wealth,0.0,0.0,0.0
+4037,How separate individual expenses from family expenses in Gnucash?,gnu | personal | accounting,0.0,0.0,0.0
+4047,Does doing your “research”/“homework” on stocks make any sense?,yes | reading | accounting,0.831872,0.831872,0.0
+4071,"If our economy crashes, and cash is worthless, should i buy gold or silver",economic | purchase | mint,0.0,0.0,0.0
+4084,What industries soar when oil prices go up?,rise | increase | companies,0.0,0.0,0.0
+4102,How can I determine if my rate of return is “good” for the market I am in?,calculate | your | excellent,0.0,0.0,0.0
+4103,What causes US Treasury I bond fixed interest to increase?,rise | raise | inflation,0.0,0.0,0.0
+4105,As an investor what are side effects of Quantitative Easing in US and in EU?,investment | europe | quan,0.0,0.0,0.0
+4116,Would the effects of an anticipated default by a nation be mostly symbolic?,expected | mainly | imminent,0.306574,0.306574,0.0
+4125,Alternative means of salary for my employees,pay | your | accounting,0.0,0.0,0.0
+4142,Relation between inflation rates and interest rates,cpi | relationship | difference,0.0,0.0,0.0
+4153,How do I invest in emerging markets,step | method | you,0.0,0.0,0.0
+4179,Why could the serious financial woes of some EU member states lead to the end of the Euro?,wo | europe | failed,0.0,0.386853,0.386853
+4188,Why is the stock market rising after Trump's attack on the TPP?,donald | crash | increase,0.0,0.0,0.0
+4205,How and why does the exchange rate of a currency change almost everyday?,every | coin | daily,0.0,0.0,0.0
+4233,"Are personal finance / money management classes taught in high school, anywhere?",coin | everywhere | financial,0.820766,0.722727,-0.098039
+4265,Does it make any sense to directly contribute to reducing the US national debt?,reduction | direct | yes,0.190921,0.190921,0.0
+4286,"Given advice “buy term insurance and invest the rest”, how should one “invest the rest”?",ins | purchase | advise,0.613147,0.264068,-0.349079
+4289,Does the currency exchange rate contain any additional information at all?,details | extra | coin,0.0,0.0,0.0
+4306,How do currency markets work? What factors are behind why currencies go up or down?,coin | rise | exchange,0.529436,0.39038,-0.139056
+4312,Is it true that 90% of investors lose their money?,investment | loss | percent,0.764081,0.683655,-0.080426
+4335,What is the US Fair Tax?,finance | regulation | united,0.636682,0.636682,0.0
+4339,What could happen to Detroit Municipal bonds because of Detroit's filing for bankruptcy?,bankrupt | michigan | might,0.831555,0.919721,0.088166
+4394,"Transfer $50k to another person's account (in California, USA)",price | ca | fee,0.0,0.0,0.0
+4409,My friend wants to put my name down for a house he's buying. What risks would I be taking?,purchase | home | cancel,0.0,0.0,0.0
+4411,How does the importance of a cash emergency fund change when you live in a country with nationalized healthcare?,medical | insurance | significance,0.148041,0.469279,0.321238
+4414,Do high interest rates lead to higher bond yields or lower?,highest | low | increase,0.386853,0.386853,0.0
+4415,How much is inflation?,cpi | price | expansion,0.0,0.318341,0.318341
+4433,When should you use an actively managed mutual fund in a 401k?,retirement | investment | stock,0.0,0.0,0.0
+4447,Should I always hold short term bonds till maturity?,until | you | yes,1.0,1.0,0.0
+4464,Are Australian mutual fund fees large compared to US?,australia | comparison | big,0.0,0.0,0.0
+4465,How to donate to charity that will make a difference?,step | benefit | charitable,0.0,0.0,0.0
+4484,Has the likelihood of getting a lower interest rate by calling & asking been reduced by recent credit card regulations?,chance | decreased | reduction,0.315465,0.289065,-0.0264
+4499,Is investing exlusively in a small-cap index fund a wise investment?,ex | large | smart,0.0,0.0,0.0
+4500,What to ask Warren Buffet at the Berkshire Hathaway shareholder meeting?,stock | questions | ceo,0.0,0.0,0.0
+4504,what is the best way of investment which gives returns forever?,method | finance | ideal,0.613147,0.613147,0.0
+4514,"What intrinsic, non-monetary value does gold have as a commodity?",golden | economic | coin,0.151301,0.302602,0.151301
+4523,What should I do with my $25k to invest as a 20 years old?,age | price | retirement,0.0,0.0,0.0
+4539,How should I save money if the real interest rate (after inflation) is negative?,coin | depressed | cpi,0.0,0.0,0.0
+4571,"HSBC Hong Kong's “Deposit Plus” Product: What is it, and what strategies to employ?",hs | bank | hk,0.469279,0.469279,0.0
+4600,"Why government bonds fluctuate so much, even though interest rates don't change that often?",flu | every | variation,0.0,0.0,0.0
+4605,"If the U.S. defaults on its debt, what will happen to my bank money?",united | coin | your,0.0,0.0,0.0
+4615,Are solar cell panels and wind mills worth the money?,coin | sun | yes,0.151301,0.348254,0.196953
+4640,What can my relatives do to minimize their out of pocket expenses on their fathers estate,reduce | dad | family,0.0,0.0,0.0
+4641,Where should I park my rainy-day / emergency fund?,rain | wet | location,0.0,0.0,0.0
+4678,"Finance, Cash or Lease?",rent | financial | fuel,0.0,0.0,0.0
+4681,How to fix Finance::Quote to pull quotes in GnuCash,gnu | step | repair,1.0,1.0,0.0
+4700,Better to get loan from finance company or bank considering the drop of credit score?,best | lower | worse,1.0,1.0,0.0
+4714,Personal finance app where I can mark transactions as “reviewed”?,financial | report | tab,0.571619,0.493444,-0.078175
+4756,What is the formula for the Tesla Finance calculation?,equation | math | financial,0.0,0.0,0.0
+4767,New car: buy with cash or 0% financing,zero | vehicle | percent,0.0,0.0,0.0
+4775,Should I finance a car to build credit for a mortgage next year?,loan | vehicle | you,0.0,0.0,0.0
+4777,How to finance necessary repairs to our home in order to sell it?,sale | step | house,0.0,0.0,0.0
+4785,What is the difference between a structured collar and a normal collar in finance?,financial | regular | terry,0.356207,0.0,-0.356207
+4804,How do financial services aimed at women differ from conventional services?,female | traditional | finance,0.386853,0.613147,0.226294
+4813,Dealer Financing Fell Through on vehicle purchase: Scam?,fall | loan | sc,0.5,0.333333,-0.166667
+4823,"Close to retirement & we may move within 7 years. Should we re-finance our mortgage, or not?",long | loan | period,0.469279,0.469279,0.0
+4827,Are all financial advisors compensated in the same way?,paid | advisory | finance,0.0,0.0,0.0
+4837,"When applying for a mortgage, can it also cover outstanding debts?",loan | application | only,0.0,0.0,0.0
+4844,"How to read bond yield quotes? What do the time, coupon, price, yield, and time mean?",coup | accounting | finance,0.564092,0.564092,0.0
+4845,What is the difference between fund and portfolio?,finance | accounting | morgan,0.0,0.0,0.0
+4846,Is there anything comparable to/resembling CNN's Fear and Greed Index?,similar | equivalent | wealth,0.0,0.0,0.0
+4863,How to calculate new price for bond if yield increases,step | equation | method,0.296082,0.296082,0.0
+4865,Why are historical prices of stocks different on different websites? Which one should I believe?,sites | various | belief,0.0,0.0,0.0
+4920,Does financing a portfolio on margin affect the variance of a portfolio?,loan | variation | effect,0.871079,0.967468,0.096389
+4942,find stock composition of a publicly traded fund,composed | public | calculate,0.0,0.0,0.0
+4946,Something looks off about Mitsubishi financial data,error | wrong | finance,1.0,1.0,0.0
+4955,How to calculate the value of a bond that is priced to yield X%,percent | step | math,0.0,0.0,0.0
+4962,Net Cash Flows from Selling the Bond and Investing,sale | stock | finance,0.264068,0.264068,0.0
+4968,Reasons behind a large price movement of a penny stock without any recent news releases?,move | penn | big,0.0,0.333333,0.333333
+4981,Where can I find open source portfolio management software?,search | website | store,0.765361,0.765361,0.0
+4999,Looking for a good source for Financial Statements,finance | best | searching,0.246302,0.246302,0.0
+5021,"Is there a more flexible stock chart service, e.g. permitting choice of colours when comparing multiple stocks?",color | flex | comparison,0.0,0.0,0.0
+5030,Why pay for end-of-day historical prices?,payment | history | cost,0.0,0.0,0.0
+5045,Why are we taxed on revenue and companies on profit?,businesses | taxa | accounting,0.0,0.0,0.0
+5054,How to stress test an investment plan?,step | method | calculate,0.0,0.0,0.0
+5061,What fiscal scrutiny can be expected from IRS in early retirement?,earlier | tax | criticism,0.0,0.0,0.0
+5064,How much should a graduate student attempt to save?,price | try | college,0.386853,0.237198,-0.149655
+5067,LLC: Where should the funds for initial startup costs come from?,start | expense | source,0.315465,0.0,-0.315465
+5080,Is there a standard or best practice way to handle money from an expiring UTMA account?,ut | ex | withdrawal,0.0,0.0,0.0
+5083,Co-signer deceased,sign | death | dead,0.0,0.0,0.0
+5085,What is vested stock and yearly dividends?,divide | year | annual,0.430677,0.430677,0.0
+5086,Mortgage loan implications when tearing down existing house and building new one?,consequences | impact | effect,0.5,0.5,0.0
+5090,Should I take a student loan to pursue my undergraduate studies in France?,french | europe | college,0.0,0.0,0.0
+5125,Regarding Australian CBS takeover of TEN,australia | channel | tv,1.0,1.0,0.0
+5134,Why does Yahoo Finance's data for a Vanguard fund's dividend per share not match the info from Vanguard?,divide | stock | yes,0.204382,0.184576,-0.019807
+5150,What credit card information are offline US merchants allowed to collect for purposes other than the transaction?,off | details | online,0.0,0.0,0.0
+5155,"For insurance, why should you refuse $4,000/year for only 10 years and prefer $500/year indefinitely?",price | ins | fee,0.63093,0.63093,0.0
+5172,does interest payment on loan stay the same if I pay early,earlier | soon | cancel,0.0,0.0,0.0
+5178,Formula that predicts whether one is better off investing or paying down debt,equation | best | calculate,0.0,0.0,0.0
+5185,Invest in low cost small cap index funds when saving towards retirement?,pension | stock | lower,0.0,0.0,0.0
+5196,I might use a credit card convenience check. What should I consider?,you | handy | consideration,0.0,0.0,0.0
+5206,Is it a good idea to get an unsecured loan to pay off a credit card that won't lower a high rate?,un | secured | payment,0.0,0.0,0.0
+5228,How does the bank/IRS know whether a bank transfer over $14k is a gift or loan repayment?,repay | price | tax,0.0,0.0,0.0
+5231,Where to find CSV or JSON data for publicly traded companies listed with their IPO date?,ip | cs | public,0.0,0.0,0.0
+5241,Mortgage vs. Cash for U.S. home buy now,loan | difference | purchase,0.33916,0.33916,0.0
+5254,How do I calculate the quarterly returns of a stock index?,step | annual | math,0.613147,0.613147,0.0
+5255,Thrift Saving Plan (TSP) Share Price Charts,ts | th | stock,0.967468,0.967468,0.0
+5264,Does a company's stock price give any indication to or affect their revenue?,profit | accounting | effect,0.553146,0.553146,0.0
+5271,Why are auto leases stubbornly strict about visa status and how to work around that?,stubborn | rent | car,0.0,0.315201,0.315201
+5331,Exercises of employee share options,employment | training | activity,1.0,0.63093,-0.36907
+5343,“International credit report” for French nationals?,france | global | bureau,0.0,0.0,0.0
+5347,car loan life insurance,ins | vehicle | auto,0.5,0.0,-0.5
+5356,Historical stock prices: Where to find free / low cost data for offline analysis?,off | online | history,0.0,0.0,0.0
+5369,Paying for things on credit and immediately paying them off: any help for credit rating?,payment | items | paid,0.0,0.0,0.0
+5374,What were the main causes of the spike and drop of DRYS's stock price?,crash | rise | increase,0.0,0.0,0.0
+5380,"Can somebody explain “leveraged debt investment positions” and “exposures” in this context for me, please?",exposed | finance | strategy,1.0,1.0,0.0
+5402,Is it impossible to get a home loan with a poor credit history after a divorce?,marriage | difficult | easy,0.0,0.0,0.0
+5410,Dealership made me the secondary owner to my own car,primary | dealers | vehicle,0.0,0.0,0.0
+5422,"What are some good books for learning stocks, bonds, derivatives e.t.c for beginner with a math background?",begin | mathematics | best,0.0,0.117516,0.117516
+5427,How do auto-loan payments factor into taxes for cars that are solely used by dependent(s)?,vehicle | primarily | calculate,0.0,0.0,0.0
+5460,Paying off a loan with a loan to get a better interest rate,payment | earn | best,0.0,0.0,0.0
+5464,Resources on Buying Rental Properties,rent | purchase | landlord,0.0,0.0,0.0
+5503,Tax considerations for selling a property below appraised value to family?,sale | above | lower,0.0,0.0,0.0
+5505,Can I deduct interest and fees on a loan for qualified medical expenses?,de | med | qualification,1.0,1.0,0.0
+5511,Pay off car loan entirely or leave $1 until the end of the loan period?,till | vehicle | price,0.0,0.0,0.0
+5534,How does “taking over payments” work?,method | mechanism | accounting,0.0,0.0,0.0
+5549,Pros / cons of being more involved with IRA investments [duplicate],disadvantage | better | less,0.0,0.0,0.0
+5585,Is there any site you can find out about the 'bonus features' of credit cards?,bonuses | websites | search,0.0,0.0,0.0
+5592,Are “hard money loans” meant only for real estate?,mean | property | coin,1.0,1.0,0.0
+5616,How and where do companies publish financial reports?,businesses | finance | accounting,0.0,0.0,0.0
+5620,What's the fuss about identity theft?,stolen | mess | id,0.0,0.0,0.0
+5646,Do I need multiple credit monitoring services?,multi | separate | watch,0.469279,0.469279,0.0
+5653,Steps and timing of the SEIS investment (in the UK),se | british | date,1.0,1.0,0.0
+5683,What is the PEG ratio? How is the PEG ratio calculated? How is the PEG ratio useful for stock investing?,robin | finance | investors,1.0,1.0,0.0
+5710,Bucketing investments to track individual growths,grow | personal | expansion,0.0,0.0,0.0
+5741,Learning investing and the stock market,training | studying | finance,0.0,0.0,0.0
+5763,What is the best way to get a “rough” home appraisal prior to starting the refinance process?,ref | before | method,0.156426,0.148041,-0.008385
+5782,"Pay off credit cards in one lump sum, or spread over a few months?",payment | couple | whole,0.33916,0.33916,0.0
+5790,FX losses on non-UK mortgage for UK property - tax deductable?,loan | de | lost,0.0,0.0,0.0
+5808,How do you calculate return on investment for a share of stock?,math | step | accounting,0.30103,0.0,-0.30103
+5853,Paying Off Principal of Home vs. Investing In Mutual Fund,payment | stock | difference,0.0,0.0,0.0
+5862,Can I get a discount on merchandise by paying with cash instead of credit?,coup | payment | mer,0.246302,0.19519,-0.051112
+5888,Interest charges on balance transfer when purchases are involved,fee | acquisition | buy,0.306574,0.264068,-0.042505
+5903,"Fees aside, what factors could account for performance differences between U.S. large-cap index ETFs?",et | fund | stock,0.0,0.0,0.0
+5906,0% APR first 12 months on new credit card. Can I exceed that 30% rule of thumb and not hurt my credit score?,zero | long | percent,0.0,0.0,0.0
+5940,How does investment into a private company work?,businesses | finance | step,0.0,0.0,0.0
+5951,Why can't house prices be out of tune with salaries,pay | home | property,0.336576,0.232022,-0.104554
+5970,How to calculate ownership for property with a partner,partnership | owner | step,0.135652,0.0,-0.135652
+5981,Is it a good investment for a foreigner to purchase a flat/apartment in China?,chinese | buy | alien,0.853932,0.868795,0.014863
+5993,Why would anyone want to pay off their debts in a way other than “highest interest” first?,payment | repay | high,0.078398,0.069431,-0.008967
+6002,15 year mortgage vs 30 year paid off in 15,fifteen | loan | thirty,0.415281,0.383633,-0.031648
+6004,Put-Call parity - what is the difference between the two representations?,par | represent | math,0.0,0.0,0.0
+6005,Why might it be advisable to keep student debt vs. paying it off quickly?,fast | quick | soon,0.400023,0.399569,-0.000454
+6009,Why can low volume move a stock price drastically?,significantly | dramatically | lower,0.0,0.0,0.0
+6041,Most effective Fundamental Analysis indicators for market entry,enter | analyze | best,0.749528,0.636682,-0.112845
+6080,Is ScholarShare a legitimate entity for a 529 plan in California?,scholars | ca | scholarship,0.613147,0.613147,0.0
+6110,Why does short selling require borrowing?,loan | sale | finance,0.412532,0.412532,0.0
+6121,What are my best options if I don't have a lot of credit lines for housing loans?,you | rent | not,0.0,0.0,0.0
+6122,Better to rent condo to daughter or put her on title?,best | rental | son,0.469279,0.469279,0.0
+6131,Is it ever a good idea to close credit cards?,cancel | never | best,0.138862,0.110046,-0.028817
+6133,What happens to all of the options when they expire?,ex | effect | last,0.218407,0.0,-0.218407
+6142,How does stabilization work during an IPO?,ip | mechanism | method,0.386853,0.386853,0.0
+6146,Lost credit card replaced with new card and new numbers. Credit score affected?,loss | cancel | error,0.613147,0.613147,0.0
+6199,How can all these countries owe so much money?  Why & where did they borrow it from?,debt | loan | coin,0.520507,0.558508,0.038001
+6219,Are there Investable Real Estate Indices which track Geographical Locations?,index | geography | property,1.0,1.0,0.0
+6221,"To pay off a student loan, should I save up a lump sum payoff payment or pay extra each month?",cancel | repay | you,0.0,0.0,0.0
+6252,"Is this mortgage advice good, or is it hooey?",ho | loan | advise,0.0,0.0,0.0
+6262,Help required on estimating SSA benefit amounts,ss | calculate | est,0.141267,0.181542,0.040275
+6278,What is the best way to help my dad consolidate his credit card debt at a lower rate?,father | parents | method,0.613147,0.790386,0.177239
+6395,Option settlement for calendar spreads,settled | schedule | payment,0.0,0.0,0.0
+6410,Will an ETF immediately reflect a reconstitution of underlying index,et | rec | soon,0.63093,0.5,-0.13093
+6420,Does the bid/ask concept exist in dealer markets?,yes | strategy | wait,0.831555,0.831555,0.0
+6441,Trading with Settled / Unsettled Funds (T+3),un | settlement | stock,0.430677,0.430677,0.0
+6467,Advice on strategy for when to sell,sale | advise | marketing,0.0,0.0,0.0
+6468,Why deep in the money options have very low liquidity,coin | lower | fluid,0.613147,0.613147,0.0
+6479,Trading on exchanges or via brokerage companies?,broker | stock | through,0.919721,1.0,0.080279
+6525,Does it make sense to trade my GOOGL shares for GOOG and pocket the difference?,goo | yes | stock,0.477624,0.444123,-0.033501
+6554,"Mutual fund value went down, shares went up, no action taken by me",stock | go | drop,0.218407,0.218407,0.0
+6562,"Cheapest way to “wire” money in an Australian bank account to a person in England, while I'm in Laos?",cheap | australia | uk,0.0,0.0,0.0
+6611,How does Vanguard determine the optimal asset allocation for their Target Retirement Funds?,calculate | ideal | strategy,0.306574,0.237198,-0.069376
+6612,"If I have a lot of debt and the housing market is rising, should I rent and slowly pay off my debt or buy and roll the debt into a mortgage?",rental | loan | landlord,0.0,0.0,0.0
+6625,What does a high theta mean for an option position?,highest | math | signal,0.0,0.0,0.0
+6629,Tax treatment of a boxed trade?,treated | penalty | regulation,0.0,0.0,0.0
+6635,Why don't share prices of a company rise every other Friday when the company buys shares for its own employees?,increase | stock | purchase,0.39038,0.246302,-0.144078
+6644,How to know precisely when a SWIFT is issued by a bank?,exactly | tell | step,0.0,0.0,0.0
+6647,What is meant by “priced in”?,cost | within | mean,0.0,0.0,0.0
+6668,Approximate IT company valuation (to proximate stock options value),estimate | calculate | pro,0.306574,0.306574,0.0
+6679,Specifically when do options expire?,ex | date | period,0.0,0.0,0.0
+6683,Who are the sellers for the new public stocks?,sell | latest | sale,0.0,0.306574,0.306574
+6713,Will my father still be eligible for SNAP if I claim him as my dependent?,parents | dad | yes,0.613147,0.613147,0.0
+6715,What does it mean if “IPOs - normally are sold with an `underwriting discount` (a built in commission)”,ip | under | sale,0.613147,0.613147,0.0
+6746,What happens if stock purchased on margin plummets below what I have in the brokerage?,broker | plum | above,0.0,0.177239,0.177239
+6787,"Would it make sense to sell a stock, then repurchase it for tax purposes?",rep | sale | yes,0.0,0.0,0.0
+6792,Where to find the full book of outstanding bids/asks for a stock?,search | tab | list,0.0,0.0,0.0
+6800,I don't live in America. How can I buy IPO stock of newly listed companies in the United States?,ip | new | purchase,0.0,0.0,0.0
+6803,What are the common moving averages used in a “Golden Cross” stock evaluation?,chart | assessment | rating,0.246302,0.19519,-0.051112
+6807,How to incorporate dividends while calculating annual return of a Stock,divide | step | method,1.0,1.0,0.0
+6814,Selling Stock - All or Nothing?,sale | finance | things,0.0,0.0,0.0
+6832,incorrect printed information on check stock,wrong | error | details,0.0,0.0,0.0
+6835,Are bond ETF capital gains taxed similar to stock or stock funds if held for more than 1 year?,et | taxa | period,0.264068,0.264068,0.0
+6849,What do the points in a stock market index epresent?,ep | chart | calculate,0.5,0.356207,-0.143793
+6862,Canada discount stock brokers: Interactive Brokers vs. Questrade?,quest | canadian | company,0.63093,0.63093,0.0
+6867,Will there always be somebody selling/buying in every stock?,sale | someone | purchase,0.0,0.079457,0.079457
+6875,Where to find free Thailand stock recommendations and research?,thai | search | website,0.30103,0.0,-0.30103
+6890,Where does the money go when I buy stocks?,coin | purchase | place,0.0,0.0,0.0
+6891,What is the theory behind Rick Van Ness's risk calculation in the video about diversification?,divers | ross | diving,0.469279,0.469279,0.0
+6896,"Selling high, pay capital gains, re-purchase later",sale | highest | soon,0.0,0.0,0.0
+6901,Rules for Broker Behavior with Covered Calls,penalty | fraud | coverage,0.0,0.0,0.0
+6907,Nominal value of shares,stock | price | accounting,0.0,0.0,0.0
+6909,Why do stocks priced above $2.00 on the ASX sometimes move in $0.005 increments?,fee | cost | much,0.0,0.0,0.0
+6959,What is the term for the quantity (high price minus low price) for a stock?,math | plus | lower,0.0,0.0,0.0
+6985,"Bed and Breakfast, Same Day Capital Gains UK",dinner | restaurant | british,0.63093,0.63093,0.0
+7017,Basic Algorithmic Trading Strategy,stock | plan | market,0.0,0.0,0.0
+7068,Making money through CFD,cf | profit | earn,0.919721,0.877215,-0.042505
+7071,ESPP strategy - Sell right away or hold?,es | sale | stock,0.0,0.0,0.0
+7080,Wash sale rule with dividend reinvestment,divide | rein | clean,0.81753,0.81753,0.0
+7096,What's the formula for profits and losses when I delta hedge?,equation | calculate | math,0.333333,0.315465,-0.017868
+7098,Can another tax loss be used to offset capital gains taxes? How does it work?,lost | escape | yes,0.264068,0.218407,-0.045661
+7105,What is the difference between fixed-income duration and equity duration?,period | finance | timing,0.0,0.0,0.0
+7109,How do I analyse moving averages?,anal | calculate | analysis,0.469279,0.296082,-0.173197
+7124,How come we can find stocks with a Price-to-Book ratio less than 1?,calculate | lower | one,0.130127,0.15102,0.020893
+7141,Do investors go long option contracts when they cannot cover the exercise of the options?,extended | investment | not,0.0,0.0,0.0
+7145,Are there “buy and hold” passively managed funds?,purchase | active | finance,0.0,0.0,0.0
+7178,Should an ADR that is being delisted be sold off?,ad | del | sell,0.0,0.0,0.0
+7188,What explains the enormous increase in gold price in the early 21st century?,golden | earlier | crash,0.0,0.0,0.0
+7205,Is it possible to see option prices from the past?,previous | view | find,0.356207,0.30103,-0.055177
+7206,Who Bought A Large Number Of Shares?,buy | stock | big,0.0,0.0,0.0
+7218,What margin is required to initiate and maintain a short sale,sell | start | maintenance,0.386853,0.333333,-0.053519
+7221,How Technical Analysts react to non-market hours effects,reaction | analysis | tech,0.0,0.0,0.0
+7269,How do I track investment performance in Quicken across rollovers?,quick | roll | calculate,0.0,0.0,0.0
+7279,"If I invest in securities denominated in a foreign currency, should I hedge my currency risk?",den | coin | you,0.242972,0.242972,0.0
+7295,Selling non-dividend for dividend stocks,divide | sale | no,0.0,0.0,0.0
+7311,"Finance, Social Capital IPOA.U",ip | ss | financial,0.0,0.0,0.0
+7326,Do brokers execute every trade on the exchange?,everything | stock | each,0.0,0.0,0.0
+7329,Does Implied Volatilty factor in all known future events?,vol | past | expected,0.0,0.0,0.0
+7344,How is the Dow divisor calculated?,di | math | equation,0.386853,0.386853,0.0
+7345,What do these numbers mean? (futures),digits | math | davis,0.0,0.0,0.0
+7377,What type of returns Vanguard is quoting?,quota | tax | stock,0.289065,0.386853,0.097788
+7431,Pay off mortgage or invest in high value saving account,loan | payment | highest,0.0,0.430677,0.430677
+7441,"Since many brokers disallow investors from shorting sub-$5 stocks, why don't all companies split their stock until it is sub-$5",price | di | five,0.343374,0.370291,0.026917
+7445,IS it the wrong time to get into the equity market immediately after large gains?,big | enter | incorrect,0.0,0.0,0.0
+7448,"If an index goes up because an underlying company issues more shares, what happens to the ETF",et | increase | stock,1.0,1.0,0.0
+7456,What is market order's relation to bid ask spread?,relationship | strategy | wait,0.0,0.0,0.0
+7463,Pros/cons of borrowing money using a mortgage loan and investing it in a low-fee index fund?,disadvantage | lower | finance,0.0,0.0,0.0
+7467,Stocks are traded on secondary markets?,primary | companies | broker,0.0,0.0,0.0
+7484,Why sometimes payable date is BEFORE the ex-dividend date?,divide | pay | payment,1.0,1.0,0.0
+7509,Investment Portfolio Setup for beginner,begin | start | set,0.0,0.0,0.0
+7512,understanding the process/payment of short sale dividends,divide | accounting | sell,0.0,0.0,0.0
+7513,Where are Bogleheadian World ETFs or Index funds?,bog | et | location,0.0,0.0,0.0
+7529,Does the expense ratio of a fund-of-funds include the expense ratios of its holdings?,accounting | stock | calculate,0.204382,0.0,-0.204382
+7533,Investing tax (savings),finance | accounting | wealth,0.0,0.0,0.0
+7534,Can you explain why it's better to invest now rather than waiting for the market to dip?,best | instead | strategy,0.296082,0.469279,0.173197
+7590,Why are US target retirement funds weighted so heavily towards US stocks?,heavy | pension | investment,0.386853,0.386853,0.0
+7592,few question about debit credit and liabilities,de | accounting | asked,0.0,0.0,0.0
+7594,Converting annual interbank rates into monthly rates,inter | bank | month,0.0,0.0,0.0
+7622,Best way to pay off debt?,method | repay | payment,0.0,0.0,0.0
+7633,Can a trade happen “in between” the bid and ask price?,separate | wait | occur,0.39038,0.39038,0.0
+7674,Choosing the limit when making a limit order?,max | choice | decide,0.0,0.0,0.0
+7700,Should I re-allocate my portfolio now or let it balance out over time?,all | cancel | investment,0.0,0.0,0.0
+7702,Bond ETFs vs actual bonds,et | difference | than,0.237198,0.193426,-0.043771
+7705,Why would I pick a specific ETF over an equivalent Mutual Fund?,et | choose | particular,0.358534,0.369268,0.010734
+7734,Can PE ratio of stocks be compared to other investments?,comparison | investors | than,0.613147,0.613147,0.0
+7747,What happens to bonds values when interest rates rise? [duplicate],effect | increase | inflation,0.0,0.0,0.0
+7754,Inverse Relationship between Volatility and Beta,vol | alpha | correlation,0.0,0.0,0.0
+7758,Bid/ask spreads for index funds,stock | rate | wait,0.333333,0.333333,0.0
+7801,What are some well known or well regarded arguments against investing?,argue | opposed | stock,0.386853,0.237198,-0.149655
+7803,Can the Delta be used to calculate the option premium given a certain target?,yes | specific | tracking,0.0,0.0,0.0
+7823,Retirement Funds: Betterment vs Vanguard Life strategy vs Target Retirement,pension | difference | best,0.469279,0.469279,0.0
+7876,Why do stocks split?,separate | merger | difference,0.0,0.0,0.0
+7879,Any Tips on How to Get the Highest Returns Within 4 Months by Investing in Stocks?,four | long | advice,0.0,0.0,0.0
+7880,Are there index tracking funds that avoid the “buy high - sell low” problem?,lower | sale | purchase,0.613147,0.613147,0.0
+7911,What is the difference between a 'trader' and a 'stockbroker'?,stock | trade | broker,1.0,1.0,0.0
+7925,Can I sell a stock immediately?,sale | quickly | soon,0.0,0.0,0.0
+7928,"If I believe a stock is going to fall, what options do I have to invest on this?",belief | drop | think,0.246302,0.246302,0.0
+7936,Why naked call writing is risky compare to Covered call?,risk | dangerous | written,0.148041,0.148041,0.0
+7992,What type of pension should I get?,retirement | best | you,0.264068,0.0,-0.264068
+8002,What is the tax treatment of scrip dividends in the UK?,divide | sc | treated,0.296082,0.296082,0.0
+8005,Difference between Vanguard sp500 UCITS and Vanguard sp500,uci | sp | model,0.0,0.0,0.0
+8013,Frequency of investments to maximise returns (and minimise fees),maxim | mini | reduce,0.0,0.0,0.0
+8017,Purchasing ETFs when (pretty much) everything else is maxed out,et | buy | everyone,0.0,0.0,0.0
+8034,What is the average cost of a portfolio on a trading site?,price | fee | stock,0.0,0.0,0.0
+8040,Best way to make most of savings with ISA and Offset mortgage,method | loan | step,0.63093,0.63093,0.0
+8072,"What does it mean “sell on ask” , “sell on bid” in stocks?",sale | finance | demand,0.234639,0.296082,0.061443
+8079,Growth rate plus dividend yieid total?,divide | yi | grow,0.38268,0.234639,-0.148041
+8102,When do I sell a stock that I hold as a long-term position?,extended | sale | date,0.0,0.0,0.0
+8116,A-B-C Class Shares: What's the difference?,stock | finance | accounting,0.193426,0.237198,0.043771
+8121,Can I calculate stock value with Williams%R if I know the last set?,percent | russell | prices,0.63093,1.0,0.36907
+8202,What accounted for DXJR's huge drop in stock price?,caused | crash | failed,0.0,0.0,0.0
+8230,Why would this kind of penny stock increase so much in value?,penn | raise | more,0.0,0.0,0.0
+8247,Tax on Stocks or ETF's,et | taxa | accounting,0.0,0.0,0.0
+8271,Income in zero-interest environment,environmental | salary | profit,0.613147,0.613147,0.0
+8275,Buy/Selling prices at the stock exchange represent someone Selling/Buying at that price?,purchase | sale | person,0.0,0.0,0.0
+8296,Can the beta of a stock be used as a lagging indicator for the stock w.r.t the market,la | alpha | signal,0.613147,0.613147,0.0
+8332,Why do put option prices go higher when the underlying stock tanks (drops)?,increase | high | raise,0.296082,0.296082,0.0
+8351,What happens when a calendar spread is assigned in a non-margin account?,effect | error | allocated,0.204382,0.204382,0.0
+8378,Should I wait a few days to sell ESPP Stock?,es | sale | couple,0.0,0.0,0.0
+8456,What typically happens to unvested stock during an acquisition?,un | usually | purchase,0.469279,0.469279,0.0
+8475,Why I cannot find a “Pure Cash” option in 401k investments?,not | disadvantage | unable,0.448304,0.448304,0.0
+8507,When to sell a stock?,sale | date | purchase,0.0,0.0,0.0
+8512,Is it possible to transfer stock I already own into my Roth IRA without having to sell the stock?,sale | yes | previously,0.0,0.0,0.0
+8513,Buy on dip when earnings fail?,purchase | failure | salary,0.0,0.0,0.0
+8532,What do these options trading terms mean?,stock | terminology | finance,0.296082,0.296082,0.0
+8537,What is an “Options Account”?,finance | ian | technology,0.0,0.0,0.0
+8539,Can the risk of investing in an asset be different for different investors?,various | both | yes,0.0,0.0,0.0
+8544,Strategies to recover from a bad short-term call options purchase where the underlying dropped instead?,recovery | cancel | buy,0.613147,0.613147,0.0
+8592,Tax implications of exercising ISOs and using proceeds to exercise more ISOs,profit | impact | effect,0.650821,0.650821,0.0
+8632,"Is it best to exercise options shares when they vest, or wait",fitness | activity | stock,0.0,0.0,0.0
+8635,Is there any flaw in this investment scheme?,error | yes | plan,0.0,0.0,0.0
+8702,Why is early exercise generally not recommended for an in-the-money option?,earlier | coin | activity,0.671386,0.671386,0.0
+8779,How does a defined contribution plan work,function | method | calculate,0.0,0.0,0.0
+8789,What does “profits to the shareholders jumped to 15 cents a share” mean?,fifteen | stock | finance,0.765361,0.765361,0.0
+8795,Stock exchanges using open outcry,out | market | merger,1.0,1.0,0.0
+8832,Is it possible to buy commodity ETFs (e.g. silver) through Questrade?,quest | et | purchase,0.356207,0.289065,-0.067142
+8834,Pros/Cons of Buying Discounted Company Stock,coup | purchase | disadvantage,0.130324,0.151301,0.020977
+8855,How do i get into investing stocks [duplicate],step | replica | method,0.0,0.0,0.0
+8874,When can you adjust for (and re-allow) a disallowed year-end (December) wash-sale loss?,dec | di | date,0.333333,0.315465,-0.017868
+8934,Dividend yield for multiple years?,divide | multi | rate,0.218407,0.306574,0.088166
+8937,“In-the-Money” vs “Out-of-the-Money” Call Options,coin | finance | marketing,0.0,0.0,0.0
+8947,Can a Roth IRA be used as a savings account?,yes | retirement | alternative,0.0,0.0,0.0
+8959,How is the opening-day price of a stock decided?,determined | decision | calculate,0.356207,0.315465,-0.040742
+8970,"What's the difference, if any, between stock appreciation and compound interest?",finance | accounting | inflation,0.613147,0.441307,-0.17184
+8974,"As a 22-year-old, how risky should I be with my 401(k) investments?",risk | age | dangerous,0.126471,0.252943,0.126471
+8982,Are Exchange-Traded Funds (ETFs) less safe than regular mutual funds?,et | dangerous | more,0.0,0.0,0.0
+9060,Buying puts without owning underlying,purchase | abstract | owner,0.386853,0.306574,-0.080279
+9088,Brokerage account for charity,broker | charitable | trust,0.0,0.0,0.0
+9108,"Starting an investment portfolio with Rs 5,000/-",price | india | fee,0.0,0.0,0.0
+9115,Why does the calculation for percentage profit vary based on whether a position is short vs. long?,percent | extended | variation,0.0,0.0,0.0
+9126,Short an option - random assignment?,shorter | quote | student,0.0,0.0,0.0
+9164,Bonds vs equities: crash theory,finance | difference | versus,0.0,0.0,0.0
+9174,Which U.S. online discount broker is the best value for money?,coin | coup | united,0.0,0.0,0.0
+9188,Selling mutual fund and buying equivalent ETF: Can I 1031 exchange?,et | sale | purchase,0.613147,0.613147,0.0
+9245,Stock Options for a company bought out in cash and stock,buy | purchase | finance,0.0,0.0,0.0
+9275,Do I have to pay a capital gains tax if I rebuy the same stock within 30 days?,long | thirty | re,0.0,0.0,0.0
+9291,Are there any consequences for investing in Vanguard's Admiral Shares funds instead of ETF's in a Roth IRA?,et | yes | stock,0.0,0.0,0.0
+9296,Why would Two ETFs tracking Identical Indexes Produce different Returns?,et | both | similar,0.0,0.0,0.0
+9329,Interactive Brokers: IOPTS and list of structured products,io | active | technology,0.81753,0.81753,0.0
+9332,What can I do with a physical stock certificate for a now-mutual company?,you | step | registration,0.0,0.0,0.0
+9381,Trade? Buy and hold? Or both?,purchase | finance | bart,0.0,0.0,0.0
+9385,Meaning of reinvestment,rein | re | restoration,0.0,0.0,0.0
+9391,Should I replace bonds in a passive investment strategy,active | you | yes,0.0,0.0,0.0
+9403,Abundance of Cash - What should I do?,wealth | availability | you,0.0,0.0,0.0
+9481,What are reasonable administrative fees for an IRA?,cost | retirement | penalty,0.613147,0.306574,-0.306574
+9487,Is a public company allowed to issue new shares below market price without consulting shareholders?,stock | lower | above,0.0,0.0,0.0
+9548,"How do I research, analyze, and choose the right mutual fund for a roth ira?",analysis | step | calculate,0.0,0.0,0.0
+9556,How does pre-market trading work?,stock | strategy | before,1.0,1.0,0.0
+9565,What are the tax benefits of dividends vs selling stock,divide | sale | difference,0.919721,0.468451,-0.45127
+9598,How do index funds actually work?,really | function | calculate,0.0,0.0,0.0
+9617,What differentiates index funds and ETFs?,et | difference | finance,0.0,0.141267,0.141267
+9633,Video recommendation for stock market education,training | learning | certification,0.613147,0.613147,0.0
+9643,Is there any public data available to determine an ETF's holdings?,et | calculate | owned,0.5,0.5,0.0
+9644,"If early exercise is a bad idea, why American option is more expensive than European [duplicate]",earlier | europe | cost,0.333333,0.333333,0.0
+9646,Do common stocks and preferred stocks have any differences in terms of percentage of the company per unit they represent?,percent | accounting | finance,0.177239,0.0,-0.177239
+9668,Do stock option prices predicate the underlying stock's movement?,move | pre | abstract,0.296082,0.202107,-0.093975
+9701,How to bet against the London housing market?,uk | step | gambling,0.0,0.0,0.0
+9733,Due Diligence - Dilution?,assessment | legal | forensic,0.0,0.0,0.0
+9735,What are “equity assets”?,finance | equality | accounting,0.0,0.0,0.0
+9737,Long(100%)-Short(-100%) investment explanation,extended | percent | finance,0.732829,0.55081,-0.182019
+9771,Is there any emprical research done on 'adding to a loser',add | addition | em,0.0,0.0,0.0
+9808,Selling To Close,sale | purchase | buyer,0.148041,0.16716,0.019119
+9824,Where can end-of-day data be downloaded for corporate bonds?,tab | company | business,0.0,0.0,0.0
+9871,What should I do with the 50k I have sitting in a European bank?,europe | fifty | eu,0.19519,0.0,-0.19519
+9882,Money-market or cash-type ETFs for foreigners with U.S brokerage account,et | broker | coin,0.0,0.0,0.0
+9925,What does Chapter 11 Bankruptcy mean to an investor holding shares of a Chapter 11 Company?,bankrupt | stock | finance,0.613147,0.613147,0.0
+9929,"Investing in commodities, pros and cons?",stock | finance | economic,0.0,0.0,0.0
+9961,Employer rollover from 403b to 401k?,roll | employee | retirement,0.63093,0.63093,0.0
+9979,What is the best way to invest in gold as a hedge against inflation without having to hold physical gold?,method | golden | cpi,0.246302,0.246302,0.0
+10034,Tax implications of holding EWU (or other such UK ETFs) as a US citizen?,et | impact | effect,0.264068,0.264068,0.0
+10039,Do individual investors use Google to obtain stock quotes?,investment | quota | personal,0.0,0.0,0.0
+10109,Why does Charles Schwab have a Mandatory Settlement Period after selling stocks?,sc | required | sale,0.393259,0.381213,-0.012046
+10122,Why diversify stocks/investments?,divers | diving | important,0.0,0.0,0.0
+10136,How to minimise the risk of a reduction in purchase power in case of Brexit for money held in a bank account?,mini | br | reduce,0.0,0.0,0.0
+10137,F-1 student investing in foreign markets,international | one | stock,0.0,0.0,0.0
+10152,What does a high operating margin but a small but positive ROE imply about a company?,mean | accounting | finance,0.63093,0.63093,0.0
+10183,How are various types of income taxed differently in the USA?,us | united | taxa,0.0,0.0,0.0
+10213,Looking for good investment vehicle for seasonal work and savings,best | job | excellent,0.148041,0.181542,0.033501
+10246,Understanding the T + 3 settlement days rule,settled | three | plus,0.0,0.0,0.0
+10267,How should I prepare for the next financial crisis?,crises | step | finance,0.0,0.113053,0.113053
+10414,What is considered high or low when talking about volume?,lower | highest | math,0.613147,0.613147,0.0
+10447,Is there an advantage to a traditional but non-deductable IRA over a taxable account? [duplicate],benefit | taxa | tax,0.156426,0.156426,0.0
+10462,"Is it okay to be married, 30 years old and have no retirement?",marriage | thirty | age,0.0,0.0,0.0
+10482,Rollover into bond fund to do dollar cost averaging [duplicate],roll | replica | calculate,0.0,0.0,0.0
+10497,Why would you elect to apply a refund to next year's tax bill?,ref | application | return,0.358954,0.358954,0.0
+10526,What extra information might be obtained from the next highest bids in an order book?,details | additional | high,0.0,0.0,0.0
+10547,How much do brokerages pay exchanges per trade?,broker | price | fee,0.0,0.0,0.0
+10558,Investment strategy for 401k when rolling over soon,plan | retirement | stock,0.204382,0.0,-0.204382
+10596,Does a market maker sell (buy) at a bid or ask price?,sale | purchase | manufacturer,0.882613,0.874855,-0.007758
+10601,Bitcoin Cost Basis Purchases,bit | base | price,1.0,1.0,0.0
+10628,"What happens with the “long” buyer of a stock when somebody else's short fails (that is, unlimited loss bankrupts short seller)",extended | limited | purchase,0.0,0.0,0.0
+10639,Short term parking of a large inheritance?,big | estate | endowment,0.102097,0.0,-0.102097
+10645,Explain the details and benefits of rebalancing a retirement portfolio?,re | pension | strategy,0.237198,0.177239,-0.059958
+10674,How to sell a stock in a crashing market?,step | sale | method,0.39038,0.39038,0.0
+10710,Probablity of touching In the money vs expiring in the money for an american option,coin | ex | pro,0.0,0.0,0.0
+10734,How do you translate a per year salary into a part-time per hour job?,convert | calculate | pay,0.493523,0.493523,0.0
+10792,How can I calculate a “running” return using XIRR in a spreadsheet?,xi | spreads | step,0.204382,0.204382,0.0
+10808,What are a few sites that make it easy to invest in high interest rate mutual funds?,easily | websites | highest,0.0,0.0,0.0
+10809,Definitions of leverage and of leverage factor,equity | finance | lever,0.148041,0.234639,0.086598
+10812,Is is possible to dispute IRS underpayment penalties?,tax | under | yes,0.827043,0.676637,-0.150406
+10827,How much should I be contributing to my 401k given my employer's contribution?,price | employee | amount,0.0,0.0,0.0
+10845,"Rationale behind using 12, 26 and 9 to calculate MACD",mac | rational | nine,1.0,1.0,0.0
+10912,Forex independent investments,fore | company | broker,0.0,0.0,0.0
+10932,Transferring money from 403B to 401K?,move | coin | retirement,1.0,1.0,0.0
+10975,How to contribute to Roth IRA when income is at the maximum limit & you have employer-sponsored 401k plans?,max | retirement | employee,0.0,0.0,0.0
+10979,Closing a futures position,ending | stock | job,0.441492,0.363318,-0.078175
+10994,Net loss not distributed by mutual funds to their shareholders?,lost | investors | non,0.510956,0.482476,-0.02848
+11039,Pay off credit card debt or earn employer 401(k) match?,employee | payment | retirement,0.0,0.0,0.0
+11054,Short Term Capital Gains tax vs. IRA Withdrawal Tax w/o Quarterly Est. Taxes,retirement | difference | accounting,1.0,1.0,0.0
+11088,Am I required to have a lawyer create / oversee creation of my will?,wills | attorney | legal,0.0,0.0,0.0

@@ -1,0 +1,949 @@
+dataset,query_id,query,expansion,bm25_ndcg10,expanded_ndcg10,delta_ndcg10
+scifact,1,0-dimensional biomaterials show inductive properties.,bio | zero | dimensions,0.0,0.0,0.0
+scifact,3,"1,000 genomes project enables mapping of genetic sequence variation consisting of rare variants with larger penetrance effects than common variants.",many | total | uncommon,1.0,1.0,0.0
+scifact,5,1/2000 in UK have abnormal PrP positivity.,pr | po | british,1.0,1.0,0.0
+scifact,13,5% of perinatal mortality is due to low birth weight.,per | percent | death,0.0,0.0,0.0
+scifact,36,A deficiency of vitamin B12 increases blood levels of homocysteine.,homo | nutritional | raise,0.204382,0.204382,0.0
+scifact,42,A high microerythrocyte count raises vulnerability to severe anemia in homozygous alpha (+)- thalassemia trait subjects.,micro | homo | deficiency,0.63093,0.63093,0.0
+scifact,48,"A total of 1,000 people in the UK are asymptomatic carriers of vCJD infection.",vc | population | many,0.63093,0.63093,0.0
+scifact,49,ADAR1 binds to Dicer to cleave pre-miRNA.,ada | mir | inhibitor,1.0,1.0,0.0
+scifact,50,AIRE is expressed in some skin tumors.,face | cancer | developed,1.0,1.0,0.0
+scifact,51,ALDH1 expression is associated with better breast cancer outcomes.,al | tumor | gene,1.0,1.0,0.0
+scifact,53,ALDH1 expression is associated with poorer prognosis in breast cancer.,al | tumor | poor,1.0,1.0,0.0
+scifact,54,AMP-activated protein kinase (AMPK) activation increases inflammation-related fibrosis in the lungs.,fi | inflammatory | inhibitor,0.5,0.430677,-0.069323
+scifact,56,APOE4 expression in iPSC-derived neurons increases AlphaBeta production and tau phosphorylation causing GABA neuron degeneration.,ip | ap | ga,1.0,1.0,0.0
+scifact,57,"APOE4 expression in iPSC-derived neurons increases AlphaBeta production and tau phosphorylation, delaying GABA neuron degeneration.",ip | ap | ga,1.0,1.0,0.0
+scifact,70,Activation of PPM1D suppresses p53 function.,pp | inhibitor | mutation,1.0,1.0,0.0
+scifact,72,Activator-inhibitor pairs are provided dorsally by Admpchordin.,act | ad | ventral,0.63093,0.63093,0.0
+scifact,75,"Active H. pylori urease has a polymeric structure that compromises two subunits, UreA and UreB.",polymer | ur | pathogen,0.5,0.5,0.0
+scifact,94,Albendazole is used to treat lymphatic filariasis.,al | drug | fi,1.0,1.0,0.0
+scifact,99,Alizarin forms hydrogen bonds with residues involved in PGAM1 substrate binding.,ali | inhibitor | drug,1.0,1.0,0.0
+scifact,100,All hematopoietic stem cells segregate their chromosomes randomly.,random | se | merge,1.0,1.0,0.0
+scifact,113,Angiotensin converting enzyme inhibitors are associated with increased risk for functional renal insufficiency.,ang | kidney | conversion,1.0,1.0,0.0
+scifact,115,Anthrax spores can be disposed of easily after they are dispersed.,ant | storage | remove,1.0,1.0,0.0
+scifact,118,Antibiotic induced alterations in the gut microbiome reduce resistance against Clostridium difficile,anti | inhibitor | reduction,1.0,1.0,0.0
+scifact,124,Antiretroviral therapy reduces rates of tuberculosis across a broad range of CD4 strata.,cd | tb | anti,1.0,1.0,0.0
+scifact,127,Arginine 90 in p150n is important for interaction with EB1.,ar | inhibitor | hormone,0.63093,0.63093,0.0
+scifact,128,Arterioles have a larger lumen diameter than venules.,arte | ve | size,0.5,0.5,0.0
+scifact,129,Articles published in open access format are less likely to be cited than traditional journals.,citation | chance | conventional,1.0,1.0,0.0
+scifact,130,Articles published in open access format are more likely to be cited than traditional journals.,citation | probable | chance,1.0,1.0,0.0
+scifact,132,Aspirin inhibits the production of PGE2.,pg | inhibitor | drug,0.0,0.0,0.0
+scifact,133,"Assembly of invadopodia is triggered by focal generation of phosphatidylinositol-3,4-biphosphate and the activation of the nonreceptor tyrosine kinase Src.",sr | inhibitor | ty,0.446153,0.316084,-0.13007
+scifact,137,Asymptomatic visual impairment screening in elderly populations does not lead to improved vision.,eye | yes | test,1.0,1.0,0.0
+scifact,141,Auditory entrainment is strengthened when people see congruent visual and auditory information.,en | ear | train,0.919721,0.919721,0.0
+scifact,142,Autologous transplantation of mesenchymal stem cells causes a higher rate of opportunistic infections than induction therapy with anti-interleukin-2 receptor antibodies.,auto | op | me,1.0,1.0,0.0
+scifact,143,Autologous transplantation of mesenchymal stem cells causes fewer opportunistic infections than induction therapy with anti-interleukin-2 receptor antibodies.,auto | me | op,1.0,1.0,0.0
+scifact,146,Autologous transplantation of mesenchymal stem cells has lower rates of rejection than induction therapy with anti-interleukin-2 receptor antibodies.,auto | me | inter,1.0,1.0,0.0
+scifact,148,Autophagy declines in aged organisms.,auto | old | elderly,1.0,1.0,0.0
+scifact,163,Bariatric surgery has a positive impact on mental health.,bari | surgical | effect,1.0,1.0,0.0
+scifact,171,Basophils counteract disease development in patients with systemic lupus erythematosus (SLE).,bas | sl | counter,1.0,1.0,0.0
+scifact,179,Birth-weight is positively associated with breast cancer.,tumor | baby | pound,0.441492,0.441492,0.0
+scifact,180,Blocking the interaction between TDP-43 and respiratory complex I proteins ND3 and ND6 leads to increased TDP-43-induced neuronal loss.,td | inhibitor | breathing,1.0,1.0,0.0
+scifact,183,Bone marrow cells contribute to adult macrophage compartments.,macro | chip | belong,0.63093,0.63093,0.0
+scifact,185,Breast cancer development is determined exclusively by genetic factors.,tumor | hereditary | only,0.5,0.5,0.0
+scifact,198,CCL19 is absent within dLNs.,dl | cc | absence,1.0,1.0,0.0
+scifact,208,CHEK2 is not associated with breast cancer.,che | tumor | yes,1.0,1.0,0.0
+scifact,212,CR is associated with higher methylation age.,high | correlated | deficiency,0.289065,0.386853,0.097788
+scifact,213,CRP is not predictive of postoperative mortality following Coronary Artery Bypass Graft (CABG) surgery.,cr | corona | post,0.356207,0.356207,0.0
+scifact,216,CX3CR1 on the Th2 cells impairs T cell survival,th | imp | inhibitor,1.0,1.0,0.0
+scifact,217,CX3CR1 on the Th2 cells promotes T cell survival,th | inhibitor | stimulate,1.0,1.0,0.0
+scifact,218,CX3CR1 on the Th2 cells promotes airway inflammation.,th | air | inflammatory,1.0,1.0,0.0
+scifact,219,CX3CR1 on the Th2 cells suppresses airway inflammation.,th | air | inhibitor,1.0,1.0,0.0
+scifact,230,Carriers of the alcohol aldehyde dehydrogenase deficiency mutation drink less that non-carries.,al | mutant | de,1.0,1.0,0.0
+scifact,232,Cataract and trachoma are the primary cause of blindness in Southern Sudan.,cat | south | eye,0.5,0.5,0.0
+scifact,233,Cell autonomous sex determination in somatic cells does not occur in Galliformes.,gall | autonomy | yes,1.0,1.0,0.0
+scifact,236,Cell autonomous sex determination in somatic cells occurs in Passeriformes.,pass | autonomy | automatic,1.0,1.0,0.0
+scifact,237,Cells lacking clpC have a defect in sporulation efficiency in Bacillus subtilis.,cl | sub | ba,1.0,1.0,0.0
+scifact,238,Cells undergoing methionine restriction may activate miRNAs.,mir | met | inhibitor,0.0,0.0,0.0
+scifact,239,Cellular aging closely links to an older appearance.,cell | old | related,0.0,0.0,0.0
+scifact,248,Chenodeosycholic acid treatment increases whole-body energy expenditure.,drug | therapy | expense,1.0,1.0,0.0
+scifact,249,Chenodeosycholic acid treatment reduces whole-body energy expenditure.,therapy | drug | expense,1.0,1.0,0.0
+scifact,261,"Chronic aerobic exercise alters endothelial function, improving vasodilating mechanisms mediated by NO.",va | end | activity,0.237198,0.237198,0.0
+scifact,268,Cold exposure increases BAT recruitment.,exposed | effect | raise,0.63093,0.63093,0.0
+scifact,269,Cold exposure reduces BAT recruitment.,exposed | reduction | effect,0.63093,0.63093,0.0
+scifact,274,Combination nicotine replacement therapies with varenicline or bupropion lead to significantly higher long-term abstinence rates at 52 weeks than varenicline monotherapy.,var | abs | mono,1.0,1.0,0.0
+scifact,275,Combining phosphatidylinositide 3-kinase and MEK 1/2 inhibitors is effective at treating KRAS mutant tumors.,me | ph | treatment,0.469279,0.469279,0.0
+scifact,279,Commelina yellow mottle virus' (ComYMV) genome consists of 7489 baise pairs.,bai | com | mo,1.0,1.0,0.0
+scifact,294,Crossover hot spots are not found within gene promoters in Saccharomyces cerevisiae.,sac | heat | ce,0.63093,0.63093,0.0
+scifact,295,Crosstalk between dendritic cells (DCs) and innate lymphoid cells (ILCs) is important in the regulation of intestinal homeostasis.,il | cross | den,1.0,1.0,0.0
+scifact,298,Cytochrome c is released from the mitochondrial intermembrane space to cytosol during apoptosis.,cy | ap | mit,1.0,1.0,0.0
+scifact,300,Cytosolic proteins bind to iron-responsive elements on mRNAs coding for DMT1. Cytosolic proteins bind to iron-responsive elements on mRNAs coding for proteins involved in iron uptake.,cy | rna | metal,0.430677,0.386853,-0.043824
+scifact,303,DMRT1 is a sex-determining gene that is epigenetically regulated by the MHM region.,ep | genetic | mutation,0.0,0.0,0.0
+scifact,312,De novo assembly of sequence data has more specific contigs than unassembled sequence data.,con | assemble | difference,0.333333,0.333333,0.0
+scifact,314,Deamination of cytidine to uridine on the minus strand of viral DNA results in catastrophic G-to-A mutations in the viral genome.,ur | cy | virus,0.5,0.5,0.0
+scifact,324,Deleting Raptor reduces G-CSF levels.,rap | del | cs,0.430677,0.430677,0.0
+scifact,327,Deletion of αvβ8 does not result in a spontaneous inflammatory phenotype.,del | inflammation | alpha,1.0,1.0,0.0
+scifact,338,Dexamethasone decreases risk of postoperative bleeding.,dex | post | drug,1.0,1.0,0.0
+scifact,343,Diabetic patients with acute coronary syndrome experience increased short-term and long-term risk for bleeding events.,corona | dia | glucose,0.570642,0.570642,0.0
+scifact,350,Discrimination between the initiator and elongation tRNAs depends on the translation initiation factor IF3.,tr | inhibitor | trans,1.0,1.0,0.0
+scifact,354,Downregulation and mislocalization of Scribble prevents cell transformation and mammary tumorigenesis.,down | sc | mis,1.0,1.0,0.0
+scifact,362,During the primary early antibody response activated B cells migrate toward the inner-and outer paracortical areas where oxysterol accumulation is generated by stromal cells.,ox | para | earlier,1.0,1.0,0.0
+scifact,380,Enhanced early production of inflammatory chemokines improves viral control in the lung.,che | inflammation | earlier,1.0,1.0,0.0
+scifact,384,Epidemiological disease burden from noncommunicable diseases is more prevalent in low economic settings.,ep | non | lower,0.0,0.0,0.0
+scifact,385,Epigenetic modulating agents (EMAs) modulate antitumor immune response in a cancer model system.,em | mod | ep,0.624051,0.624051,0.0
+scifact,386,Errors in peripheral IV drug administration are most common during bolus administration and multiple-step medicine preparations.,bo | multi | mis,1.0,1.0,0.0
+scifact,388,Ethanol stress decreases the expression of IBP in bacteria.,ib | alcohol | bacterial,0.5,0.430677,-0.069323
+scifact,399,Exposure to fine particulate air pollution is relate to anxiety prevalence.,anxious | part | poll,1.0,1.0,0.0
+scifact,410,Febrile seizures increase the threshold for development of epilepsy.,ep | february | raise,1.0,1.0,0.0
+scifact,411,Febrile seizures reduce the threshold for development of epilepsy.,ep | february | decrease,1.0,1.0,0.0
+scifact,415,Female carriers of the Apolipoprotein E4 (APOE4) allele have increased risk for dementia.,ap | alzheimer | all,0.333333,0.356207,0.022874
+scifact,421,Flexible molecules experience greater steric hindrance in the tumor microenviroment than rigid molecules.,hind | cancer | micro,0.0,0.0,0.0
+scifact,431,FoxO3a activation in neuronal death is mediated by reactive oxygen species (ROS).,fox | die | inhibitor,0.0,0.0,0.0
+scifact,436,Free histones are degraded by a Rad53-dependent mechanism once DNA has been replicated.,his | ra | genetic,1.0,1.0,0.0
+scifact,437,Functional consequences of genomic alterations due to Myelodysplastic syndrome (MDS) are poorly understood due to the lack of an animal model.,gen | my | genetic,0.0,0.0,0.0
+scifact,439,Fz/PCP-dependent Pk localizes to the anterior membrane of neuroectoderm cells during zebrafish neuralation,pc | inhibitor | fish,0.63093,0.63093,0.0
+scifact,440,Fz/PCP-dependent Pk localizes to the anterior membrane of notochord cells during zebrafish neuralation.,pc | not | fish,0.63093,0.63093,0.0
+scifact,443,GATA-3 is important for hematopoietic stem cell (HSC) function.,ga | hs | inhibitor,1.0,1.0,0.0
+scifact,452,Gene expression does not vary appreciably across genetically identical cells.,differ | yes | variation,0.0,0.0,0.0
+scifact,475,Glycolysis is one of the primary glycometabolic pathways in cells.,main | enzyme | process,0.0,0.315465,0.315465
+scifact,478,Golli-deficient T-cells prefer to differentiate into an anergic phenotype in the adaptive immune response when there are increased levels of Ca2+ in the cytosol.,go | ca | cy,1.0,1.0,0.0
+scifact,491,HNF4A mutations can cause diabetes in mutant carriers by the age of 14 years,glucose | old | genetic,1.0,1.0,0.0
+scifact,501,Headaches are not correlated with cognitive impairment.,mig | associated | yes,1.0,1.0,0.0
+scifact,502,"Healthcare delivery efficiency in crowded delivery centers is impaired by improving structural, logistical, and interpersonal elements.",delivered | inter | medical,0.0,0.0,0.0
+scifact,507,Helminths interfere with immune system control of macrophages activated by IL-4 favor Mycobacterium tuberculosis replication.,tb | macro | inhibitor,0.63093,0.63093,0.0
+scifact,508,Hematopoietic Stem Cell purification reaches purity rate of up to 50%.,pure | percent | pu,0.0,0.0,0.0
+scifact,513,High cardiopulmonary fitness causes increased mortality rate.,death | exercise | heart,0.63093,1.0,0.36907
+scifact,514,High dietary calcium intakes are unnecessary for prevention of secondary hyperparathyroidism in subjects with 25(OH)D levels above 75 nmol/liter.,hyper | nm | thyroid,0.333333,0.333333,0.0
+scifact,516,High levels of CRP reduces the risk of exacerbations in chronic obstructive pulmonary disease (COPD).,cr | cop | lung,1.0,1.0,0.0
+scifact,517,High levels of copeptin decrease risk of diabetes.,cope | effect | increase,0.289065,0.0,-0.289065
+scifact,521,High-sensitivity cardiac troponin T (HSCT-T) dosage may not be diagnostic if the onset of symptoms occurs less than 3 hours before acute myocardial injury (AMI).,hs | tr | dos,1.0,1.0,0.0
+scifact,525,Histone demethylase recruitment and a transient decrease in histone methylation is necessary for ligand-dependent induction of transcription by nuclear receptors.,his | inhibitor | trans,1.0,1.0,0.0
+scifact,527,Homozygous deletion of murine Sbds gene from osterix-expressing mesenchymal stem and progenitor cells (MPCs) prevents oxidative stress.,mp | sb | homo,0.63093,0.63093,0.0
+scifact,528,Human T-lymphotropic virus type-I-associated myelopathy / tropical spastic paraparesis (HAM/TSP) patients produce Immunoglobulin G (IgG) antibodies which cross-react with an immunodominant epitope in Tax.,para | spa | my,1.0,1.0,0.0
+scifact,532,Hyperfibrinogenemia decreases rates of femoropopliteal bypass thrombosis.,hyper | fe | th,1.0,1.0,0.0
+scifact,533,Hyperfibrinogenemia increases rates of femoropopliteal bypass thrombosis.,hyper | fe | th,1.0,1.0,0.0
+scifact,535,Hypertension is frequently observed in type 1 diabetes patients.,hyper | pressure | often,0.0,0.0,0.0
+scifact,536,Hypocretin neurones induce panicprone state in rats.,panic | inhibitor | fear,1.0,1.0,0.0
+scifact,539,Hypoglycemia increases the risk of dementia.,alzheimer | chance | cause,1.0,1.0,0.0
+scifact,540,Hypothalamic glutamate neurotransmission is crucial to energy balance.,power | ne | inhibitor,0.204382,0.204382,0.0
+scifact,544,IFIT1 restricts viral replication by sequestrating mis-capped viral RNAs.,inhibitor | virus | limited,0.5,0.386853,-0.113147
+scifact,549,IRG1 has antiviral effects against neurotropic viruses.,ir | anti | virus,1.0,1.0,0.0
+scifact,551,ITAM phosphorylation prevents the transfer of the T cell receptor (TCR) signal from the echo-domain to the cytoplasmic tail of the T cell receptor (TCR).,tc | ph | inhibitor,0.430677,0.430677,0.0
+scifact,552,IgA plasma cells that are specific for transglutaminase 2 accumulate in the duodenal mucosa on commencement of a gluten-free diet.,trans | mu | inhibitor,1.0,1.0,0.0
+scifact,554,Immune complex triggered cell death leads to extracellular release of neutrophil protein HMGB1.,extra | die | ne,0.315465,0.315465,0.0
+scifact,560,Immune responses result in the development of inflammatory Th17 cells and anti-inflammatory iTregs.,th | inflammation | inhibitor,0.0,0.0,0.0
+scifact,569,"In adult tissue, most T cells are memory T cells.",remember | tumor | majority,1.0,1.0,0.0
+scifact,575,"In domesticated populations of Saccharomyces cerevisiae, whole chromosome aneuploidy is very uncommon.",sac | ce | rare,1.0,1.0,0.0
+scifact,577,"In mice, P. chabaudi parasites are able to proliferate faster early in infection when inoculated at lower numbers than when inoculated at high numbers.",cha | mouse | fast,0.333333,0.333333,0.0
+scifact,578,"In mouse models, the loss of CSF1R facilitates MOZ-TIF2-induced leuekmogenesis.",cs | mice | mo,1.0,1.0,0.0
+scifact,587,"In transgenic mice harboring green florescent protein under the control of the Sox2 promoter, less than ten percent of the cells with green florescent colocalize with cell proliferation markers.",sox | trans | col,0.63093,0.63093,0.0
+scifact,589,"In young and middle-aged adults, current or remote uses of ADHD medications do not increase the risk of serious cardiovascular events.",ad | heart | cardiac,1.0,1.0,0.0
+scifact,593,Incidence of heart failure decreased by 10% in women since 1979.,cardiac | female | percent,1.0,1.0,0.0
+scifact,597,Incidence rates of cervical cancer have decreased.,tumor | neck | epidemic,0.921787,0.921787,0.0
+scifact,598,Incidence rates of cervical cancer have increased due to nationwide screening programs based primarily on cytology to detect uterine cervical cancer.,tumor | neck | ut,0.333333,0.333333,0.0
+scifact,613,Increased microtubule acetylation repairs LRRK2 Roc-COR domain mutation induced locomotor deficits.,ace | micro | co,1.0,1.0,0.0
+scifact,619,Increased vessel density along with a reduction in fibrosis decreases the efficacy of chemotherapy treatments.,che | cancer | fi,0.237198,0.264068,0.02687
+scifact,623,Individuals with low serum vitamin D concentrations have increased risk of multiple sclerosis.,sc | multi | nutritional,0.0,0.0,0.0
+scifact,628,Infection of human T-cell lymphotropic virus type 1 is most frequent in individuals of African origin.,africa | common | pathogen,0.430677,0.430677,0.0
+scifact,636,"Inositol lipid 3-phosphatase PTEN converts Ptdlns(3,4)P 2 into phosphatidylinositol 4-phosphate.",pt | lip | enzyme,0.5,0.5,0.0
+scifact,637,Input from  mental and physical health care professionals is effective at decreasing homelessness.,shelter | reduce | street,1.0,1.0,0.0
+scifact,641,Insomnia can be effectively treated with cognitive behavioral therapy.,sleep | ins | treatment,0.613147,0.81753,0.204382
+scifact,644,Insulin increases risk of severe kidney failure.,renal | diabetes | chance,1.0,1.0,0.0
+scifact,649,Integrating classroom-based collaborative learning with Web-based collaborative learning leads to subpar class performance,sub | cooperative | success,0.430677,0.430677,0.0
+scifact,659,Ivermectin is used to treat lymphatic filariasis.,iv | drug | fi,1.0,1.0,0.0
+scifact,660,Ivermectin is used to treat onchocerciasis.,iv | drug | treatment,1.0,1.0,0.0
+scifact,674,LDL cholesterol has no involvement in the development of cardiovascular disease.,ld | heart | cho,1.0,1.0,0.0
+scifact,684,Lack of clpC does not affect sporulation efficiency in Bacillus subtilis cells.,cl | sub | sp,1.0,1.0,0.0
+scifact,690,Less than 10% of the gabonese children with Schimmelpenning-Feuerstein-Mims syndrome (SFM) had a plasma lactate of more than 5mmol/L.,gabon | sf | lac,0.356207,0.356207,0.0
+scifact,691,Leukemia associated Rho guanine nucleotide-exchange factor represses RhoA in response to SRC activation.,sr | gu | cancer,1.0,1.0,0.0
+scifact,692,Leuko-increased blood increases infectious complications in red blood cell transfusion.,le | trans | infection,1.0,1.0,0.0
+scifact,693,Leuko-reduced blood reduces infectious complications in red blood cell transfusion.,le | trans | infection,1.0,1.0,0.0
+scifact,700,Localization of PIN1 in the Arabidopsis embryo does not require VPS9a,pin | vp | arab,0.63093,0.63093,0.0
+scifact,702,Localization of PIN1 in the roots of Arabidopsis does not require VPS9a,pin | vp | arab,0.5,0.5,0.0
+scifact,715,Low expression of miR7a does represses target genes and exerts a biological function in ovaries.,mir | mutation | inhibitor,0.0,0.0,0.0
+scifact,716,Low expression of miR7a exerts a biological function in testis.,mir | test | ex,0.0,0.0,0.0
+scifact,718,Low nucleosome occupancy correlates with low methylation levels across species.,nu | lower | associated,0.63093,0.63093,0.0
+scifact,721,Lupus-prone mice infected with curliproducing bacteria have higher autoantibody titers compared to controls.,auto | ti | mouse,1.0,1.0,0.0
+scifact,723,Ly49Q directs the organization of neutrophil migration to inflammation sites by regulating membrane raft functions.,inflammatory | ne | inhibitor,1.0,1.0,0.0
+scifact,727,Ly6C hi monocytes have a lower inflammatory capacity compared to their Ly6C lo counterparts.,mono | inflammation | difference,0.386853,0.386853,0.0
+scifact,728,Ly6C hi monocytes have a lower inflammatory capacity than Ly6C lo monocytes.,mono | inflammation | difference,0.482476,0.482476,0.0
+scifact,729,Lymphadenopathy is observed in knockin mouse lacking the SHP-2 MAPK pathway.,knock | mice | sh,0.63093,0.63093,0.0
+scifact,742,Macrolides have no protective effect against myocardial infarction.,macro | heart | drug,1.0,1.0,0.0
+scifact,743,Macrolides protect against myocardial infarction.,macro | heart | drug,1.0,1.0,0.0
+scifact,744,Macropinocytosis contributes to a cell's supply of amino acids via the intracellular uptake of protein.,macro | intra | mechanism,0.63093,0.63093,0.0
+scifact,756,Many proteins in human cells can be post-translationally modified at lysine residues via acetylation.,ace | translation | trans,0.333333,0.315465,-0.017868
+scifact,759,Mathematical models predict that using Artemisinin-based combination therapy over nongametocytocidal drugs have a dramatic impact in reducing malaria transmission.,artemis | mosquito | non,0.63093,0.63093,0.0
+scifact,768,Mercaptopurine is anabolized into the inactive methylmercaptopurine by thiopurine methyltrasnferase (TPMT).,mer | methyl | th,0.315465,0.315465,0.0
+scifact,770,Metastatic colorectal cancer treated with a single agent fluoropyrimidines resulted in reduced efficacy and lower quality of life when compared with oxaliplatin-based chemotherapy in elderly patients.,meta | flu | ox,1.0,1.0,0.0
+scifact,775,Mice defective for deoxyribonucleic acid (DNA) polymerase I (polI) reveal increased sensitivity to ionizing radiation (IR).,pol | ion | polymer,0.0,0.0,0.0
+scifact,781,Mice that lack Interferon-γ or its receptor exhibit high resistance to experimental autoimmune myocarditis.,auto | inter | mouse,0.63093,0.63093,0.0
+scifact,783,Mice without IFN-γ or its receptor are resistant to EAM induced with α-MyHC/CFA.,inhibitor | mouse | alpha,0.289065,0.0,-0.289065
+scifact,784,MicroRNA is involved in the regulation of Neural Stem Cell (NSC) differentiation and proliferation dynamic homeostasis,micro | ns | home,0.5,0.5,0.0
+scifact,785,Microarray results from culture-amplified mixtures of serotypes correlate poorly with microarray results from uncultured mixtures.,micro | ser | un,1.0,1.0,0.0
+scifact,793,Mitochondria are uninvolved in apoptosis.,mit | un | mitochondrial,1.0,1.0,0.0
+scifact,800,Modifying the epigenome in the brain affects the normal human aging process by affecting certain genes related to neurogenesis.,ep | elderly | mod,0.0,0.0,0.0
+scifact,805,Monoclonal antibody targeting of N-cadherin inhibits metastasis.,meta | mono | cad,1.0,1.0,0.0
+scifact,808,Most termination events in Okazaki fragments are sequence specific.,ending | mutation | japan,1.0,1.0,0.0
+scifact,811,Mutant mice lacking SVCT2 have greatly increased ascorbic acid levels in both brain and adrenals.,sv | mouse | mutation,1.0,1.0,0.0
+scifact,814,"Mutations in G-Beta protein GNB2 are present in many cancers, resulting in loss of interaction with G-alpha subunits and concomitant activation of AKT pathway.",tumor | inhibitor | mutant,1.0,1.0,0.0
+scifact,820,N-terminal cleavage increases success identifying transcription start sites.,trans | inhibitor | mutation,0.0,0.0,0.0
+scifact,821,N-terminal cleavage reduces success identifying transcription start sites.,trans | mutation | inhibitor,0.0,0.0,0.0
+scifact,823,N348I mutations cause resistance to zidovudine (AZT).,inhibitor | drug | mutant,1.0,1.0,0.0
+scifact,830,NF2 (Merlin) causes phosphorylation and subsequent cytoplasmic sequestration of YAP in Drosophila by activating LATS1/2 kinases.,la | inhibitor | cy,0.333333,0.315465,-0.017868
+scifact,831,NF2 (Merlin) prevents phosphorylation and subsequent cytoplasmic sequestration of YAP in Drosophila.,inhibitor | cy | dr,0.0,0.0,0.0
+scifact,832,NFAT4 activation requires IP3R-mediated Ca2+ mobilization.,ip | ca | inhibitor,1.0,1.0,0.0
+scifact,834,NOX2-independent pathways can generate peroxynitrite by reacting with nitrogen intermediates.,per | no | reaction,0.0,0.0,0.0
+scifact,837,NR5A2 is important in development of endometrial tissues.,nr | end | ns,1.0,1.0,0.0
+scifact,839,Nanoparticles can be targeted against specific cell types by incorporating aptamers into lipid nanoparticles.,nano | lip | inhibitor,1.0,1.0,0.0
+scifact,845,Neutrophil extracellular traps (NETs) are released by ANCA-stimulated neutrophils.,extra | ne | inhibitor,1.0,1.0,0.0
+scifact,847,New drugs for tuberculosis often do not penetrate the necrotic portion of a tuberculosis lesion in high concentrations.,tb | nec | les,1.0,1.0,0.0
+scifact,852,Non-invasive ventilation use should be decreased if there is inadequate response to conventional treatment.,respond | reduce | breathing,0.63093,0.63093,0.0
+scifact,859,Normal expression of RUNX1 has tumor-promoting effects.,run | cancer | inhibitor,0.63093,0.5,-0.13093
+scifact,870,Obesity decreases life quality.,obe | fat | increase,0.0,0.0,0.0
+scifact,873,Obesity is determined solely by environmental factors.,obe | fat | environment,0.215151,0.131205,-0.083946
+scifact,879,Occupancy of ribosomes by IncRNAs do not make functional peptides.,rib | inc | yes,1.0,1.0,0.0
+scifact,880,Occupancy of ribosomes by IncRNAs mirror 5 0-UTRs,rib | ut | zero,1.0,1.0,0.0
+scifact,882,Omnivores produce less trimethylamine N-oxide from dietary I-carnitine than vegetarians.,om | trim | car,1.0,1.0,0.0
+scifact,887,Only a minority of cells survive development after differentiation into stress-resistant spores.,majority | few | pathogen,0.0,0.0,0.0
+scifact,903,PD-1 triggering on monocytes reduces IL-10 production by monocytes.,mono | parkinson | inhibitor,1.0,1.0,0.0
+scifact,904,PDPN promotes efficient motility along stromal surfaces by activating the C-type lectin receptor to rearrange the actin cytoskeleton in dendritic cells.,pd | mo | act,1.0,1.0,0.0
+scifact,907,PGE 2 promotes intestinal tumor growth by altering the expression of tumor suppressing and DNA repair genes.,pg | int | cancer,1.0,1.0,0.0
+scifact,911,PKG-la plays an essential role in expression of pain hypersensitivity in PGK-la knockout mice.,pg | hyper | inhibitor,1.0,1.0,0.0
+scifact,913,PPAR-RXRs are inhibited by PPAR ligands.,pp | inhibitor | drug,0.289065,0.289065,0.0
+scifact,914,PPAR-RXRs can be activated by PPAR ligands.,pp | inhibitor | signal,0.356207,0.315465,-0.040742
+scifact,921,Participating in six months of physical activity improves cognitive functioning.,long | exercise | membership,1.0,1.0,0.0
+scifact,922,Patients in stable partnerships have a faster progression from HIV to AIDS.,partner | fast | stability,1.0,1.0,0.0
+scifact,936,Peroxynitrite is required for nitration of TCR/CD8.,tc | cd | per,1.0,1.0,0.0
+scifact,956,Pleiotropic coupling of GLP-1R to intracellular effectors promotes distinct profiles of cellular signaling.,intra | pl | effect,0.5,0.5,0.0
+scifact,957,Podocytes are motile and migrate in the presence of injury.,mo | cell | reptiles,1.0,1.0,0.0
+scifact,960,Polymeal nutrition reduces cardiovascular mortality.,poly | diet | heart,1.0,1.0,0.0
+scifact,967,Pretreatment with the Arp2/3 inhibitor CK-666 affects lamelliopodia formation.,ar | pre | drug,0.919721,0.919721,0.0
+scifact,971,Primary cervical cancer screening with HPV detection has higher longitudinal sensitivity than conventional cytology to detect cervical intraepithelial neoplasia grade 2.,hp | intra | tumor,0.731568,0.731568,0.0
+scifact,975,Primary pro-inflammatory cytokines induce secondary pro- and anti-inflammatory mediators.,media | cy | inhibitor,0.0,0.0,0.0
+scifact,982,Proteins synthesized at the growth cone are ubiquitinated at a higher rate than proteins from the cell body.,synthesis | grow | difference,1.0,1.0,0.0
+scifact,985,Pseudogene PTENP1 regulates the expression of PTEN by functioning as an miRNA decoy.,pseudo | pt | mir,1.0,1.0,0.0
+scifact,993,Pyridostatin destabilizes the G - quadruplex in the telomeric region.,tel | drug | des,1.0,1.0,0.0
+scifact,1012,Radioiodine treatment of non-toxic multinodular goitre reduces thyroid volume.,radio | go | multi,1.0,1.0,0.0
+scifact,1014,Rapamycin decreases the concentration of triacylglycerols in fruit flies.,rap | fly | tri,1.0,1.0,0.0
+scifact,1019,Rapid phosphotransfer rates govern fidelity in two component systems,ph | rule | both,0.63093,0.63093,0.0
+scifact,1020,Rapid up-regulation and higher basal expression of interferon-induced genes increase survival of granule cell neurons that are infected by West Nile virus.,inter | egypt | fast,0.430677,0.430677,0.0
+scifact,1021,Rapid up-regulation and higher basal expression of interferon-induced genes reduce survival of granule cell neurons that are infected by West Nile virus.,inter | egypt | fast,0.430677,0.430677,0.0
+scifact,1024,Recurrent mutations occur frequently within CTCF anchor sites adjacent to oncogenes.,ct | rec | recurring,1.0,1.0,0.0
+scifact,1029,Reduced responsiveness to interleukin-2 in regulatory T cells is associated with greater resistance to autoimmune diseases such as Type 1 Diabetes.,inter | auto | regulated,0.765361,0.765361,0.0
+scifact,1041,Replacement of histone H2A with H2A.Z slows gene activation in yeasts by stabilizing +1 nucleosomes.,his | fungal | inhibitor,0.264068,0.264068,0.0
+scifact,1049,Ribosomopathies have a low degree of cell and tissue specific pathology.,rib | disorder | path,0.0,0.0,0.0
+scifact,1062,S-nitrosylated GAPDH physiologically transnitrosylates histone deacetylases.,gap | ni | trans,1.0,1.0,0.0
+scifact,1086,Sildenafil improves erectile function in men who experience sexual dysfunction as a result of the use of SSRI antidepressants.,si | erect | drug,1.0,1.0,0.0
+scifact,1088,Silencing of Bcl2 is important for the maintenance and progression of tumors.,bc | si | cancer,0.0,0.0,0.0
+scifact,1089,Smc5/6 engagment drives the activation of SUMO E3 ligase Mms21 by ATP-dependent remolding.,mm | sm | inhibitor,1.0,1.0,0.0
+scifact,1099,Statins decrease blood cholesterol.,stat | drug | increase,0.5,0.5,0.0
+scifact,1100,Statins increase blood cholesterol.,stat | drug | cho,0.63093,0.63093,0.0
+scifact,1104,Stroke patients with prior use of direct oral anticoagulants have a lower risk of in-hospital mortality than stroke patients with prior use of warfarin.,war | anti | drug,1.0,1.0,0.0
+scifact,1107,Subcutaneous fat depots undergo extensive browning processes after cold exposure.,sub | exposed | fatty,1.0,1.0,0.0
+scifact,1110,Suboptimal nutrition is not predictive of chronic disease,sub | diet | persistent,0.0,0.0,0.0
+scifact,1121,Synaptic activity enhances local release of brain derived neurotrophic factor from postsynaptic dendrites.,syn | den | inhibitor,0.63093,0.63093,0.0
+scifact,1130,T regulatory cells (tTregs) lacking αvβ8 are more adept at suppressing pathogenic T-cell responses during active inflammation.,tt | inflammatory | alpha,1.0,1.0,0.0
+scifact,1132,TCR/CD3 microdomains are a required to induce the immunologic synapse to activate T cells.,tc | cd | micro,0.218407,0.218407,0.0
+scifact,1137,TNFAIP3 is a tumor suppressor in glioblastoma.,tn | suppress | tennessee,1.0,1.0,0.0
+scifact,1140,Taking 400mg of α-tocopheryl acetate helps to prevent prostate cancer.,alpha | ace | mg,1.0,1.0,0.0
+scifact,1144,Taxation of sugar-sweetened beverages had no effect on the incidence rate of type II diabetes in India.,tax | indian | sweet,1.0,1.0,0.0
+scifact,1146,Teaching hospitals do not provide better care than non-teaching hospitals.,teacher | yes | clinic,1.0,1.0,0.0
+scifact,1150,Tetraspanin-3 is a causative factor in the development of acute myelogenous leukemia,te | cancer | inhibitor,1.0,1.0,0.0
+scifact,1163,The DdrB protein from Deinococcus radiodurans is an alternative SSB.,dd | radio | dh,1.0,1.0,0.0
+scifact,1175,The PPR MDA5 has two N-terminal CARD domains.,pp | md | many,0.0,0.0,0.0
+scifact,1179,The PRR MDA5 has a central DExD/H RNA helices domain.,dex | pr | md,0.0,0.0,0.0
+scifact,1180,The PRR MDA5 is a sensor of RNA virus infection.,pr | md | detection,0.386853,0.386853,0.0
+scifact,1185,The US health care system can save up to $750 million if 7% of patients waiting for kidney transplants participate in the optimized national kidney paired donation program.,renal | price | opt,1.0,1.0,0.0
+scifact,1187,The YAP1 and TEAD complex tanslocates into the nucleus where it interacts with transcription factors and DNA-binding proteins that modulate target gene transcription.,tea | mod | inhibitor,1.0,1.0,0.0
+scifact,1191,The amount of publicly available DNA data doubles every 10 years.,genetic | public | long,0.0,0.0,0.0
+scifact,1194,The arm density of TatAd complexes is due to structural rearrangements within Class1 TatAd complexes such as the 'charge zipper mechanism'.,tata | dense | class,1.0,1.0,0.0
+scifact,1196,The availability of safe places to study is effective at decreasing homelessness.,shelter | reduce | street,0.430677,0.386853,-0.043824
+scifact,1197,The availability of safe places to study is not effective at decreasing homelessness.,shelter | housing | reduce,0.430677,0.430677,0.0
+scifact,1199,The benefits of colchicine were achieved with effective widespread use of secondary prevention strategies such as high-dose statins.,col | stat | drug,0.0,0.0,0.0
+scifact,1200,The binding orientation of the ML-SA1 activator at hTRPML2 is different from the binding orientation of the ML-SA1 activator at hTRPML1.,sa | act | inhibitor,0.0,0.0,0.0
+scifact,1202,The center of the granuloma in an immune cell induces a pro-inflammatory immune response.,centre | inflammation | stimulate,1.0,1.0,0.0
+scifact,1204,The combination of H3K4me3 and H3K79me2 is found in quiescent hair follicle stem cells.,inhibitor | number | element,1.0,1.0,0.0
+scifact,1207,The composition of myosin-II isoform switches from the polarizable B isoform to the more homogenous A isoform during hematopoietic differentiation.,polar | iso | my,1.0,1.0,0.0
+scifact,1213,The deregulated and prolonged activation of monocytes has deleterious effects in inflammatory diseases.,mono | der | del,0.0,0.0,0.0
+scifact,1216,The extracellular domain of TMEM27 is cleaved in human beta cells.,extra | cl | alpha,1.0,1.0,0.0
+scifact,1221,The genomic aberrations found in matasteses are very similar to those found in the primary tumor.,mata | abe | mutation,0.0,0.0,0.0
+scifact,1225,The locus rs647161 is associated with colorectal carcinoma.,rs | color | cancer,1.0,1.0,0.0
+scifact,1226,"The loss of the TET protein functions may have dire biological consequences, such as myeloid cancers.",te | tumor | lost,0.0,0.0,0.0
+scifact,1232,The minor G allele of FOXO3 is related to more severe symptoms of Crohn's Disease.,fox | cr | all,1.0,1.0,0.0
+scifact,1241,The myocardial lineage develops from cardiac progenitors of mesodermal origin.,my | me | pro,1.0,1.0,0.0
+scifact,1245,The one-child policy has been successful in lowering population growth.,children | reduce | helped,0.356207,0.333333,-0.022874
+scifact,1259,The relationship between a breast cancer patient's capacity to metabolize tamoxifen and treatment outcome is dependent on the patient's genetic make-up.,tam | meta | tumor,1.0,1.0,0.0
+scifact,1262,The repair of Cas9-induced double strand breaks in human DNA is error-prone.,cas | mutation | genetic,1.0,1.0,0.0
+scifact,1266,"The risk of breast cancer among parous women increases with placental weight of pregnancies, and this association is strongest for premenopausal breast cancer.",par | place | tumor,1.0,1.0,0.0
+scifact,1270,The risk of male prisoners harming themselves is ten times that of female prisoners.,women | inmates | dangerous,1.0,1.0,0.0
+scifact,1271,The severity of cardiac involvement in amyloidosis can be described by the degree of transmurality of late gadolinium enhancement in MRI.,amy | heart | trans,1.0,1.0,0.0
+scifact,1272,The single flash-evoked ERG b-wave is generated by activity of ON-bipolar cells.,er | ev | mood,0.30103,0.289065,-0.011965
+scifact,1273,The sliding activity of kinesin-8 protein Kip3 promotes bipolar spindle assembly.,ki | kin | spin,1.0,1.0,0.0
+scifact,1274,The tip of the inner tube of the toxic type VI secretion system (T6SS) antibacterial effector in Escherichia coli (E. coli) carries toxic effector proteins.,anti | effect | bacteria,0.697882,0.697882,0.0
+scifact,1278,The treatment of cancer patients with co-IR blockade does not cause any adverse autoimmune events.,auto | yes | tumor,0.0,0.0,0.0
+scifact,1279,The treatment of cancer patients with co-IR blockade precipitates adverse autoimmune events.,auto | tumor | inhibitor,0.315465,0.0,-0.315465
+scifact,1280,"The ureABIEFGH gene cluster encodes urease maturation proteins : UreD/UreH, UreE, UreF, and UreG.",mat | en | genetic,0.0,0.0,0.0
+scifact,1281,The ureABIEFGH gene cluster is induced by nickel (II) ion.,ur | induction | genetic,0.0,0.0,0.0
+scifact,1282,Therapeutic use of the drug Dapsone to treat pyoderma gangrenous is based on anecdotal evidence.,da | therapy | treatment,1.0,1.0,0.0
+scifact,1290,There is an inverse relationship between hip fractures and statin use.,stat | correlation | yes,1.0,1.0,0.0
+scifact,1292,There is no association between HNF4A mutations and diabetes risks.,yes | glucose | mutant,1.0,1.0,0.0
+scifact,1298,Thigh-length graduated compression stockings (GCS) did not reduce deep vein thrombosis in patients admitted to hospital who are immobile because of acute stroke.,th | gs | im,1.0,1.0,0.0
+scifact,1303,Tirasemtiv has no effect on fast-twitch muscle.,ti | yes | drug,1.0,1.0,0.0
+scifact,1316,Transferred UCB T cells acquire a memory-like phenotype in recipients.,uc | mutation | remember,0.0,0.0,0.0
+scifact,1319,Transplanted human glial cells can differentiate within the host animal.,distinguish | donation | pathogen,0.63093,0.63093,0.0
+scifact,1320,Transplanted human glial progenitor cells are incapable of forming a neural network with host animals' neurons.,pro | unable | capable,0.63093,0.63093,0.0
+scifact,1332,Tumor necrosis factor alpha (TNF-α) and interleukin-1 (IL-1) are pro-inflammatory cytokines that inhibit IL-6 and IL-10.,tn | inter | nec,0.0,0.0,0.0
+scifact,1335,UCB T cells maintain high TCR diversity after transplantation.,uc | tc | inhibitor,1.0,1.0,0.0
+scifact,1336,UCB T cells reduce TCR diversity after transplantation.,uc | tc | inhibitor,1.0,1.0,0.0
+scifact,1337,Ubiquitin ligase UBC13 generates a K63-linked polyubiquitin moiety at PCNA K164.,pc | moi | poly,1.0,1.0,0.0
+scifact,1339,Ultrasound guidance significantly raises the number of traumatic procedures when attempting needle insertion.,ultra | guide | greatly,1.0,1.0,0.0
+scifact,1344,Up-regulation of the p53 pathway and related molecular events casues cancer resistance and results in a significantly shortened lifespan marked by senescent cells and accelerated organismal aging.,cas | tumor | life,0.63093,0.63093,0.0
+scifact,1352,Upregulation of mosGCTL-1 is induced upon infection with West Nile virus.,mo | up | egypt,1.0,1.0,0.0
+scifact,1359,Varenicline monotherapy is more effective after 12 weeks of treatment compared to combination nicotine replacement therapies with varenicline or bupropion.,mono | var | long,1.0,1.0,0.0
+scifact,1362,Venules have a larger lumen diameter than arterioles.,arte | ve | difference,0.5,0.5,0.0
+scifact,1363,Venules have a thinner or absent smooth layer compared to arterioles.,arte | ve | difference,1.0,1.0,0.0
+scifact,1368,Vitamin D deficiency effects the term of delivery.,delivered | pregnancy | nutritional,0.0,0.289065,0.289065
+scifact,1370,Vitamin D deficiency is unrelated to birth weight.,related | baby | nutritional,0.5,0.5,0.0
+scifact,1379,Women with a higher birth weight are more likely to develop breast cancer later in life.,tumor | chance | pregnancy,0.459055,0.34621,-0.112845
+scifact,1382,aPKCz causes tumour enhancement by affecting glutamine metabolism.,ap | tumor | cancer,0.315465,0.356207,0.040742
+scifact,1385,cSMAC formation enhances weak ligand signalling.,cs | inhibitor | strong,1.0,1.0,0.0
+scifact,1389,mTORC2 regulates intracellular cysteine levels through xCT inhibition.,mt | intra | inhibitor,1.0,1.0,0.0
+scifact,1395,p16INK4A accumulation is  linked to an abnormal wound response caused by the microinvasive step of advanced Oral Potentially Malignant Lesions (OPMLs).,op | micro | les,0.0,0.0,0.0
+fiqa,8,How to deposit a cheque issued to an associate in my business into my business account?,che | step | method,0.613147,0.613147,0.0
+fiqa,15,Can I send a money order from USPS as a business?,coin | us | sent,0.0,0.0,0.0
+fiqa,18,1 EIN doing business under multiple business names,multi | both | separate,0.356207,0.386853,0.030646
+fiqa,26,Applying for and receiving business credit,application | qualify | receipt,0.184576,0.0,-0.184576
+fiqa,34,401k Transfer After Business Closure,closed | retirement | cancel,0.0,0.0,0.0
+fiqa,42,What are the ins/outs of writing equipment purchases off as business expenses in a home based business?,written | hardware | gear,0.0,0.0,0.0
+fiqa,56,Can a entrepreneur hire a self-employed business owner?,entrepreneurship | employment | employee,0.0,0.0,0.0
+fiqa,68,Intentions of Deductible Amount for Small Business,de | large | tax,0.0,0.0,0.0
+fiqa,89,How can I deposit a check made out to my business into my personal account?,step | method | make,0.117063,0.107789,-0.009273
+fiqa,90,Filing personal with 1099s versus business s-corp?,vs | corporation | company,0.356207,0.5,0.143793
+fiqa,94,Using credit card points to pay for tax deductible business expenses,payment | de | accounting,0.430677,0.430677,0.0
+fiqa,98,"How can I make $250,000.00 from trading/investing/business within 5 years?",price | salary | five,0.0,0.0,0.0
+fiqa,104,Investing/business with other people's money: How does it work?,coin | person | finance,0.0,0.0,0.0
+fiqa,106,What approaches are there for pricing a small business?,cost | large | marketing,0.0,0.0,0.0
+fiqa,109,How to account for money earned and spent prior to establishing business bank accounts?,before | spend | step,0.430677,0.430677,0.0
+fiqa,475,Do I need a new EIN since I am hiring employees for my LLC?,replacement | yes | you,0.386853,0.386853,0.0
+fiqa,503,Privacy preferences on creditworthiness data,credit | private | tracking,0.0,0.0,0.0
+fiqa,504,Have plenty of cash flow but bad credit,enough | lots | you,0.0,0.0,0.0
+fiqa,515,financial institution wants share member break down for single member LLC,solo | broken | cancel,1.0,1.0,0.0
+fiqa,529,Sole proprietorship or LLC?,proprietor | business | company,0.0,0.0,0.0
+fiqa,547,What percentage of my company should I have if I only put money?,percent | coin | businesses,0.0,0.0,0.0
+fiqa,549,Where to request ACH Direct DEBIT of funds from MY OWN personal bank account?,ac | tab | de,0.0,0.0,0.0
+fiqa,559,"Challenged an apparently bogus credit card charge, what happens now?",bog | alleged | fraud,0.0,0.0,0.0
+fiqa,570,Employer options when setting up 401k for employees,retirement | plan | start,0.0,0.0,0.0
+fiqa,585,Following an investment guru a good idea?,broker | excellent | advice,0.0,0.0,0.0
+fiqa,588,Is there a reason to buy a 0% yield bond?,zero | percent | purchase,0.613147,0.613147,0.0
+fiqa,594,Should a retail trader bother about reading SEC filings,trading | broker | stock,0.386853,0.386853,0.0
+fiqa,603,Will one’s education loan application be rejected if one doesn't have a payslip providing collateral?,yes | pay | cancel,0.0,0.0,0.0
+fiqa,604,"Is there a dollar amount that, when adding Massachusetts Sales Tax, precisely equals $200?",price | ma | mass,0.0,0.0,0.0
+fiqa,620,Is it wise to have plenty of current accounts in different banks?,enough | various | both,0.0,0.0,0.0
+fiqa,622,"Accidentally opened a year term CD account, then realized I need the money sooner. What to do?",earlier | soon | later,0.0,0.0,0.0
+fiqa,659,Buying from an aggressive salesperson,sales | purchase | advanced,0.312049,0.248908,-0.063141
+fiqa,672,Credit and Debit,de | accounting | finance,0.0,0.0,0.0
+fiqa,684,"Beyond RRSP deductions, how does a high income earner save on taxes?",rr | earn | highest,0.0,0.0,0.0
+fiqa,687,Online tool to connect to my bank account and tell me what I spend in different categories?,internet | various | your,0.0,0.0,0.0
+fiqa,689,Receive credit card payment sending my customer details to a credit card processing company?,processor | sent | receipt,0.0,0.0,0.0
+fiqa,691,How to categorize credit card payments?,cat | step | classification,0.386853,0.63093,0.244077
+fiqa,699,Prepaid Rent (Accrual Based Accounting),prep | acc | rental,0.430677,0.430677,0.0
+fiqa,701,What are the ins/outs of writing-off part of one's rent for working at home?,rental | written | writer,0.0,0.0,0.0
+fiqa,715,what would you do with $100K saving?,price | dollar | retirement,0.0,0.0,0.0
+fiqa,721,What are “upstream investments” and “downstream investments” in this context?,finance | technology | river,0.5,0.5,0.0
+fiqa,744,What options are available for a home loan with poor credit but a good rental history?,rent | bad | past,0.0,0.0,0.0
+fiqa,750,Paid part of my state refund back last year; now must declare the initial amount as income?,ref | tax | return,0.806574,0.797723,-0.008851
+fiqa,753,Taxes due for hobbyist Group Buy,hobby | purchase | fee,0.0,0.0,0.0
+fiqa,766,Will the ex-homeowner still owe money after a foreclosure?,fore | debt | home,0.0,0.0,0.0
+fiqa,776,"Can saving/investing 15% of your income starting age 25, likely make you a millionaire?",wealth | percent | fifteen,0.220092,0.220092,0.0
+fiqa,810,Can I open a bank account in the US remotely? Will I pay taxes for the money on it?,yes | payment | online,0.0,0.0,0.0
+fiqa,813,Income Tax and Investments,finance | accounting | wealth,0.0,0.0,0.0
+fiqa,849,Accounting for reimbursements that exceed actual expenses,rei | exceeded | over,0.0,0.0,0.0
+fiqa,852,Dalbar: How can the average investor lose money?,dal | loss | investment,0.921787,0.921787,0.0
+fiqa,853,What will my taxes be as self employed?,employment | employee | your,0.0,0.0,0.0
+fiqa,858,Is it bad practice to invest in stocks that fluctuate by single points throughout the day?,flu | daily | during,0.0,0.0,0.0
+fiqa,859,"Any reason to keep around my account with my old, 'big' bank?",large | older | your,0.0,0.0,0.0
+fiqa,864,Why use accounting software like Quickbooks instead of Excel spreadsheets?,quick | spreads | rather,0.286381,0.286381,0.0
+fiqa,879,Capital improvement and depreciation in restaurant LLC,de | company | kitchen,0.63093,0.63093,0.0
+fiqa,885,How long do credit cards keep working after you disappear?,years | period | last,0.0,0.0,0.0
+fiqa,895,California tells me I didn't file documents for an LLC that isn't mine. What do I do?,ca | yes | not,1.0,1.0,0.0
+fiqa,904,How do I set up Quickbooks for a small property rental company that holds its properties in separate LLC's?,quick | rent | step,0.63093,0.63093,0.0
+fiqa,928,How can I determine if a FHA loan refinance offer is from a reputable lender,rep | ref | lend,0.306574,0.306574,0.0
+fiqa,929,Freelancer: Should I start a second bank account?,another | third | two,1.0,1.0,0.0
+fiqa,932,Is freelance income earned by a U.S. citizen while living abroad subject to state income tax?,overseas | salary | resident,0.388958,0.193426,-0.195532
+fiqa,939,How to correct a tax return filed electronically and already approved?,step | method | accepted,0.315465,0.315465,0.0
+fiqa,945,Paid by an American company but working from France: where should I pay taxes?,french | us | europe,0.0,0.0,0.0
+fiqa,957,How can I withdraw money from my LLC?,step | method | cancel,0.477624,0.477624,0.0
+fiqa,988,Where should I invest my savings?,your | best | retirement,0.0,0.0,0.0
+fiqa,1074,How common is “pass-through” health insurance?,ins | medical | popular,0.0,0.0,0.0
+fiqa,1085,How do disputed debts work on credit reports?,contested | method | fraud,0.0,0.0,0.0
+fiqa,1090,Need a formula to determine monthly payments received at time t if I'm reinvesting my returns,rein | calculate | equation,0.0,0.0,0.0
+fiqa,1150,How are the best way to make and save money at 22 years old,age | coin | retirement,0.0,0.0,0.0
+fiqa,1157,Personal taxes for Shopify / Paypal shop?,pay | fee | store,0.386853,0.386853,0.0
+fiqa,1159,what is the best way to do a freelancing job over the summer for a student,free | august | desert,0.0,0.0,0.0
+fiqa,1198,What are the consequences of IRS “reclassification” on both employer and employee?,rec | tax | effect,1.0,1.0,0.0
+fiqa,1230,How does Walmart account their expired food,wal | ex | stale,0.0,0.0,0.0
+fiqa,1281,How FTB and IRS find mistakes in amended tax returns? Are their processes reliable?,ft | errors | audit,0.0,0.0,0.0
+fiqa,1284,Tax consequences when foreign currency changes in value,coin | effect | exchange,1.0,1.0,0.0
+fiqa,1297,Why aren't there solutions for electronic itemized receipt for retail in-store purchases?,fraud | marketing | useful,0.315465,0.5,0.184535
+fiqa,1306,"I made an investment with a company that contacted me, was it safe?",dangerous | make | secure,0.529436,0.385359,-0.144078
+fiqa,1309,Why does FlagStar Bank harass you about payments within grace period?,flags | fraud | cancel,0.253278,0.253278,0.0
+fiqa,1310,Is is possible to take a mortgage using Bitcoin as collateral?,bit | loan | yes,0.5,0.5,0.0
+fiqa,1321,"Are social media accounts (e.g. YouTube, Twitter, Instagram, etc.) considered assets?",ins | facebook | website,0.0,0.0,0.0
+fiqa,1322,Is this follow-up after a car crash a potential scam?,sc | possible | accident,0.0,0.0,0.0
+fiqa,1391,How is taxation for youtube/twitch etc monetization handled in the UK?,tax | mon | video,0.0,0.0,0.0
+fiqa,1393,"Which is better when working as a contractor, 1099 or incorporating?",best | contract | alternative,0.0,0.0,0.0
+fiqa,1415,I am not VAT registered. Do I need to buy from my supplier with excl VAT prices or incl VAT?,va | inc | yes,1.0,1.0,0.0
+fiqa,1416,US resident with Canadian income via T4A-NR,canada | immigration | united,0.0,0.0,0.0
+fiqa,1441,What's the difference between Market Cap and NAV?,na | finance | accounting,0.904717,0.904717,0.0
+fiqa,1451,"How do you find an ethical, honest independent insurance broker in Canada?",canadian | ins | step,1.0,0.63093,-0.36907
+fiqa,1469,Why do some companies report how well their EBITDA performed even if their overall net profit did equally well?,success | accounting | businesses,1.0,1.0,0.0
+fiqa,1530,"What is the proper way to report additional income for taxes (specifically, Android development)?",mobile | extra | method,0.0,0.0,0.0
+fiqa,1670,Investing in hemp producers in advance of possible legalization in Canada?,hem | canadian | production,0.765361,0.765361,0.0
+fiqa,1676,W2 vs 1099 Employee status,difference | employment | portal,0.58557,0.558508,-0.027062
+fiqa,1736,How can people have such high credit card debts?,highest | person | fraud,0.553146,0.383566,-0.16958
+fiqa,1748,"How high should I set my KickStarter funding goal in order to have $35,000 left over?",kick | price | max,0.296082,0.296082,0.0
+fiqa,1783,Freelancing Tax implication,free | implied | consequence,0.0,0.0,0.0
+fiqa,1812,splitting a joint mortgage - one owner in home,loan | separate | owned,0.613147,0.613147,0.0
+fiqa,1815,Rules for SEP contributions in an LLC?,september | penalty | business,1.0,1.0,0.0
+fiqa,1819,Found an old un-cashed paycheck. How long is it good for? What to do if it's expired?,pay | find | check,0.0,0.0,0.0
+fiqa,1824,Is there a way to open a U.S. bank account for my LLC remotely?,method | united | yes,0.0,0.0,0.0
+fiqa,1826,"Is the contribution towards Employment Insurance (EI) wasted if I never get fired, or are my premiums refunded?",employee | ref | ins,0.831872,0.831872,0.0
+fiqa,1832,Warren Buffett and Charles Munger advice for small investors?,buffet | mu | investment,0.5,0.5,0.0
+fiqa,1871,Is there any US bank that does not charge for incoming wire transfers?,fee | yes | cost,0.39038,0.246302,-0.144078
+fiqa,1877,"As a Sole Proprietor, will “employer” Solo 401k contributions count towards gross income?",employee | yes | business,0.63093,0.63093,0.0
+fiqa,1889,Reporting financial gains from my online store,internet | growth | your,0.0,0.0,0.0
+fiqa,1915,Should I pay a company who failed to collect VAT from me over 6 months ago?,va | payment | six,0.386853,0.386853,0.0
+fiqa,1920,Clarification on student expenses - To file the tax for the next year,cl | college | school,0.0,0.0,0.0
+fiqa,1933,UK sole trader who often buys products/services on behalf of clients – do I deduct from declared income or claim as allowable expenses?,de | purchase | broker,1.0,1.0,0.0
+fiqa,1948,Which colors can one use to fill out a check in the US?,red | united | blue,0.386853,0.63093,0.244077
+fiqa,1994,Does the IRS reprieve those who have to commute for work?,tax | rep | com,0.282634,0.26688,-0.015754
+fiqa,2010,Paypal website donations without being a charity,pay | charitable | not,0.296082,0.296082,0.0
+fiqa,2051,Where to find the 5 or 10 year returns for a mutual fund?,five | ten | calculate,0.0,0.0,0.0
+fiqa,2070,"Advantage of credit union or local community bank over larger nationwide banks such as BOA, Chase, etc.?",bo | benefit | branch,0.469279,0.469279,0.0
+fiqa,2075,Are stories of turning a few thousands into millions by trading stocks real?,news | couple | convert,0.235046,0.235046,0.0
+fiqa,2076,Can vet / veterinary bills be considered deductions (tax-deductible) for Income Tax purposes [Canada]?,de | yes | pet,0.0,0.0,0.0
+fiqa,2088,How would I go about selling the stock of a privately held company?,sale | step | method,0.0,0.0,0.0
+fiqa,2108,Can I pay taxes using bill pay from my on-line checking account?,payment | you | yes,0.0,0.0,0.0
+fiqa,2118,What happened in Argentina in 2001 bank sector? did the banks closed? all or some?,argentine | crash | failed,0.0,0.0,0.0
+fiqa,2154,"What tax software automatically determines the best filing status, etc?",program | tool | calculate,0.0,0.0,0.0
+fiqa,2181,What are the risks & rewards of being a self-employed independent contractor / consultant vs. being a permanent employee?,employment | success | benefits,0.0,0.0,0.0
+fiqa,2183,Why are there many small banks and more banks in the U.S.?,united | large | smaller,0.302602,0.390074,0.087472
+fiqa,2204,What's an economic explanation for why greeting cards are so expensive?,cost | hello | cheap,0.70942,0.745791,0.036371
+fiqa,2264,Personal Tax Return software for Linux?,tool | program | jeremy,0.306574,0.264068,-0.042505
+fiqa,2296,How does a bank make money on an interest free secured loan?,earn | method | coin,0.31877,0.31877,0.0
+fiqa,2306,To whom should I report fraud on both of my credit cards?,deception | person | two,0.613147,0.613147,0.0
+fiqa,2316,What exchange rate does El Al use when converting final payment amount to shekels?,she | calculate | currency,0.919721,0.919721,0.0
+fiqa,2318,F1 student and eBay selling tax,sale | registration | school,0.0,0.0,0.0
+fiqa,2330,How can I determine if a debt consolidation offer is real or a scam?,sc | fraud | fake,0.613147,0.613147,0.0
+fiqa,2334,How do you determine “excess cash” for Enterprise Value calculations from a balance sheet?,accounting | business | step,0.296082,0.296082,0.0
+fiqa,2348,Why can't you just have someone invest for you and split the profits (and losses) with him?,person | himself | separate,0.31488,0.358954,0.044074
+fiqa,2376,Why do gas stations charge different amounts in the same local area?,fuel | fee | cost,0.572665,0.620188,0.047524
+fiqa,2383,Should I Purchase Health Insurance Through My S-Corp,ins | corporation | buy,0.613147,0.613147,0.0
+fiqa,2384,Tax: 1099 paper form,letter | receipt | number,0.0,0.0,0.0
+fiqa,2385,"As director, can I invoice my self-owned company?",directed | businesses | you,0.613147,0.613147,0.0
+fiqa,2388,Do financial advisors get better deals on mortgages?,loan | best | finance,1.0,1.0,0.0
+fiqa,2395,Freelance site with lowest commission fees?,low | website | lower,0.63093,0.63093,0.0
+fiqa,2398,Frustrated Landlord,rent | disappointed | confused,0.0,0.0,0.0
+fiqa,2399,Where do web sites get foreign exchange currency rate / quote information?,find | international | website,0.5,1.0,0.5
+fiqa,2400,Will I be paid dividends if I own shares?,divide | stock | pay,0.202107,0.202107,0.0
+fiqa,2407,How long to wait after getting a mortgage to increase my credit limit?,loan | years | raise,0.39038,0.39038,0.0
+fiqa,2416,Why should a company go public?,businesses | private | publicly,0.507896,0.41443,-0.093466
+fiqa,2423,At what age should I start or stop saving money?,old | coin | retirement,0.274876,0.274876,0.0
+fiqa,2443,What are some way to transfer money from Hong Kong to India on a monthly basis?,indian | coin | month,0.0,0.0,0.0
+fiqa,2445,How do I notify the IRS of a new member to an LLC?,step | tax | not,1.0,1.0,0.0
+fiqa,2460,What are the consequences of not respecting a notice period when leaving a job?,employee | employment | penalty,0.469279,0.650821,0.181542
+fiqa,2465,Can capital expenses for volunteer purposes be deducted from income?,de | tax | yes,0.0,0.0,0.0
+fiqa,2472,How do I deal with a mistaken attempt to collect a debt from me that is owed by someone else?,confused | mis | step,0.0,0.0,0.0
+fiqa,2486,"Is working on a W2 basis, with benefits paid to me, a good idea?",pay | yes | job,0.430677,0.5,0.069323
+fiqa,2498,How do I calculate tax liability on the turnover of a small vendor?,accounting | large | step,0.0,0.0,0.0
+fiqa,2513,How does revenue shared with someone else go into my tax return in Canada?,canadian | person | other,0.0,0.0,0.0
+fiqa,2516,Which banks have cash-deposit machines in Germany?,german | offer | company,0.39038,0.39038,0.0
+fiqa,2549,How to graph the market year over year? for example Dow Jones Index,calculate | step | after,0.0,0.0,0.0
+fiqa,2551,How to find cheaper alternatives to a traditional home telephone line?,cheap | phone | step,0.0,0.148041,0.148041
+fiqa,2568,How to pay with cash when car shopping?,payment | step | vehicle,0.0,0.0,0.0
+fiqa,2579,What to do when a job offer is made but with a salary less than what was asked for?,employment | fewer | lower,0.0,0.0,0.0
+fiqa,2580,Stock market vs. baseball card trading analogy,mlb | comparison | difference,0.765361,0.765361,0.0
+fiqa,2587,Typically how many digits are in a cheque number?,che | usually | check,1.0,1.0,0.0
+fiqa,2589,How can I detect potential fraud in a company before investing in them?,deception | possible | prior,0.436747,0.671386,0.234639
+fiqa,2590,Are non-residents or foreigners permitted to buy or own shares of UK companies?,purchase | british | stock,0.148041,0.16716,0.019119
+fiqa,2593,Am I “cheating the system” by opening up a tiny account with a credit union and then immediately applying for a huge loan?,small | big | you,0.703918,0.671386,-0.032532
+fiqa,2598,Is it possible for US retail forex traders to trade exotic currencies?,fore | coin | broker,0.204382,0.218407,0.014025
+fiqa,2648,How does unemployment insurance work?,employment | ins | function,1.0,1.0,0.0
+fiqa,2676,Tax question about selling a car,sale | vehicle | asked,0.0,0.356207,0.356207
+fiqa,2685,What ways are there for us to earn a little extra side money?,coin | method | additional,0.079795,0.084314,0.00452
+fiqa,2695,"Buy a parking spot and rent it out, or invest savings in an interest-bearing account?",purchase | rental | finance,1.0,1.0,0.0
+fiqa,2713,Physical Checks - Mailing,postal | test | tracking,0.177239,0.0,-0.177239
+fiqa,2724,How do you determine the dividend payout date for Mutual Funds?,divide | calculate | pay,0.237198,0.237198,0.0
+fiqa,2737,What to do with an old building to get money,coin | older | ancient,0.30103,0.30103,0.0
+fiqa,2747,What evidence do I need to declare tutoring income on my income tax?,proof | teacher | school,0.0,0.0,0.0
+fiqa,2749,Is it possible to create a self-managed superannuation fund to act as a mortage offset? (Australia),mort | super | yes,0.386853,0.613147,0.226294
+fiqa,2790,Should I pay more than 20% down on a home?,percent | payment | house,0.137438,0.173428,0.035989
+fiqa,2801,If I deposit money as cash does it count as direct deposit?,coin | you | receipt,0.613147,0.613147,0.0
+fiqa,2856,How can I cash out a check internationally?,international | global | step,0.15102,0.15102,0.0
+fiqa,2857,"I have around 60K $. Thinking about investing in Oil, how to proceed?",price | sixty | fee,0.0,0.0,0.0
+fiqa,2880,Can I transfer my investment property into a SMSF?,sms | text | move,1.0,1.0,0.0
+fiqa,2885,Merits of buying apartment houses and renting them,rental | purchase | landlord,0.0,0.0,0.0
+fiqa,2891,May I claim money earned but not received in 2012,coin | yes | tax,1.0,1.0,0.0
+fiqa,2895,Where should a young student put their money?,coin | teen | youth,0.0,0.0,0.0
+fiqa,2903,How should I file my taxes as a contractor?,contract | step | method,0.0,0.0,0.0
+fiqa,2923,Should I give to charity by check or credit card?,charitable | donation | gift,0.290391,0.566965,0.276573
+fiqa,2964,Unmarried Couple Splitting up with Joint Ownership of Home,married | marriage | owner,0.0,0.0,0.0
+fiqa,2968,Should I prioritize retirement savings inside of my HSA?,hs | prior | within,0.264068,0.306574,0.042505
+fiqa,2994,Work on the side for my wife's company,marriage | job | wives,0.0,0.0,0.0
+fiqa,3006,"Strategies for putting away money for a child's future (college, etc.)?",coin | children | saving,0.100867,0.130324,0.029456
+fiqa,3008,What are my chances at getting a mortgage with Terrible credit but High income,loan | bad | risk,0.0,0.0,0.0
+fiqa,3014,What investments are positively related to the housing market decline?,property | home | drop,0.0,0.0,0.0
+fiqa,3033,Tax consequences of changing state residency?,effect | penalty | immigration,0.0,0.0,0.0
+fiqa,3039,Can increasing my tax withholding from my full-time job cover FICA taxes for my freelance work?,fi | raise | yes,0.430677,0.63093,0.200253
+fiqa,3049,How to calculate my estimated taxes. 1099 MISC + Self Employment,mis | step | employee,0.139056,0.15102,0.011963
+fiqa,3051,What items are exempt from the VAT? [U.K.],va | uk | list,0.797723,0.81753,0.019807
+fiqa,3067,Should I make extra payments to my under water mortgage or increase my savings?,loan | additional | you,0.0,0.0,0.0
+fiqa,3085,How long can I convert 401(k) to Roth 401(k)?,years | retirement | calculate,0.0,0.0,0.0
+fiqa,3091,Am I considered in debt if I pay a mortgage?,loan | payment | you,0.086714,0.0,-0.086714
+fiqa,3103,"AVS Address Verification System of BOTH Credit and Debit Cards - WHERE, HOW?",verify | separate | de,0.386853,0.430677,0.043824
+fiqa,3115,How can I live outside of the rat race of American life with 300k?,out | survive | you,0.493523,0.453904,-0.03962
+fiqa,3125,"Claiming mileage allowances, what are the rules/guidelines?",mile | tax | requirements,0.315465,0.356207,0.040742
+fiqa,3148,Can a car company refuse to give me a copy of my contract or balance details?,vehicle | cancel | yes,0.553146,0.553146,0.0
+fiqa,3149,Tips for insurance coverage for one-man-teams,ins | step | advice,0.0,0.0,0.0
+fiqa,3177,Vanguard ETF vs mutual fund,et | difference | stock,0.181542,0.156426,-0.025116
+fiqa,3179,"Calculation, timing, and taxes related to profit distribution of an S-corp?",corporation | accounting | company,0.306574,0.306574,0.0
+fiqa,3186,United States Treasury Not Endorsing Checks,end | us | yes,0.850345,0.850345,0.0
+fiqa,3189,Diversify my retirement investments with a Roth IRA,divers | diving | your,0.0,0.0,0.0
+fiqa,3254,Why do people buy US dollars on the black market?,purchase | coin | money,0.469279,0.469279,0.0
+fiqa,3264,Pros and Cons of Interest Only Loans,disadvantage | finance | advantage,0.0,0.0,0.0
+fiqa,3357,Why big clients want the contractor to be incorporated before giving them work,large | contract | prior,1.0,1.0,0.0
+fiqa,3369,Why should one only contribute up to the employer's match in a 401(k)?,employee | disadvantage | advantage,0.0,0.0,0.0
+fiqa,3394,What is the easiest way to back-test index funds and ETFs?,easy | et | method,0.0,0.0,0.0
+fiqa,3404,"In US, is it a good idea to hire a tax consultant for doing taxes?",specialist | recruit | best,0.0,0.0,0.0
+fiqa,3405,Non Resident aliens - Question of standard vs itemized,difference | immigration | person,0.0,0.0,0.0
+fiqa,3446,What's the difference between Term and Whole Life insurance?,ins | finance | heath,0.233865,0.233865,0.0
+fiqa,3451,Should you keep your stocks if you are too late to sell?,sale | cancel | when,0.0,0.0,0.0
+fiqa,3453,How does spot-futures arbitrage work in the gold market?,ar | calculate | method,0.306574,0.306574,0.0
+fiqa,3480,Why is OkPay not allowed in the United States?,ok | us | illegal,0.831872,0.831872,0.0
+fiqa,3490,Tax Witholding for Stock Sale,sell | penalty | accounting,0.0,0.0,0.0
+fiqa,3500,Why invest in becoming a landlord?,rent | being | important,0.321245,0.453904,0.132659
+fiqa,3503,Is there any instance where less leverage will get you a better return on a rental property?,rent | equity | fewer,0.137438,0.19784,0.060402
+fiqa,3512,"As an employee, when is it inappropriate to request to see your young/startup company's financial statements?",appropriate | ask | start,0.386853,0.386853,0.0
+fiqa,3528,"In the US, does getting a loan with a cosigner, help your credit rating?",co | yes | benefit,0.289065,0.0,-0.289065
+fiqa,3530,How to exclude stock from mutual fund,exclusion | step | avoid,0.0,0.0,0.0
+fiqa,3534,Why do dishonour fees exist?,dish | fraud | penalty,0.0,0.0,0.0
+fiqa,3566,"Where can I buy stocks if I only want to invest a little bit at a time, and not really be involved in trading?",purchase | you | shop,0.296082,0.234639,-0.061443
+fiqa,3569,Funds in closed bank account have gone to the government,parliament | go | open,0.0,0.0,0.0
+fiqa,3594,"If I were to get into a life situation where I would not be able to make regular payments, do lenders typically provide options other than default?",lend | loan | usually,0.0,0.0,0.0
+fiqa,3612,How can I buy and sell the same stock on the same day?,sale | purchase | trade,0.0,0.0,0.0
+fiqa,3615,My previous and current employers both use Fidelity for 401(k). Does it make sense to rollover?,roll | yes | employee,0.177239,0.0,-0.177239
+fiqa,3625,What should I do with my paper financial documents?,finance | your | accounting,0.0,0.0,0.0
+fiqa,3682,Short selling - lender's motivation,lend | sale | loan,0.0,0.0,0.0
+fiqa,3683,Can I trust the Motley Fool?,mo | yes | let,0.130324,0.130324,0.0
+fiqa,3694,Has anyone created a documentary about folks who fail to save enough for retirement?,failure | pension | invented,0.613147,0.613147,0.0
+fiqa,3724,Should you always max out contributions to your 401k?,maximum | retirement | never,0.0,0.0,0.0
+fiqa,3735,Shorting Stocks And Margin Account Minimum,required | max | investment,0.0,0.0,0.0
+fiqa,3759,Simplifying money management,sim | coin | finance,0.0,0.0,0.0
+fiqa,3767,What should I be doing to protect myself from identity theft?,stolen | prevent | yourself,0.0,0.0,0.0
+fiqa,3771,Best way to buy Japanese yen for travel?,japan | purchase | method,0.0,0.0,0.0
+fiqa,3781,What is the rough estimate of salary value for a taxpayer to pay AMT?,am | tax | payment,1.0,1.0,0.0
+fiqa,3789,How to work around the Owner Occupancy Affidavit to buy another home in less than a year?,step | af | purchase,0.754199,0.749528,-0.004671
+fiqa,3791,"""When people say 'Interest rates are at all time low!"""" … Which interest rate are they actually referring to?""",lower | said | finance,0.469279,0.469279,0.0
+fiqa,3801,Can a bunch of wealthy people force Facebook to go public?,social | wealth | rich,0.613147,0.613147,0.0
+fiqa,3822,How to change a large quantity of U.S. dollars into Euros?,step | convert | method,0.0,0.0,0.0
+fiqa,3829,Are all VISA cards connected with bank accounts?,related | portal | yes,0.0,0.0,0.0
+fiqa,3830,US citizen transferring money to Indian fiance to buy property,marriage | purchase | coin,0.30103,0.30103,0.0
+fiqa,3837,"Opening a Roth IRA account, what is the fee structure for Vanguard, Scottrade and TIAA-CREF",tia | scott | fund,0.5,0.5,0.0
+fiqa,3859,Buying an investment property in Australia - what are the advantages and disadvantages of building a house vs buying an existing one?,australian | purchase | estate,0.0,0.0,0.0
+fiqa,3875,Does freedom to provide services allow me contracting in Germany without paying taxes there (but in my home EU country)?,german | free | yes,0.831555,0.850345,0.01879
+fiqa,3888,Why I can't view my debit card pre-authorized amounts?,approved | de | see,0.0,0.0,0.0
+fiqa,3909,How to rescue my money from negative interest?,step | coin | method,0.0,0.0,0.0
+fiqa,3932,How do historically low interest rates affect real estate prices?,effect | property | lower,0.0,0.0,0.0
+fiqa,3934,Should market based health insurance premiums be factored into 6 months emergency fund savings?,six | ins | medical,0.168128,0.15102,-0.017108
+fiqa,3995,"I have more than $250,000 in a US Bank account… mistake?",price | much | amount,0.0,0.0,0.0
+fiqa,4007,What is a reasonable salary for the owner and sole member of a small S-Corp?,pay | corporation | price,0.625705,0.625705,0.0
+fiqa,4011,How can I deal with a spouse who compulsively spends?,marriage | com | husband,0.469279,0.469279,0.0
+fiqa,4019,How and Should I Invest (As a college 18 year old with minimal living expenses)?,minimum | age | eighteen,0.0,0.102097,0.102097
+fiqa,4031,28 years old and just inherited large amount of money and real estate - unsure what to do with it,age | uncertain | wealth,0.0,0.0,0.0
+fiqa,4037,How separate individual expenses from family expenses in Gnucash?,gnu | personal | accounting,0.0,0.0,0.0
+fiqa,4047,Does doing your “research”/“homework” on stocks make any sense?,yes | reading | accounting,0.831872,0.831872,0.0
+fiqa,4071,"If our economy crashes, and cash is worthless, should i buy gold or silver",economic | purchase | mint,0.0,0.0,0.0
+fiqa,4084,What industries soar when oil prices go up?,rise | increase | companies,0.0,0.0,0.0
+fiqa,4102,How can I determine if my rate of return is “good” for the market I am in?,calculate | your | excellent,0.0,0.0,0.0
+fiqa,4103,What causes US Treasury I bond fixed interest to increase?,rise | raise | inflation,0.0,0.0,0.0
+fiqa,4105,As an investor what are side effects of Quantitative Easing in US and in EU?,investment | europe | quan,0.0,0.0,0.0
+fiqa,4116,Would the effects of an anticipated default by a nation be mostly symbolic?,expected | mainly | imminent,0.306574,0.306574,0.0
+fiqa,4125,Alternative means of salary for my employees,pay | your | accounting,0.0,0.0,0.0
+fiqa,4142,Relation between inflation rates and interest rates,cpi | relationship | difference,0.0,0.0,0.0
+fiqa,4153,How do I invest in emerging markets,step | method | you,0.0,0.0,0.0
+fiqa,4179,Why could the serious financial woes of some EU member states lead to the end of the Euro?,wo | europe | failed,0.0,0.333333,0.333333
+fiqa,4188,Why is the stock market rising after Trump's attack on the TPP?,donald | crash | increase,0.0,0.0,0.0
+fiqa,4205,How and why does the exchange rate of a currency change almost everyday?,every | coin | daily,0.0,0.0,0.0
+fiqa,4233,"Are personal finance / money management classes taught in high school, anywhere?",coin | everywhere | financial,0.820766,0.722727,-0.098039
+fiqa,4265,Does it make any sense to directly contribute to reducing the US national debt?,reduction | direct | yes,0.190921,0.190921,0.0
+fiqa,4286,"Given advice “buy term insurance and invest the rest”, how should one “invest the rest”?",ins | purchase | advise,0.613147,0.386853,-0.226294
+fiqa,4289,Does the currency exchange rate contain any additional information at all?,details | extra | coin,0.0,0.0,0.0
+fiqa,4306,How do currency markets work? What factors are behind why currencies go up or down?,coin | rise | exchange,0.529436,0.529436,0.0
+fiqa,4312,Is it true that 90% of investors lose their money?,investment | loss | percent,0.764081,0.760114,-0.003968
+fiqa,4335,What is the US Fair Tax?,finance | regulation | united,0.636682,0.636682,0.0
+fiqa,4339,What could happen to Detroit Municipal bonds because of Detroit's filing for bankruptcy?,bankrupt | michigan | might,0.831555,0.831555,0.0
+fiqa,4394,"Transfer $50k to another person's account (in California, USA)",price | ca | fee,0.0,0.0,0.0
+fiqa,4409,My friend wants to put my name down for a house he's buying. What risks would I be taking?,purchase | home | cancel,0.0,0.0,0.0
+fiqa,4411,How does the importance of a cash emergency fund change when you live in a country with nationalized healthcare?,medical | insurance | significance,0.148041,0.296082,0.148041
+fiqa,4414,Do high interest rates lead to higher bond yields or lower?,highest | low | increase,0.386853,0.386853,0.0
+fiqa,4415,How much is inflation?,cpi | price | expansion,0.0,0.0,0.0
+fiqa,4433,When should you use an actively managed mutual fund in a 401k?,retirement | investment | stock,0.0,0.0,0.0
+fiqa,4447,Should I always hold short term bonds till maturity?,until | you | yes,1.0,1.0,0.0
+fiqa,4464,Are Australian mutual fund fees large compared to US?,australia | comparison | big,0.0,0.0,0.0
+fiqa,4465,How to donate to charity that will make a difference?,step | benefit | charitable,0.0,0.0,0.0
+fiqa,4484,Has the likelihood of getting a lower interest rate by calling & asking been reduced by recent credit card regulations?,chance | decreased | reduction,0.315465,0.30103,-0.014435
+fiqa,4499,Is investing exlusively in a small-cap index fund a wise investment?,ex | large | smart,0.0,0.0,0.0
+fiqa,4500,What to ask Warren Buffet at the Berkshire Hathaway shareholder meeting?,stock | questions | ceo,0.0,0.0,0.0
+fiqa,4504,what is the best way of investment which gives returns forever?,method | finance | ideal,0.613147,0.613147,0.0
+fiqa,4514,"What intrinsic, non-monetary value does gold have as a commodity?",golden | economic | coin,0.151301,0.302602,0.151301
+fiqa,4523,What should I do with my $25k to invest as a 20 years old?,age | price | retirement,0.0,0.0,0.0
+fiqa,4539,How should I save money if the real interest rate (after inflation) is negative?,coin | depressed | cpi,0.0,0.0,0.0
+fiqa,4571,"HSBC Hong Kong's “Deposit Plus” Product: What is it, and what strategies to employ?",hs | bank | hk,0.469279,0.469279,0.0
+fiqa,4600,"Why government bonds fluctuate so much, even though interest rates don't change that often?",flu | every | variation,0.0,0.0,0.0
+fiqa,4605,"If the U.S. defaults on its debt, what will happen to my bank money?",united | coin | your,0.0,0.0,0.0
+fiqa,4615,Are solar cell panels and wind mills worth the money?,coin | sun | yes,0.151301,0.231191,0.07989
+fiqa,4640,What can my relatives do to minimize their out of pocket expenses on their fathers estate,reduce | dad | family,0.0,0.0,0.0
+fiqa,4641,Where should I park my rainy-day / emergency fund?,rain | wet | location,0.0,0.0,0.0
+fiqa,4678,"Finance, Cash or Lease?",rent | financial | fuel,0.0,0.0,0.0
+fiqa,4681,How to fix Finance::Quote to pull quotes in GnuCash,gnu | step | repair,1.0,1.0,0.0
+fiqa,4700,Better to get loan from finance company or bank considering the drop of credit score?,best | lower | worse,1.0,1.0,0.0
+fiqa,4714,Personal finance app where I can mark transactions as “reviewed”?,financial | report | tab,0.571619,0.571619,0.0
+fiqa,4756,What is the formula for the Tesla Finance calculation?,equation | math | financial,0.0,0.0,0.0
+fiqa,4767,New car: buy with cash or 0% financing,zero | vehicle | percent,0.0,0.0,0.0
+fiqa,4775,Should I finance a car to build credit for a mortgage next year?,loan | vehicle | you,0.0,0.0,0.0
+fiqa,4777,How to finance necessary repairs to our home in order to sell it?,sale | step | house,0.0,0.0,0.0
+fiqa,4785,What is the difference between a structured collar and a normal collar in finance?,financial | regular | terry,0.356207,0.30103,-0.055177
+fiqa,4804,How do financial services aimed at women differ from conventional services?,female | traditional | finance,0.386853,0.613147,0.226294
+fiqa,4813,Dealer Financing Fell Through on vehicle purchase: Scam?,fall | loan | sc,0.5,0.430677,-0.069323
+fiqa,4823,"Close to retirement & we may move within 7 years. Should we re-finance our mortgage, or not?",long | loan | period,0.469279,0.469279,0.0
+fiqa,4827,Are all financial advisors compensated in the same way?,paid | advisory | finance,0.0,0.0,0.0
+fiqa,4837,"When applying for a mortgage, can it also cover outstanding debts?",loan | application | only,0.0,0.0,0.0
+fiqa,4844,"How to read bond yield quotes? What do the time, coupon, price, yield, and time mean?",coup | accounting | finance,0.564092,0.564092,0.0
+fiqa,4845,What is the difference between fund and portfolio?,finance | accounting | morgan,0.0,0.0,0.0
+fiqa,4846,Is there anything comparable to/resembling CNN's Fear and Greed Index?,similar | equivalent | wealth,0.0,0.0,0.0
+fiqa,4863,How to calculate new price for bond if yield increases,step | equation | method,0.296082,0.296082,0.0
+fiqa,4865,Why are historical prices of stocks different on different websites? Which one should I believe?,sites | various | belief,0.0,0.0,0.0
+fiqa,4920,Does financing a portfolio on margin affect the variance of a portfolio?,loan | variation | effect,0.871079,0.906025,0.034947
+fiqa,4942,find stock composition of a publicly traded fund,composed | public | calculate,0.0,0.0,0.0
+fiqa,4946,Something looks off about Mitsubishi financial data,error | wrong | finance,1.0,1.0,0.0
+fiqa,4955,How to calculate the value of a bond that is priced to yield X%,percent | step | math,0.0,0.0,0.0
+fiqa,4962,Net Cash Flows from Selling the Bond and Investing,sale | stock | finance,0.264068,0.264068,0.0
+fiqa,4968,Reasons behind a large price movement of a penny stock without any recent news releases?,move | penn | big,0.0,0.30103,0.30103
+fiqa,4981,Where can I find open source portfolio management software?,search | website | store,0.765361,0.765361,0.0
+fiqa,4999,Looking for a good source for Financial Statements,finance | best | searching,0.246302,0.246302,0.0
+fiqa,5021,"Is there a more flexible stock chart service, e.g. permitting choice of colours when comparing multiple stocks?",color | flex | comparison,0.0,0.0,0.0
+fiqa,5030,Why pay for end-of-day historical prices?,payment | history | cost,0.0,0.0,0.0
+fiqa,5045,Why are we taxed on revenue and companies on profit?,businesses | taxa | accounting,0.0,0.0,0.0
+fiqa,5054,How to stress test an investment plan?,step | method | calculate,0.0,0.0,0.0
+fiqa,5061,What fiscal scrutiny can be expected from IRS in early retirement?,earlier | tax | criticism,0.0,0.0,0.0
+fiqa,5064,How much should a graduate student attempt to save?,price | try | college,0.386853,0.306574,-0.080279
+fiqa,5067,LLC: Where should the funds for initial startup costs come from?,start | expense | source,0.315465,0.30103,-0.014435
+fiqa,5080,Is there a standard or best practice way to handle money from an expiring UTMA account?,ut | ex | withdrawal,0.0,0.0,0.0
+fiqa,5083,Co-signer deceased,sign | death | dead,0.0,0.0,0.0
+fiqa,5085,What is vested stock and yearly dividends?,divide | year | annual,0.430677,0.430677,0.0
+fiqa,5086,Mortgage loan implications when tearing down existing house and building new one?,consequences | impact | effect,0.5,0.5,0.0
+fiqa,5090,Should I take a student loan to pursue my undergraduate studies in France?,french | europe | college,0.0,0.0,0.0
+fiqa,5125,Regarding Australian CBS takeover of TEN,australia | channel | tv,1.0,1.0,0.0
+fiqa,5134,Why does Yahoo Finance's data for a Vanguard fund's dividend per share not match the info from Vanguard?,divide | stock | yes,0.204382,0.204382,0.0
+fiqa,5150,What credit card information are offline US merchants allowed to collect for purposes other than the transaction?,off | details | online,0.0,0.0,0.0
+fiqa,5155,"For insurance, why should you refuse $4,000/year for only 10 years and prefer $500/year indefinitely?",price | ins | fee,0.63093,0.63093,0.0
+fiqa,5172,does interest payment on loan stay the same if I pay early,earlier | soon | cancel,0.0,0.0,0.0
+fiqa,5178,Formula that predicts whether one is better off investing or paying down debt,equation | best | calculate,0.0,0.0,0.0
+fiqa,5185,Invest in low cost small cap index funds when saving towards retirement?,pension | stock | lower,0.0,0.0,0.0
+fiqa,5196,I might use a credit card convenience check. What should I consider?,you | handy | consideration,0.0,0.0,0.0
+fiqa,5206,Is it a good idea to get an unsecured loan to pay off a credit card that won't lower a high rate?,un | secured | payment,0.0,0.0,0.0
+fiqa,5228,How does the bank/IRS know whether a bank transfer over $14k is a gift or loan repayment?,repay | price | tax,0.0,0.0,0.0
+fiqa,5231,Where to find CSV or JSON data for publicly traded companies listed with their IPO date?,ip | cs | public,0.0,0.0,0.0
+fiqa,5241,Mortgage vs. Cash for U.S. home buy now,loan | difference | purchase,0.33916,0.33916,0.0
+fiqa,5254,How do I calculate the quarterly returns of a stock index?,step | annual | math,0.613147,0.613147,0.0
+fiqa,5255,Thrift Saving Plan (TSP) Share Price Charts,ts | th | stock,0.967468,0.967468,0.0
+fiqa,5264,Does a company's stock price give any indication to or affect their revenue?,profit | accounting | effect,0.553146,0.553146,0.0
+fiqa,5271,Why are auto leases stubbornly strict about visa status and how to work around that?,stubborn | rent | car,0.0,0.135652,0.135652
+fiqa,5331,Exercises of employee share options,employment | training | activity,1.0,0.63093,-0.36907
+fiqa,5343,“International credit report” for French nationals?,france | global | bureau,0.0,0.0,0.0
+fiqa,5347,car loan life insurance,ins | vehicle | auto,0.5,0.386853,-0.113147
+fiqa,5356,Historical stock prices: Where to find free / low cost data for offline analysis?,off | online | history,0.0,0.0,0.0
+fiqa,5369,Paying for things on credit and immediately paying them off: any help for credit rating?,payment | items | paid,0.0,0.0,0.0
+fiqa,5374,What were the main causes of the spike and drop of DRYS's stock price?,crash | rise | increase,0.0,0.0,0.0
+fiqa,5380,"Can somebody explain “leveraged debt investment positions” and “exposures” in this context for me, please?",exposed | finance | strategy,1.0,1.0,0.0
+fiqa,5402,Is it impossible to get a home loan with a poor credit history after a divorce?,marriage | difficult | easy,0.0,0.0,0.0
+fiqa,5410,Dealership made me the secondary owner to my own car,primary | dealers | vehicle,0.0,0.0,0.0
+fiqa,5422,"What are some good books for learning stocks, bonds, derivatives e.t.c for beginner with a math background?",begin | mathematics | best,0.0,0.0,0.0
+fiqa,5427,How do auto-loan payments factor into taxes for cars that are solely used by dependent(s)?,vehicle | primarily | calculate,0.0,0.0,0.0
+fiqa,5460,Paying off a loan with a loan to get a better interest rate,payment | earn | best,0.0,0.0,0.0
+fiqa,5464,Resources on Buying Rental Properties,rent | purchase | landlord,0.0,0.0,0.0
+fiqa,5503,Tax considerations for selling a property below appraised value to family?,sale | above | lower,0.0,0.0,0.0
+fiqa,5505,Can I deduct interest and fees on a loan for qualified medical expenses?,de | med | qualification,1.0,1.0,0.0
+fiqa,5511,Pay off car loan entirely or leave $1 until the end of the loan period?,till | vehicle | price,0.0,0.0,0.0
+fiqa,5534,How does “taking over payments” work?,method | mechanism | accounting,0.0,0.0,0.0
+fiqa,5549,Pros / cons of being more involved with IRA investments [duplicate],disadvantage | better | less,0.0,0.0,0.0
+fiqa,5585,Is there any site you can find out about the 'bonus features' of credit cards?,bonuses | websites | search,0.0,0.0,0.0
+fiqa,5592,Are “hard money loans” meant only for real estate?,mean | property | coin,1.0,1.0,0.0
+fiqa,5616,How and where do companies publish financial reports?,businesses | finance | accounting,0.0,0.0,0.0
+fiqa,5620,What's the fuss about identity theft?,stolen | mess | id,0.0,0.0,0.0
+fiqa,5646,Do I need multiple credit monitoring services?,multi | separate | watch,0.469279,0.469279,0.0
+fiqa,5653,Steps and timing of the SEIS investment (in the UK),se | british | date,1.0,1.0,0.0
+fiqa,5683,What is the PEG ratio? How is the PEG ratio calculated? How is the PEG ratio useful for stock investing?,robin | finance | investors,1.0,1.0,0.0
+fiqa,5710,Bucketing investments to track individual growths,grow | personal | expansion,0.0,0.0,0.0
+fiqa,5741,Learning investing and the stock market,training | studying | finance,0.0,0.0,0.0
+fiqa,5763,What is the best way to get a “rough” home appraisal prior to starting the refinance process?,ref | before | method,0.156426,0.156426,0.0
+fiqa,5782,"Pay off credit cards in one lump sum, or spread over a few months?",payment | couple | whole,0.33916,0.33916,0.0
+fiqa,5790,FX losses on non-UK mortgage for UK property - tax deductable?,loan | de | lost,0.0,0.0,0.0
+fiqa,5808,How do you calculate return on investment for a share of stock?,math | step | accounting,0.30103,0.0,-0.30103
+fiqa,5853,Paying Off Principal of Home vs. Investing In Mutual Fund,payment | stock | difference,0.0,0.0,0.0
+fiqa,5862,Can I get a discount on merchandise by paying with cash instead of credit?,coup | payment | mer,0.246302,0.246302,0.0
+fiqa,5888,Interest charges on balance transfer when purchases are involved,fee | acquisition | buy,0.306574,0.306574,0.0
+fiqa,5903,"Fees aside, what factors could account for performance differences between U.S. large-cap index ETFs?",et | fund | stock,0.0,0.0,0.0
+fiqa,5906,0% APR first 12 months on new credit card. Can I exceed that 30% rule of thumb and not hurt my credit score?,zero | long | percent,0.0,0.0,0.0
+fiqa,5940,How does investment into a private company work?,businesses | finance | step,0.0,0.0,0.0
+fiqa,5951,Why can't house prices be out of tune with salaries,pay | home | property,0.336576,0.317574,-0.019002
+fiqa,5970,How to calculate ownership for property with a partner,partnership | owner | step,0.135652,0.0,-0.135652
+fiqa,5981,Is it a good investment for a foreigner to purchase a flat/apartment in China?,chinese | buy | alien,0.853932,0.868795,0.014863
+fiqa,5993,Why would anyone want to pay off their debts in a way other than “highest interest” first?,payment | repay | high,0.078398,0.063621,-0.014777
+fiqa,6002,15 year mortgage vs 30 year paid off in 15,fifteen | loan | thirty,0.415281,0.400023,-0.015258
+fiqa,6004,Put-Call parity - what is the difference between the two representations?,par | represent | math,0.0,0.0,0.0
+fiqa,6005,Why might it be advisable to keep student debt vs. paying it off quickly?,fast | quick | soon,0.400023,0.432318,0.032295
+fiqa,6009,Why can low volume move a stock price drastically?,significantly | dramatically | lower,0.0,0.0,0.0
+fiqa,6041,Most effective Fundamental Analysis indicators for market entry,enter | analyze | best,0.749528,0.636682,-0.112845
+fiqa,6080,Is ScholarShare a legitimate entity for a 529 plan in California?,scholars | ca | scholarship,0.613147,0.613147,0.0
+fiqa,6110,Why does short selling require borrowing?,loan | sale | finance,0.412532,0.412532,0.0
+fiqa,6121,What are my best options if I don't have a lot of credit lines for housing loans?,you | rent | not,0.0,0.0,0.0
+fiqa,6122,Better to rent condo to daughter or put her on title?,best | rental | son,0.469279,0.469279,0.0
+fiqa,6131,Is it ever a good idea to close credit cards?,cancel | never | best,0.138862,0.110046,-0.028817
+fiqa,6133,What happens to all of the options when they expire?,ex | effect | last,0.218407,0.193426,-0.024981
+fiqa,6142,How does stabilization work during an IPO?,ip | mechanism | method,0.386853,0.386853,0.0
+fiqa,6146,Lost credit card replaced with new card and new numbers. Credit score affected?,loss | cancel | error,0.613147,0.613147,0.0
+fiqa,6199,How can all these countries owe so much money?  Why & where did they borrow it from?,debt | loan | coin,0.520507,0.558508,0.038001
+fiqa,6219,Are there Investable Real Estate Indices which track Geographical Locations?,index | geography | property,1.0,1.0,0.0
+fiqa,6221,"To pay off a student loan, should I save up a lump sum payoff payment or pay extra each month?",cancel | repay | you,0.0,0.0,0.0
+fiqa,6252,"Is this mortgage advice good, or is it hooey?",ho | loan | advise,0.0,0.0,0.0
+fiqa,6262,Help required on estimating SSA benefit amounts,ss | calculate | est,0.141267,0.156426,0.015159
+fiqa,6278,What is the best way to help my dad consolidate his credit card debt at a lower rate?,father | parents | method,0.613147,0.613147,0.0
+fiqa,6395,Option settlement for calendar spreads,settled | schedule | payment,0.0,0.0,0.0
+fiqa,6410,Will an ETF immediately reflect a reconstitution of underlying index,et | rec | soon,0.63093,0.5,-0.13093
+fiqa,6420,Does the bid/ask concept exist in dealer markets?,yes | strategy | wait,0.831555,0.831555,0.0
+fiqa,6441,Trading with Settled / Unsettled Funds (T+3),un | settlement | stock,0.430677,0.430677,0.0
+fiqa,6467,Advice on strategy for when to sell,sale | advise | marketing,0.0,0.0,0.0
+fiqa,6468,Why deep in the money options have very low liquidity,coin | lower | fluid,0.613147,0.613147,0.0
+fiqa,6479,Trading on exchanges or via brokerage companies?,broker | stock | through,0.919721,1.0,0.080279
+fiqa,6525,Does it make sense to trade my GOOGL shares for GOOG and pocket the difference?,goo | yes | stock,0.477624,0.477624,0.0
+fiqa,6554,"Mutual fund value went down, shares went up, no action taken by me",stock | go | drop,0.218407,0.218407,0.0
+fiqa,6562,"Cheapest way to “wire” money in an Australian bank account to a person in England, while I'm in Laos?",cheap | australia | uk,0.0,0.0,0.0
+fiqa,6611,How does Vanguard determine the optimal asset allocation for their Target Retirement Funds?,calculate | ideal | strategy,0.306574,0.306574,0.0
+fiqa,6612,"If I have a lot of debt and the housing market is rising, should I rent and slowly pay off my debt or buy and roll the debt into a mortgage?",rental | loan | landlord,0.0,0.0,0.0
+fiqa,6625,What does a high theta mean for an option position?,highest | math | signal,0.0,0.0,0.0
+fiqa,6629,Tax treatment of a boxed trade?,treated | penalty | regulation,0.0,0.0,0.0
+fiqa,6635,Why don't share prices of a company rise every other Friday when the company buys shares for its own employees?,increase | stock | purchase,0.39038,0.39038,0.0
+fiqa,6644,How to know precisely when a SWIFT is issued by a bank?,exactly | tell | step,0.0,0.0,0.0
+fiqa,6647,What is meant by “priced in”?,cost | within | mean,0.0,0.0,0.0
+fiqa,6668,Approximate IT company valuation (to proximate stock options value),estimate | calculate | pro,0.306574,0.306574,0.0
+fiqa,6679,Specifically when do options expire?,ex | date | period,0.0,0.0,0.0
+fiqa,6683,Who are the sellers for the new public stocks?,sell | latest | sale,0.0,0.204382,0.204382
+fiqa,6713,Will my father still be eligible for SNAP if I claim him as my dependent?,parents | dad | yes,0.613147,0.613147,0.0
+fiqa,6715,What does it mean if “IPOs - normally are sold with an `underwriting discount` (a built in commission)”,ip | under | sale,0.613147,0.613147,0.0
+fiqa,6746,What happens if stock purchased on margin plummets below what I have in the brokerage?,broker | plum | above,0.0,0.0,0.0
+fiqa,6787,"Would it make sense to sell a stock, then repurchase it for tax purposes?",rep | sale | yes,0.0,0.0,0.0
+fiqa,6792,Where to find the full book of outstanding bids/asks for a stock?,search | tab | list,0.0,0.0,0.0
+fiqa,6800,I don't live in America. How can I buy IPO stock of newly listed companies in the United States?,ip | new | purchase,0.0,0.0,0.0
+fiqa,6803,What are the common moving averages used in a “Golden Cross” stock evaluation?,chart | assessment | rating,0.246302,0.19519,-0.051112
+fiqa,6807,How to incorporate dividends while calculating annual return of a Stock,divide | step | method,1.0,1.0,0.0
+fiqa,6814,Selling Stock - All or Nothing?,sale | finance | things,0.0,0.0,0.0
+fiqa,6832,incorrect printed information on check stock,wrong | error | details,0.0,0.0,0.0
+fiqa,6835,Are bond ETF capital gains taxed similar to stock or stock funds if held for more than 1 year?,et | taxa | period,0.264068,0.264068,0.0
+fiqa,6849,What do the points in a stock market index epresent?,ep | chart | calculate,0.5,0.386853,-0.113147
+fiqa,6862,Canada discount stock brokers: Interactive Brokers vs. Questrade?,quest | canadian | company,0.63093,0.63093,0.0
+fiqa,6867,Will there always be somebody selling/buying in every stock?,sale | someone | purchase,0.0,0.0,0.0
+fiqa,6875,Where to find free Thailand stock recommendations and research?,thai | search | website,0.30103,0.0,-0.30103
+fiqa,6890,Where does the money go when I buy stocks?,coin | purchase | place,0.0,0.0,0.0
+fiqa,6891,What is the theory behind Rick Van Ness's risk calculation in the video about diversification?,divers | ross | diving,0.469279,0.469279,0.0
+fiqa,6896,"Selling high, pay capital gains, re-purchase later",sale | highest | soon,0.0,0.0,0.0
+fiqa,6901,Rules for Broker Behavior with Covered Calls,penalty | fraud | coverage,0.0,0.0,0.0
+fiqa,6907,Nominal value of shares,stock | price | accounting,0.0,0.0,0.0
+fiqa,6909,Why do stocks priced above $2.00 on the ASX sometimes move in $0.005 increments?,fee | cost | much,0.0,0.0,0.0
+fiqa,6959,What is the term for the quantity (high price minus low price) for a stock?,math | plus | lower,0.0,0.0,0.0
+fiqa,6985,"Bed and Breakfast, Same Day Capital Gains UK",dinner | restaurant | british,0.63093,0.63093,0.0
+fiqa,7017,Basic Algorithmic Trading Strategy,stock | plan | market,0.0,0.0,0.0
+fiqa,7068,Making money through CFD,cf | profit | earn,0.919721,0.919721,0.0
+fiqa,7071,ESPP strategy - Sell right away or hold?,es | sale | stock,0.0,0.0,0.0
+fiqa,7080,Wash sale rule with dividend reinvestment,divide | rein | clean,0.81753,0.81753,0.0
+fiqa,7096,What's the formula for profits and losses when I delta hedge?,equation | calculate | math,0.333333,0.333333,0.0
+fiqa,7098,Can another tax loss be used to offset capital gains taxes? How does it work?,lost | escape | yes,0.264068,0.218407,-0.045661
+fiqa,7105,What is the difference between fixed-income duration and equity duration?,period | finance | timing,0.0,0.0,0.0
+fiqa,7109,How do I analyse moving averages?,anal | calculate | analysis,0.469279,0.296082,-0.173197
+fiqa,7124,How come we can find stocks with a Price-to-Book ratio less than 1?,calculate | lower | one,0.130127,0.15102,0.020893
+fiqa,7141,Do investors go long option contracts when they cannot cover the exercise of the options?,extended | investment | not,0.0,0.0,0.0
+fiqa,7145,Are there “buy and hold” passively managed funds?,purchase | active | finance,0.0,0.0,0.0
+fiqa,7178,Should an ADR that is being delisted be sold off?,ad | del | sell,0.0,0.0,0.0
+fiqa,7188,What explains the enormous increase in gold price in the early 21st century?,golden | earlier | crash,0.0,0.0,0.0
+fiqa,7205,Is it possible to see option prices from the past?,previous | view | find,0.356207,0.333333,-0.022874
+fiqa,7206,Who Bought A Large Number Of Shares?,buy | stock | big,0.0,0.0,0.0
+fiqa,7218,What margin is required to initiate and maintain a short sale,sell | start | maintenance,0.386853,0.386853,0.0
+fiqa,7221,How Technical Analysts react to non-market hours effects,reaction | analysis | tech,0.0,0.0,0.0
+fiqa,7269,How do I track investment performance in Quicken across rollovers?,quick | roll | calculate,0.0,0.0,0.0
+fiqa,7279,"If I invest in securities denominated in a foreign currency, should I hedge my currency risk?",den | coin | you,0.242972,0.242972,0.0
+fiqa,7295,Selling non-dividend for dividend stocks,divide | sale | no,0.0,0.0,0.0
+fiqa,7311,"Finance, Social Capital IPOA.U",ip | ss | financial,0.0,0.0,0.0
+fiqa,7326,Do brokers execute every trade on the exchange?,everything | stock | each,0.0,0.0,0.0
+fiqa,7329,Does Implied Volatilty factor in all known future events?,vol | past | expected,0.0,0.0,0.0
+fiqa,7344,How is the Dow divisor calculated?,di | math | equation,0.386853,0.386853,0.0
+fiqa,7345,What do these numbers mean? (futures),digits | math | davis,0.0,0.0,0.0
+fiqa,7377,What type of returns Vanguard is quoting?,quota | tax | stock,0.289065,0.386853,0.097788
+fiqa,7431,Pay off mortgage or invest in high value saving account,loan | payment | highest,0.0,0.30103,0.30103
+fiqa,7441,"Since many brokers disallow investors from shorting sub-$5 stocks, why don't all companies split their stock until it is sub-$5",price | di | five,0.343374,0.375906,0.032532
+fiqa,7445,IS it the wrong time to get into the equity market immediately after large gains?,big | enter | incorrect,0.0,0.0,0.0
+fiqa,7448,"If an index goes up because an underlying company issues more shares, what happens to the ETF",et | increase | stock,1.0,1.0,0.0
+fiqa,7456,What is market order's relation to bid ask spread?,relationship | strategy | wait,0.0,0.0,0.0
+fiqa,7463,Pros/cons of borrowing money using a mortgage loan and investing it in a low-fee index fund?,disadvantage | lower | finance,0.0,0.0,0.0
+fiqa,7467,Stocks are traded on secondary markets?,primary | companies | broker,0.0,0.0,0.0
+fiqa,7484,Why sometimes payable date is BEFORE the ex-dividend date?,divide | pay | payment,1.0,1.0,0.0
+fiqa,7509,Investment Portfolio Setup for beginner,begin | start | set,0.0,0.0,0.0
+fiqa,7512,understanding the process/payment of short sale dividends,divide | accounting | sell,0.0,0.0,0.0
+fiqa,7513,Where are Bogleheadian World ETFs or Index funds?,bog | et | location,0.0,0.0,0.0
+fiqa,7529,Does the expense ratio of a fund-of-funds include the expense ratios of its holdings?,accounting | stock | calculate,0.204382,0.184576,-0.019807
+fiqa,7533,Investing tax (savings),finance | accounting | wealth,0.0,0.0,0.0
+fiqa,7534,Can you explain why it's better to invest now rather than waiting for the market to dip?,best | instead | strategy,0.296082,0.296082,0.0
+fiqa,7590,Why are US target retirement funds weighted so heavily towards US stocks?,heavy | pension | investment,0.386853,0.386853,0.0
+fiqa,7592,few question about debit credit and liabilities,de | accounting | asked,0.0,0.0,0.0
+fiqa,7594,Converting annual interbank rates into monthly rates,inter | bank | month,0.0,0.0,0.0
+fiqa,7622,Best way to pay off debt?,method | repay | payment,0.0,0.0,0.0
+fiqa,7633,Can a trade happen “in between” the bid and ask price?,separate | wait | occur,0.39038,0.39038,0.0
+fiqa,7674,Choosing the limit when making a limit order?,max | choice | decide,0.0,0.0,0.0
+fiqa,7700,Should I re-allocate my portfolio now or let it balance out over time?,all | cancel | investment,0.0,0.0,0.0
+fiqa,7702,Bond ETFs vs actual bonds,et | difference | than,0.237198,0.237198,0.0
+fiqa,7705,Why would I pick a specific ETF over an equivalent Mutual Fund?,et | choose | particular,0.358534,0.369268,0.010734
+fiqa,7734,Can PE ratio of stocks be compared to other investments?,comparison | investors | than,0.613147,0.613147,0.0
+fiqa,7747,What happens to bonds values when interest rates rise? [duplicate],effect | increase | inflation,0.0,0.0,0.0
+fiqa,7754,Inverse Relationship between Volatility and Beta,vol | alpha | correlation,0.0,0.0,0.0
+fiqa,7758,Bid/ask spreads for index funds,stock | rate | wait,0.333333,0.315465,-0.017868
+fiqa,7801,What are some well known or well regarded arguments against investing?,argue | opposed | stock,0.386853,0.386853,0.0
+fiqa,7803,Can the Delta be used to calculate the option premium given a certain target?,yes | specific | tracking,0.0,0.0,0.0
+fiqa,7823,Retirement Funds: Betterment vs Vanguard Life strategy vs Target Retirement,pension | difference | best,0.469279,0.469279,0.0
+fiqa,7876,Why do stocks split?,separate | merger | difference,0.0,0.0,0.0
+fiqa,7879,Any Tips on How to Get the Highest Returns Within 4 Months by Investing in Stocks?,four | long | advice,0.0,0.0,0.0
+fiqa,7880,Are there index tracking funds that avoid the “buy high - sell low” problem?,lower | sale | purchase,0.613147,0.613147,0.0
+fiqa,7911,What is the difference between a 'trader' and a 'stockbroker'?,stock | trade | broker,1.0,1.0,0.0
+fiqa,7925,Can I sell a stock immediately?,sale | quickly | soon,0.0,0.0,0.0
+fiqa,7928,"If I believe a stock is going to fall, what options do I have to invest on this?",belief | drop | think,0.246302,0.246302,0.0
+fiqa,7936,Why naked call writing is risky compare to Covered call?,risk | dangerous | written,0.148041,0.148041,0.0
+fiqa,7992,What type of pension should I get?,retirement | best | you,0.264068,0.237198,-0.02687
+fiqa,8002,What is the tax treatment of scrip dividends in the UK?,divide | sc | treated,0.296082,0.296082,0.0
+fiqa,8005,Difference between Vanguard sp500 UCITS and Vanguard sp500,uci | sp | model,0.0,0.0,0.0
+fiqa,8013,Frequency of investments to maximise returns (and minimise fees),maxim | mini | reduce,0.0,0.0,0.0
+fiqa,8017,Purchasing ETFs when (pretty much) everything else is maxed out,et | buy | everyone,0.0,0.0,0.0
+fiqa,8034,What is the average cost of a portfolio on a trading site?,price | fee | stock,0.0,0.0,0.0
+fiqa,8040,Best way to make most of savings with ISA and Offset mortgage,method | loan | step,0.63093,0.63093,0.0
+fiqa,8072,"What does it mean “sell on ask” , “sell on bid” in stocks?",sale | finance | demand,0.234639,0.234639,0.0
+fiqa,8079,Growth rate plus dividend yieid total?,divide | yi | grow,0.38268,0.234639,-0.148041
+fiqa,8102,When do I sell a stock that I hold as a long-term position?,extended | sale | date,0.0,0.0,0.0
+fiqa,8116,A-B-C Class Shares: What's the difference?,stock | finance | accounting,0.193426,0.204382,0.010956
+fiqa,8121,Can I calculate stock value with Williams%R if I know the last set?,percent | russell | prices,0.63093,1.0,0.36907
+fiqa,8202,What accounted for DXJR's huge drop in stock price?,caused | crash | failed,0.0,0.0,0.0
+fiqa,8230,Why would this kind of penny stock increase so much in value?,penn | raise | more,0.0,0.0,0.0
+fiqa,8247,Tax on Stocks or ETF's,et | taxa | accounting,0.0,0.0,0.0
+fiqa,8271,Income in zero-interest environment,environmental | salary | profit,0.613147,0.613147,0.0
+fiqa,8275,Buy/Selling prices at the stock exchange represent someone Selling/Buying at that price?,purchase | sale | person,0.0,0.0,0.0
+fiqa,8296,Can the beta of a stock be used as a lagging indicator for the stock w.r.t the market,la | alpha | signal,0.613147,0.613147,0.0
+fiqa,8332,Why do put option prices go higher when the underlying stock tanks (drops)?,increase | high | raise,0.296082,0.296082,0.0
+fiqa,8351,What happens when a calendar spread is assigned in a non-margin account?,effect | error | allocated,0.204382,0.204382,0.0
+fiqa,8378,Should I wait a few days to sell ESPP Stock?,es | sale | couple,0.0,0.0,0.0
+fiqa,8456,What typically happens to unvested stock during an acquisition?,un | usually | purchase,0.469279,0.469279,0.0
+fiqa,8475,Why I cannot find a “Pure Cash” option in 401k investments?,not | disadvantage | unable,0.448304,0.448304,0.0
+fiqa,8507,When to sell a stock?,sale | date | purchase,0.0,0.0,0.0
+fiqa,8512,Is it possible to transfer stock I already own into my Roth IRA without having to sell the stock?,sale | yes | previously,0.0,0.0,0.0
+fiqa,8513,Buy on dip when earnings fail?,purchase | failure | salary,0.0,0.0,0.0
+fiqa,8532,What do these options trading terms mean?,stock | terminology | finance,0.296082,0.296082,0.0
+fiqa,8537,What is an “Options Account”?,finance | ian | technology,0.0,0.0,0.0
+fiqa,8539,Can the risk of investing in an asset be different for different investors?,various | both | yes,0.0,0.0,0.0
+fiqa,8544,Strategies to recover from a bad short-term call options purchase where the underlying dropped instead?,recovery | cancel | buy,0.613147,0.613147,0.0
+fiqa,8592,Tax implications of exercising ISOs and using proceeds to exercise more ISOs,profit | impact | effect,0.650821,0.650821,0.0
+fiqa,8632,"Is it best to exercise options shares when they vest, or wait",fitness | activity | stock,0.0,0.0,0.0
+fiqa,8635,Is there any flaw in this investment scheme?,error | yes | plan,0.0,0.0,0.0
+fiqa,8702,Why is early exercise generally not recommended for an in-the-money option?,earlier | coin | activity,0.671386,0.671386,0.0
+fiqa,8779,How does a defined contribution plan work,function | method | calculate,0.0,0.0,0.0
+fiqa,8789,What does “profits to the shareholders jumped to 15 cents a share” mean?,fifteen | stock | finance,0.765361,0.765361,0.0
+fiqa,8795,Stock exchanges using open outcry,out | market | merger,1.0,1.0,0.0
+fiqa,8832,Is it possible to buy commodity ETFs (e.g. silver) through Questrade?,quest | et | purchase,0.356207,0.315465,-0.040742
+fiqa,8834,Pros/Cons of Buying Discounted Company Stock,coup | purchase | disadvantage,0.130324,0.130324,0.0
+fiqa,8855,How do i get into investing stocks [duplicate],step | replica | method,0.0,0.0,0.0
+fiqa,8874,When can you adjust for (and re-allow) a disallowed year-end (December) wash-sale loss?,dec | di | date,0.333333,0.333333,0.0
+fiqa,8934,Dividend yield for multiple years?,divide | multi | rate,0.218407,0.306574,0.088166
+fiqa,8937,“In-the-Money” vs “Out-of-the-Money” Call Options,coin | finance | marketing,0.0,0.0,0.0
+fiqa,8947,Can a Roth IRA be used as a savings account?,yes | retirement | alternative,0.0,0.0,0.0
+fiqa,8959,How is the opening-day price of a stock decided?,determined | decision | calculate,0.356207,0.356207,0.0
+fiqa,8970,"What's the difference, if any, between stock appreciation and compound interest?",finance | accounting | inflation,0.613147,0.564092,-0.049055
+fiqa,8974,"As a 22-year-old, how risky should I be with my 401(k) investments?",risk | age | dangerous,0.126471,0.159589,0.033118
+fiqa,8982,Are Exchange-Traded Funds (ETFs) less safe than regular mutual funds?,et | dangerous | more,0.0,0.0,0.0
+fiqa,9060,Buying puts without owning underlying,purchase | abstract | owner,0.386853,0.386853,0.0
+fiqa,9088,Brokerage account for charity,broker | charitable | trust,0.0,0.0,0.0
+fiqa,9108,"Starting an investment portfolio with Rs 5,000/-",price | india | fee,0.0,0.0,0.0
+fiqa,9115,Why does the calculation for percentage profit vary based on whether a position is short vs. long?,percent | extended | variation,0.0,0.0,0.0
+fiqa,9126,Short an option - random assignment?,shorter | quote | student,0.0,0.0,0.0
+fiqa,9164,Bonds vs equities: crash theory,finance | difference | versus,0.0,0.0,0.0
+fiqa,9174,Which U.S. online discount broker is the best value for money?,coin | coup | united,0.0,0.0,0.0
+fiqa,9188,Selling mutual fund and buying equivalent ETF: Can I 1031 exchange?,et | sale | purchase,0.613147,0.613147,0.0
+fiqa,9245,Stock Options for a company bought out in cash and stock,buy | purchase | finance,0.0,0.0,0.0
+fiqa,9275,Do I have to pay a capital gains tax if I rebuy the same stock within 30 days?,long | thirty | re,0.0,0.0,0.0
+fiqa,9291,Are there any consequences for investing in Vanguard's Admiral Shares funds instead of ETF's in a Roth IRA?,et | yes | stock,0.0,0.0,0.0
+fiqa,9296,Why would Two ETFs tracking Identical Indexes Produce different Returns?,et | both | similar,0.0,0.0,0.0
+fiqa,9329,Interactive Brokers: IOPTS and list of structured products,io | active | technology,0.81753,0.81753,0.0
+fiqa,9332,What can I do with a physical stock certificate for a now-mutual company?,you | step | registration,0.0,0.0,0.0
+fiqa,9381,Trade? Buy and hold? Or both?,purchase | finance | bart,0.0,0.0,0.0
+fiqa,9385,Meaning of reinvestment,rein | re | restoration,0.0,0.0,0.0
+fiqa,9391,Should I replace bonds in a passive investment strategy,active | you | yes,0.0,0.0,0.0
+fiqa,9403,Abundance of Cash - What should I do?,wealth | availability | you,0.0,0.0,0.0
+fiqa,9481,What are reasonable administrative fees for an IRA?,cost | retirement | penalty,0.613147,0.386853,-0.226294
+fiqa,9487,Is a public company allowed to issue new shares below market price without consulting shareholders?,stock | lower | above,0.0,0.0,0.0
+fiqa,9548,"How do I research, analyze, and choose the right mutual fund for a roth ira?",analysis | step | calculate,0.0,0.0,0.0
+fiqa,9556,How does pre-market trading work?,stock | strategy | before,1.0,1.0,0.0
+fiqa,9565,What are the tax benefits of dividends vs selling stock,divide | sale | difference,0.919721,0.919721,0.0
+fiqa,9598,How do index funds actually work?,really | function | calculate,0.0,0.0,0.0
+fiqa,9617,What differentiates index funds and ETFs?,et | difference | finance,0.0,0.0,0.0
+fiqa,9633,Video recommendation for stock market education,training | learning | certification,0.613147,0.613147,0.0
+fiqa,9643,Is there any public data available to determine an ETF's holdings?,et | calculate | owned,0.5,0.5,0.0
+fiqa,9644,"If early exercise is a bad idea, why American option is more expensive than European [duplicate]",earlier | europe | cost,0.333333,0.333333,0.0
+fiqa,9646,Do common stocks and preferred stocks have any differences in terms of percentage of the company per unit they represent?,percent | accounting | finance,0.177239,0.0,-0.177239
+fiqa,9668,Do stock option prices predicate the underlying stock's movement?,move | pre | abstract,0.296082,0.234639,-0.061443
+fiqa,9701,How to bet against the London housing market?,uk | step | gambling,0.0,0.0,0.0
+fiqa,9733,Due Diligence - Dilution?,assessment | legal | forensic,0.0,0.0,0.0
+fiqa,9735,What are “equity assets”?,finance | equality | accounting,0.0,0.0,0.0
+fiqa,9737,Long(100%)-Short(-100%) investment explanation,extended | percent | finance,0.732829,0.732829,0.0
+fiqa,9771,Is there any emprical research done on 'adding to a loser',add | addition | em,0.0,0.0,0.0
+fiqa,9808,Selling To Close,sale | purchase | buyer,0.148041,0.296082,0.148041
+fiqa,9824,Where can end-of-day data be downloaded for corporate bonds?,tab | company | business,0.0,0.0,0.0
+fiqa,9871,What should I do with the 50k I have sitting in a European bank?,europe | fifty | eu,0.19519,0.139056,-0.056134
+fiqa,9882,Money-market or cash-type ETFs for foreigners with U.S brokerage account,et | broker | coin,0.0,0.0,0.0
+fiqa,9925,What does Chapter 11 Bankruptcy mean to an investor holding shares of a Chapter 11 Company?,bankrupt | stock | finance,0.613147,0.613147,0.0
+fiqa,9929,"Investing in commodities, pros and cons?",stock | finance | economic,0.0,0.0,0.0
+fiqa,9961,Employer rollover from 403b to 401k?,roll | employee | retirement,0.63093,0.63093,0.0
+fiqa,9979,What is the best way to invest in gold as a hedge against inflation without having to hold physical gold?,method | golden | cpi,0.246302,0.246302,0.0
+fiqa,10034,Tax implications of holding EWU (or other such UK ETFs) as a US citizen?,et | impact | effect,0.264068,0.264068,0.0
+fiqa,10039,Do individual investors use Google to obtain stock quotes?,investment | quota | personal,0.0,0.0,0.0
+fiqa,10109,Why does Charles Schwab have a Mandatory Settlement Period after selling stocks?,sc | required | sale,0.393259,0.381213,-0.012046
+fiqa,10122,Why diversify stocks/investments?,divers | diving | important,0.0,0.0,0.0
+fiqa,10136,How to minimise the risk of a reduction in purchase power in case of Brexit for money held in a bank account?,mini | br | reduce,0.0,0.0,0.0
+fiqa,10137,F-1 student investing in foreign markets,international | one | stock,0.0,0.0,0.0
+fiqa,10152,What does a high operating margin but a small but positive ROE imply about a company?,mean | accounting | finance,0.63093,0.63093,0.0
+fiqa,10183,How are various types of income taxed differently in the USA?,us | united | taxa,0.0,0.0,0.0
+fiqa,10213,Looking for good investment vehicle for seasonal work and savings,best | job | excellent,0.148041,0.16716,0.019119
+fiqa,10246,Understanding the T + 3 settlement days rule,settled | three | plus,0.0,0.0,0.0
+fiqa,10267,How should I prepare for the next financial crisis?,crises | step | finance,0.0,0.0,0.0
+fiqa,10414,What is considered high or low when talking about volume?,lower | highest | math,0.613147,0.613147,0.0
+fiqa,10447,Is there an advantage to a traditional but non-deductable IRA over a taxable account? [duplicate],benefit | taxa | tax,0.156426,0.156426,0.0
+fiqa,10462,"Is it okay to be married, 30 years old and have no retirement?",marriage | thirty | age,0.0,0.0,0.0
+fiqa,10482,Rollover into bond fund to do dollar cost averaging [duplicate],roll | replica | calculate,0.0,0.0,0.0
+fiqa,10497,Why would you elect to apply a refund to next year's tax bill?,ref | application | return,0.358954,0.358954,0.0
+fiqa,10526,What extra information might be obtained from the next highest bids in an order book?,details | additional | high,0.0,0.0,0.0
+fiqa,10547,How much do brokerages pay exchanges per trade?,broker | price | fee,0.0,0.0,0.0
+fiqa,10558,Investment strategy for 401k when rolling over soon,plan | retirement | stock,0.204382,0.0,-0.204382
+fiqa,10596,Does a market maker sell (buy) at a bid or ask price?,sale | purchase | manufacturer,0.882613,0.882613,0.0
+fiqa,10601,Bitcoin Cost Basis Purchases,bit | base | price,1.0,1.0,0.0
+fiqa,10628,"What happens with the “long” buyer of a stock when somebody else's short fails (that is, unlimited loss bankrupts short seller)",extended | limited | purchase,0.0,0.0,0.0
+fiqa,10639,Short term parking of a large inheritance?,big | estate | endowment,0.102097,0.102097,0.0
+fiqa,10645,Explain the details and benefits of rebalancing a retirement portfolio?,re | pension | strategy,0.237198,0.204382,-0.032815
+fiqa,10674,How to sell a stock in a crashing market?,step | sale | method,0.39038,0.39038,0.0
+fiqa,10710,Probablity of touching In the money vs expiring in the money for an american option,coin | ex | pro,0.0,0.0,0.0
+fiqa,10734,How do you translate a per year salary into a part-time per hour job?,convert | calculate | pay,0.493523,0.493523,0.0
+fiqa,10792,How can I calculate a “running” return using XIRR in a spreadsheet?,xi | spreads | step,0.204382,0.204382,0.0
+fiqa,10808,What are a few sites that make it easy to invest in high interest rate mutual funds?,easily | websites | highest,0.0,0.0,0.0
+fiqa,10809,Definitions of leverage and of leverage factor,equity | finance | lever,0.148041,0.202107,0.054066
+fiqa,10812,Is is possible to dispute IRS underpayment penalties?,tax | under | yes,0.827043,0.832678,0.005635
+fiqa,10827,How much should I be contributing to my 401k given my employer's contribution?,price | employee | amount,0.0,0.0,0.0
+fiqa,10845,"Rationale behind using 12, 26 and 9 to calculate MACD",mac | rational | nine,1.0,1.0,0.0
+fiqa,10912,Forex independent investments,fore | company | broker,0.0,0.0,0.0
+fiqa,10932,Transferring money from 403B to 401K?,move | coin | retirement,1.0,1.0,0.0
+fiqa,10975,How to contribute to Roth IRA when income is at the maximum limit & you have employer-sponsored 401k plans?,max | retirement | employee,0.0,0.0,0.0
+fiqa,10979,Closing a futures position,ending | stock | job,0.441492,0.441492,0.0
+fiqa,10994,Net loss not distributed by mutual funds to their shareholders?,lost | investors | non,0.510956,0.482476,-0.02848
+fiqa,11039,Pay off credit card debt or earn employer 401(k) match?,employee | payment | retirement,0.0,0.0,0.0
+fiqa,11054,Short Term Capital Gains tax vs. IRA Withdrawal Tax w/o Quarterly Est. Taxes,retirement | difference | accounting,1.0,1.0,0.0
+fiqa,11088,Am I required to have a lawyer create / oversee creation of my will?,wills | attorney | legal,0.0,0.0,0.0

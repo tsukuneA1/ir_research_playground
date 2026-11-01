@@ -1,0 +1,3419 @@
+{
+  "alpha": 0.25,
+  "candidate_cutoff": 100,
+  "rank_lookahead": 1000,
+  "cases": [
+    {
+      "dataset": "scifact",
+      "query_id": "212",
+      "selection_reason": "large_improvement",
+      "summary": {
+        "dataset": "scifact",
+        "query_id": "212",
+        "change": "improved",
+        "query": "CR is associated with higher methylation age.",
+        "expansion_terms": "methyl | high | correlated",
+        "base_ndcg10": 0.430677,
+        "fixed_candidates_expanded_rank_ndcg10": 1.0,
+        "expanded_candidates_base_rank_ndcg10": 0.430677,
+        "expanded_ndcg10": 1.0,
+        "delta_ndcg10": 0.569323,
+        "base_recall10": 1.0,
+        "expanded_recall10": 1.0,
+        "base_candidate_recall100": 1.0,
+        "expanded_candidate_recall100": 1.0,
+        "new_relevant_in_candidates100": 0,
+        "lost_relevant_from_candidates100": 0,
+        "base_candidate_recall1000": 1.0,
+        "expanded_candidate_recall1000": 1.0
+      },
+      "relevant_document_count": 1,
+      "missing_relevant_document_ids": [],
+      "top10": {
+        "base_candidates_base_rank": [
+          "23017040",
+          "4434951",
+          "14475235",
+          "22038539",
+          "6042706",
+          "9558539",
+          "7808055",
+          "11935250",
+          "663464",
+          "7988832"
+        ],
+        "base_candidates_expanded_rank": [
+          "22038539",
+          "23017040",
+          "6042706",
+          "4434951",
+          "14475235",
+          "7988832",
+          "7808055",
+          "11935250",
+          "9291668",
+          "9558539"
+        ],
+        "expanded_candidates_base_rank": [
+          "23017040",
+          "4434951",
+          "14475235",
+          "22038539",
+          "6042706",
+          "9558539",
+          "7808055",
+          "11935250",
+          "663464",
+          "7988832"
+        ],
+        "expanded_candidates_expanded_rank": [
+          "22038539",
+          "23017040",
+          "6042706",
+          "4434951",
+          "14475235",
+          "7988832",
+          "7808055",
+          "11935250",
+          "9291668",
+          "9558539"
+        ]
+      },
+      "new_relevant_in_candidates100": [],
+      "lost_relevant_from_candidates100": [],
+      "documents": {
+        "663464": {
+          "title_or_text_start": "Age‐associated microRNA expression in human peripheral blood is associated with all‐cause mortality and age‐related traits Recent studies provide evidence of correlations of DNA methylation and expression of protein-codi",
+          "relevance_grade": 0,
+          "base_rank_top1000": 9,
+          "expanded_rank_top1000": 11,
+          "base_bm25": 12.83725,
+          "added_terms_bm25": {
+            "methyl": 0.0,
+            "high": 0.0,
+            "correlated": 3.04786
+          },
+          "expanded_bm25": 13.59922
+        },
+        "4434951": {
+          "title_or_text_start": "Diverse interventions that extend mouse lifespan suppress shared age-associated epigenetic changes at critical gene regulatory regions BACKGROUND Age-associated epigenetic changes are implicated in aging. Notably, age-as",
+          "relevance_grade": 0,
+          "base_rank_top1000": 2,
+          "expanded_rank_top1000": 4,
+          "base_bm25": 14.13435,
+          "added_terms_bm25": {
+            "methyl": 0.0,
+            "high": 0.0,
+            "correlated": 0.0
+          },
+          "expanded_bm25": 14.13435
+        },
+        "6042706": {
+          "title_or_text_start": "Effects of a high-fat diet exposure in utero on the metabolic syndrome-like phenomenon in mouse offspring through epigenetic changes in adipocytokine gene expression. The links between obesity in parents and their offspr",
+          "relevance_grade": 0,
+          "base_rank_top1000": 5,
+          "expanded_rank_top1000": 3,
+          "base_bm25": 13.8015,
+          "added_terms_bm25": {
+            "methyl": 0.0,
+            "high": 2.55391,
+            "correlated": 0.0
+          },
+          "expanded_bm25": 14.43998
+        },
+        "7808055": {
+          "title_or_text_start": "DNA methylation age of human tissues and cell types BACKGROUND It is not yet known whether DNA methylation levels can be used to accurately predict age across a broad spectrum of human tissues and cell types, nor whether",
+          "relevance_grade": 0,
+          "base_rank_top1000": 7,
+          "expanded_rank_top1000": 7,
+          "base_bm25": 13.45911,
+          "added_terms_bm25": {
+            "methyl": 0.0,
+            "high": 1.59433,
+            "correlated": 0.0
+          },
+          "expanded_bm25": 13.85769
+        },
+        "7988832": {
+          "title_or_text_start": "Methylomic trajectories across human fetal brain development. Epigenetic processes play a key role in orchestrating transcriptional regulation during development. The importance of DNA methylation in fetal brain developm",
+          "relevance_grade": 0,
+          "base_rank_top1000": 10,
+          "expanded_rank_top1000": 6,
+          "base_bm25": 12.79285,
+          "added_terms_bm25": {
+            "methyl": 4.50037,
+            "high": 0.0,
+            "correlated": 0.0
+          },
+          "expanded_bm25": 13.91794
+        },
+        "9291668": {
+          "title_or_text_start": " DNA methylation and healthy human aging The process of aging results in a host of changes at the cellular and molecular levels, which include senescence, telomere shortening, and changes in gene expression. Epigenetic p",
+          "relevance_grade": 0,
+          "base_rank_top1000": 12,
+          "expanded_rank_top1000": 9,
+          "base_bm25": 12.56288,
+          "added_terms_bm25": {
+            "methyl": 4.46186,
+            "high": 0.0,
+            "correlated": 0.0
+          },
+          "expanded_bm25": 13.67834
+        },
+        "9558539": {
+          "title_or_text_start": "CD44v6 is a marker of constitutive and reprogrammed cancer stem cells driving colon cancer metastasis. Cancer stem cells drive tumor formation and metastasis, but how they acquire metastatic traits is not well understood",
+          "relevance_grade": 0,
+          "base_rank_top1000": 6,
+          "expanded_rank_top1000": 10,
+          "base_bm25": 13.63759,
+          "added_terms_bm25": {
+            "methyl": 0.0,
+            "high": 0.0,
+            "correlated": 0.0
+          },
+          "expanded_bm25": 13.63759
+        },
+        "11935250": {
+          "title_or_text_start": "Widespread and tissue specific age-related DNA methylation changes in mice. Aberrant methylation of promoter CpG islands in cancer is associated with silencing of tumor-suppressor genes, and age-dependent hypermethylatio",
+          "relevance_grade": 0,
+          "base_rank_top1000": 8,
+          "expanded_rank_top1000": 8,
+          "base_bm25": 13.29782,
+          "added_terms_bm25": {
+            "methyl": 0.0,
+            "high": 1.61631,
+            "correlated": 0.0
+          },
+          "expanded_bm25": 13.7019
+        },
+        "14475235": {
+          "title_or_text_start": "Age-Associated Sperm DNA Methylation Alterations: Possible Implications in Offspring Disease Susceptibility Recent evidence demonstrates a role for paternal aging on offspring disease susceptibility. It is well establish",
+          "relevance_grade": 0,
+          "base_rank_top1000": 3,
+          "expanded_rank_top1000": 5,
+          "base_bm25": 13.93482,
+          "added_terms_bm25": {
+            "methyl": 0.0,
+            "high": 0.0,
+            "correlated": 0.0
+          },
+          "expanded_bm25": 13.93482
+        },
+        "22038539": {
+          "title_or_text_start": "Caloric restriction delays age-related methylation drift In mammals, caloric restriction consistently results in extended lifespan. Epigenetic information encoded by DNA methylation is tightly regulated, but shows a stri",
+          "relevance_grade": 1,
+          "base_rank_top1000": 4,
+          "expanded_rank_top1000": 1,
+          "base_bm25": 13.84168,
+          "added_terms_bm25": {
+            "methyl": 0.0,
+            "high": 0.0,
+            "correlated": 3.34282
+          },
+          "expanded_bm25": 14.67739
+        },
+        "23017040": {
+          "title_or_text_start": "Methionine restriction decreases visceral fat mass and preserves insulin action in aging male Fischer 344 rats independent of energy restriction. Reduced dietary methionine intake (0.17% methionine, MR) and calorie restr",
+          "relevance_grade": 0,
+          "base_rank_top1000": 1,
+          "expanded_rank_top1000": 2,
+          "base_bm25": 14.46331,
+          "added_terms_bm25": {
+            "methyl": 0.0,
+            "high": 0.0,
+            "correlated": 0.0
+          },
+          "expanded_bm25": 14.46331
+        }
+      }
+    },
+    {
+      "dataset": "scifact",
+      "query_id": "660",
+      "selection_reason": "large_decline",
+      "summary": {
+        "dataset": "scifact",
+        "query_id": "660",
+        "change": "worsened",
+        "query": "Ivermectin is used to treat onchocerciasis.",
+        "expansion_terms": "iv | drug | treatment",
+        "base_ndcg10": 1.0,
+        "fixed_candidates_expanded_rank_ndcg10": 0.63093,
+        "expanded_candidates_base_rank_ndcg10": 1.0,
+        "expanded_ndcg10": 0.63093,
+        "delta_ndcg10": -0.36907,
+        "base_recall10": 1.0,
+        "expanded_recall10": 1.0,
+        "base_candidate_recall100": 1.0,
+        "expanded_candidate_recall100": 1.0,
+        "new_relevant_in_candidates100": 0,
+        "lost_relevant_from_candidates100": 0,
+        "base_candidate_recall1000": 1.0,
+        "expanded_candidate_recall1000": 1.0
+      },
+      "relevant_document_count": 1,
+      "missing_relevant_document_ids": [],
+      "top10": {
+        "base_candidates_base_rank": [
+          "1215116",
+          "46765242",
+          "22613657",
+          "11481946",
+          "7662206",
+          "27240699",
+          "29634262",
+          "13441037",
+          "22482820",
+          "1084062"
+        ],
+        "base_candidates_expanded_rank": [
+          "46765242",
+          "1215116",
+          "22482820",
+          "22613657",
+          "5402581",
+          "29634262",
+          "11481946",
+          "7662206",
+          "27240699",
+          "23670644"
+        ],
+        "expanded_candidates_base_rank": [
+          "1215116",
+          "46765242",
+          "22613657",
+          "11481946",
+          "7662206",
+          "27240699",
+          "29634262",
+          "13441037",
+          "22482820",
+          "1084062"
+        ],
+        "expanded_candidates_expanded_rank": [
+          "46765242",
+          "1215116",
+          "22482820",
+          "22613657",
+          "5402581",
+          "29634262",
+          "11481946",
+          "7662206",
+          "27240699",
+          "23670644"
+        ]
+      },
+      "new_relevant_in_candidates100": [],
+      "lost_relevant_from_candidates100": [],
+      "documents": {
+        "1084062": {
+          "title_or_text_start": "Activation of Serotonin 2C Receptors in Dopamine Neurons Inhibits Binge-like Eating in Mice BACKGROUND Neural networks that regulate binge eating remain to be identified, and effective treatments for binge eating are lim",
+          "relevance_grade": 0,
+          "base_rank_top1000": 10,
+          "expanded_rank_top1000": 16,
+          "base_bm25": 6.72297,
+          "added_terms_bm25": {
+            "iv": 0.0,
+            "drug": 0.0,
+            "treatment": 0.0
+          },
+          "expanded_bm25": 6.72297
+        },
+        "1215116": {
+          "title_or_text_start": "“Rapid-Impact Interventions”: How a Policy of Integrated Control for Africa's Neglected Tropical Diseases Could Benefit the Poor Over the past two decades there have been significant achievements in the control of a hand",
+          "relevance_grade": 1,
+          "base_rank_top1000": 1,
+          "expanded_rank_top1000": 2,
+          "base_bm25": 8.81461,
+          "added_terms_bm25": {
+            "iv": 0.0,
+            "drug": 0.0,
+            "treatment": 0.0
+          },
+          "expanded_bm25": 8.81461
+        },
+        "5402581": {
+          "title_or_text_start": "Risk of death with atypical antipsychotic drug treatment for dementia: meta-analysis of randomized placebo-controlled trials. CONTEXT Atypical antipsychotic medications are widely used to treat delusions, aggression, and",
+          "relevance_grade": 0,
+          "base_rank_top1000": 13,
+          "expanded_rank_top1000": 5,
+          "base_bm25": 6.1734,
+          "added_terms_bm25": {
+            "iv": 0.0,
+            "drug": 3.9753,
+            "treatment": 2.68139
+          },
+          "expanded_bm25": 7.83757
+        },
+        "7662206": {
+          "title_or_text_start": "A Century of Cholesterol and Coronaries: From Plaques to Genes to Statins One-fourth of all deaths in industrialized countries result from coronary heart disease. A century of research has revealed the essential causativ",
+          "relevance_grade": 0,
+          "base_rank_top1000": 5,
+          "expanded_rank_top1000": 8,
+          "base_bm25": 7.76676,
+          "added_terms_bm25": {
+            "iv": 0.0,
+            "drug": 0.0,
+            "treatment": 0.0
+          },
+          "expanded_bm25": 7.76676
+        },
+        "11481946": {
+          "title_or_text_start": "Obesity, type 2 diabetes, and cancer: the insulin and IGF connection. Epidemiological studies suggest a positive association between obesity and type 2 diabetes mellitus (T2D) with the risk of cancer and cancer-related m",
+          "relevance_grade": 0,
+          "base_rank_top1000": 4,
+          "expanded_rank_top1000": 7,
+          "base_bm25": 7.77377,
+          "added_terms_bm25": {
+            "iv": 0.0,
+            "drug": 0.0,
+            "treatment": 0.0
+          },
+          "expanded_bm25": 7.77377
+        },
+        "13441037": {
+          "title_or_text_start": "Preventing obesity in children and adolescents. In this review, we address the natural history of obesity in children, the most promising family- and school-based approaches to the prevention of obesity, and the barriers",
+          "relevance_grade": 0,
+          "base_rank_top1000": 8,
+          "expanded_rank_top1000": 14,
+          "base_bm25": 6.88614,
+          "added_terms_bm25": {
+            "iv": 0.0,
+            "drug": 0.0,
+            "treatment": 0.0
+          },
+          "expanded_bm25": 6.88614
+        },
+        "22482820": {
+          "title_or_text_start": "An overview of the effective combination therapies for the treatment of breast cancer. Breast cancer (BC) is generally classified based on the receptors overexpressed on the cell nucleus, which include hormone receptors ",
+          "relevance_grade": 0,
+          "base_rank_top1000": 9,
+          "expanded_rank_top1000": 3,
+          "base_bm25": 6.84162,
+          "added_terms_bm25": {
+            "iv": 0.0,
+            "drug": 5.58434,
+            "treatment": 1.87361
+          },
+          "expanded_bm25": 8.70611
+        },
+        "22613657": {
+          "title_or_text_start": "Advances in graft-versus-host disease biology and therapy Allogeneic haematopoietic stem cell transplantation is used to treat a variety of disorders, but its efficacy is limited by the occurrence of graft-versus-host di",
+          "relevance_grade": 0,
+          "base_rank_top1000": 3,
+          "expanded_rank_top1000": 4,
+          "base_bm25": 7.93395,
+          "added_terms_bm25": {
+            "iv": 0.0,
+            "drug": 0.0,
+            "treatment": 2.83544
+          },
+          "expanded_bm25": 8.64281
+        },
+        "23670644": {
+          "title_or_text_start": "The ketogenic diet for the treatment of childhood epilepsy: a randomised controlled trial. BACKGROUND The ketogenic diet has been widely and successfully used to treat children with drug-resistant epilepsy since the 1920",
+          "relevance_grade": 0,
+          "base_rank_top1000": 15,
+          "expanded_rank_top1000": 10,
+          "base_bm25": 6.11771,
+          "added_terms_bm25": {
+            "iv": 0.0,
+            "drug": 2.11652,
+            "treatment": 2.79306
+          },
+          "expanded_bm25": 7.3451
+        },
+        "27240699": {
+          "title_or_text_start": "An adenovirus mutant that replicates selectively in p53-deficient human tumor cells. The human adenovirus E1B gene encodes a 55-kilodalton protein that inactivates the cellular tumor suppressor protein p53. Here it is sh",
+          "relevance_grade": 0,
+          "base_rank_top1000": 6,
+          "expanded_rank_top1000": 9,
+          "base_bm25": 7.64453,
+          "added_terms_bm25": {
+            "iv": 0.0,
+            "drug": 0.0,
+            "treatment": 0.0
+          },
+          "expanded_bm25": 7.64453
+        },
+        "29634262": {
+          "title_or_text_start": "Gene supplementation therapy for recessive forms of inherited retinal dystrophies Over the last decade, gene supplementation therapy for inherited retinal degeneration has come of age. Early proof-of-concept studies in a",
+          "relevance_grade": 0,
+          "base_rank_top1000": 7,
+          "expanded_rank_top1000": 6,
+          "base_bm25": 7.10864,
+          "added_terms_bm25": {
+            "iv": 0.0,
+            "drug": 0.0,
+            "treatment": 2.75235
+          },
+          "expanded_bm25": 7.79672
+        },
+        "46765242": {
+          "title_or_text_start": "Interaction of cytosine arabinoside and lovastatin in human leukemia cells. Cytosine arabinoside (ara-C) is widely used for the treatment of leukemias and displays significant toxicities. Lovastatin, an HMG-CoA reductase",
+          "relevance_grade": 0,
+          "base_rank_top1000": 2,
+          "expanded_rank_top1000": 1,
+          "base_bm25": 8.33247,
+          "added_terms_bm25": {
+            "iv": 0.0,
+            "drug": 0.0,
+            "treatment": 2.7795
+          },
+          "expanded_bm25": 9.02734
+        }
+      }
+    },
+    {
+      "dataset": "scifact",
+      "query_id": "1196",
+      "selection_reason": "unchanged_with_new_relevant_candidate",
+      "summary": {
+        "dataset": "scifact",
+        "query_id": "1196",
+        "change": "unchanged",
+        "query": "The availability of safe places to study is effective at decreasing homelessness.",
+        "expansion_terms": "homeless | shelter | available",
+        "base_ndcg10": 0.0,
+        "fixed_candidates_expanded_rank_ndcg10": 0.0,
+        "expanded_candidates_base_rank_ndcg10": 0.0,
+        "expanded_ndcg10": 0.0,
+        "delta_ndcg10": 0.0,
+        "base_recall10": 0.0,
+        "expanded_recall10": 0.0,
+        "base_candidate_recall100": 0.0,
+        "expanded_candidate_recall100": 1.0,
+        "new_relevant_in_candidates100": 1,
+        "lost_relevant_from_candidates100": 0,
+        "base_candidate_recall1000": 1.0,
+        "expanded_candidate_recall1000": 1.0
+      },
+      "relevant_document_count": 1,
+      "missing_relevant_document_ids": [],
+      "top10": {
+        "base_candidates_base_rank": [
+          "2264455",
+          "31019903",
+          "38376189",
+          "154243324",
+          "55040297",
+          "474325",
+          "33135135",
+          "8593263",
+          "17626822",
+          "3215494"
+        ],
+        "base_candidates_expanded_rank": [
+          "33135135",
+          "31019903",
+          "154243324",
+          "2264455",
+          "38376189",
+          "55040297",
+          "474325",
+          "8593263",
+          "17626822",
+          "3215494"
+        ],
+        "expanded_candidates_base_rank": [
+          "2264455",
+          "31019903",
+          "38376189",
+          "154243324",
+          "55040297",
+          "474325",
+          "33135135",
+          "8593263",
+          "17626822",
+          "3215494"
+        ],
+        "expanded_candidates_expanded_rank": [
+          "33135135",
+          "31019903",
+          "154243324",
+          "2264455",
+          "38376189",
+          "55040297",
+          "474325",
+          "8593263",
+          "17626822",
+          "3215494"
+        ]
+      },
+      "new_relevant_in_candidates100": [
+        "25649714"
+      ],
+      "lost_relevant_from_candidates100": [],
+      "documents": {
+        "474325": {
+          "title_or_text_start": "Non-invasive ventilation in chronic obstructive pulmonary disease patients: helmet versus facial mask The helmet is a new interface with the potential of increasing the success rate of non-invasive ventilation by improvi",
+          "relevance_grade": 0,
+          "base_rank_top1000": 6,
+          "expanded_rank_top1000": 7,
+          "base_bm25": 12.11247,
+          "added_terms_bm25": {
+            "homeless": 0.0,
+            "shelter": 0.0,
+            "available": 0.0
+          },
+          "expanded_bm25": 12.11247
+        },
+        "2264455": {
+          "title_or_text_start": "Vaccines against malaria There is no licenced vaccine against any human parasitic disease and Plasmodium falciparum malaria, a major cause of infectious mortality, presents a great challenge to vaccine developers. This h",
+          "relevance_grade": 0,
+          "base_rank_top1000": 1,
+          "expanded_rank_top1000": 4,
+          "base_bm25": 15.77679,
+          "added_terms_bm25": {
+            "homeless": 0.0,
+            "shelter": 0.0,
+            "available": 0.0
+          },
+          "expanded_bm25": 15.77679
+        },
+        "3215494": {
+          "title_or_text_start": "Hyperhomocysteinemia and atherosclerotic vascular disease: pathophysiology, screening, and treatment. off. Hyperhomocysteinemia has recently been identified as an important risk factor for atherosclerotic vascular diseas",
+          "relevance_grade": 0,
+          "base_rank_top1000": 10,
+          "expanded_rank_top1000": 10,
+          "base_bm25": 10.46178,
+          "added_terms_bm25": {
+            "homeless": 0.0,
+            "shelter": 0.0,
+            "available": 3.39922
+          },
+          "expanded_bm25": 11.31159
+        },
+        "8593263": {
+          "title_or_text_start": "Malaria risk perception, knowledge and prophylaxis practices among travellers of African ethnicity living in Paris and visiting their country of origin in sub-Saharan Africa. An observational prospective cohort study ass",
+          "relevance_grade": 0,
+          "base_rank_top1000": 8,
+          "expanded_rank_top1000": 8,
+          "base_bm25": 11.52599,
+          "added_terms_bm25": {
+            "homeless": 0.0,
+            "shelter": 0.0,
+            "available": 0.0
+          },
+          "expanded_bm25": 11.52599
+        },
+        "17626822": {
+          "title_or_text_start": "Home birth and barriers to referring women with obstetric complications to hospitals: a mixed-methods study in Zahedan, southeastern Iran BACKGROUND One factor that contributes to high maternal mortality in developing co",
+          "relevance_grade": 0,
+          "base_rank_top1000": 9,
+          "expanded_rank_top1000": 9,
+          "base_bm25": 10.80684,
+          "added_terms_bm25": {
+            "homeless": 0.0,
+            "shelter": 0.0,
+            "available": 2.41735
+          },
+          "expanded_bm25": 11.41118
+        },
+        "25649714": {
+          "title_or_text_start": "Mental health problems of homeless children and families: longitudinal study. OBJECTIVE To establish the mental health needs of homeless children and families before and after rehousing. DESIGN Cross sectional, longitudi",
+          "relevance_grade": 1,
+          "base_rank_top1000": 104,
+          "expanded_rank_top1000": 22,
+          "base_bm25": 6.12256,
+          "added_terms_bm25": {
+            "homeless": 11.31033,
+            "shelter": 0.0,
+            "available": 0.0
+          },
+          "expanded_bm25": 8.95014
+        },
+        "31019903": {
+          "title_or_text_start": "Homelessness and health. Homelessness affects tens of thousands of canadians and has important health implications. Homeless people are at increased risk of dying prematurely and suffer from a wide range of health proble",
+          "relevance_grade": 0,
+          "base_rank_top1000": 2,
+          "expanded_rank_top1000": 2,
+          "base_bm25": 13.86018,
+          "added_terms_bm25": {
+            "homeless": 11.08333,
+            "shelter": 0.0,
+            "available": 0.0
+          },
+          "expanded_bm25": 16.63101
+        },
+        "33135135": {
+          "title_or_text_start": "The impact of homelessness on children. This article reviews and critiques community-based research on the effects of homelessness on children. Homeless children confront serious threats to their ability to succeed and t",
+          "relevance_grade": 0,
+          "base_rank_top1000": 7,
+          "expanded_rank_top1000": 1,
+          "base_bm25": 11.74697,
+          "added_terms_bm25": {
+            "homeless": 10.78448,
+            "shelter": 9.63114,
+            "available": 4.05085
+          },
+          "expanded_bm25": 17.86359
+        },
+        "38376189": {
+          "title_or_text_start": "A Live Attenuated Chimeric West Nile Virus Vaccine, rWN/DEN4&Dgr;30, Is Well Tolerated and Immunogenic in Flavivirus-Naive Older Adult Volunteers West Nile virus (WNV) is a major cause of mosquito-borne illness in the Un",
+          "relevance_grade": 0,
+          "base_rank_top1000": 3,
+          "expanded_rank_top1000": 5,
+          "base_bm25": 13.78286,
+          "added_terms_bm25": {
+            "homeless": 0.0,
+            "shelter": 0.0,
+            "available": 0.0
+          },
+          "expanded_bm25": 13.78286
+        },
+        "55040297": {
+          "title_or_text_start": "A diversity of beta diversities: straightening up a concept gone awry. Part 1. Defining beta diversity as a function of alpha and gamma diversity The term beta diversity has been used to refer to a wide variety of phenom",
+          "relevance_grade": 0,
+          "base_rank_top1000": 5,
+          "expanded_rank_top1000": 6,
+          "base_bm25": 12.50583,
+          "added_terms_bm25": {
+            "homeless": 0.0,
+            "shelter": 0.0,
+            "available": 0.0
+          },
+          "expanded_bm25": 12.50583
+        },
+        "154243324": {
+          "title_or_text_start": "From youth to adult homelessness Governments have shown an interest in early intervention strategies to reduce youth homelessness, but critics say that early intervention programs lack clear outcomes. This paper investig",
+          "relevance_grade": 0,
+          "base_rank_top1000": 4,
+          "expanded_rank_top1000": 3,
+          "base_bm25": 13.70358,
+          "added_terms_bm25": {
+            "homeless": 10.80106,
+            "shelter": 0.0,
+            "available": 0.0
+          },
+          "expanded_bm25": 16.40384
+        }
+      }
+    },
+    {
+      "dataset": "fiqa",
+      "query_id": "2388",
+      "selection_reason": "large_improvement",
+      "summary": {
+        "dataset": "fiqa",
+        "query_id": "2388",
+        "change": "improved",
+        "query": "Do financial advisors get better deals on mortgages?",
+        "expansion_terms": "mortgage | advisor | deal",
+        "base_ndcg10": 0.333333,
+        "fixed_candidates_expanded_rank_ndcg10": 1.0,
+        "expanded_candidates_base_rank_ndcg10": 0.333333,
+        "expanded_ndcg10": 1.0,
+        "delta_ndcg10": 0.666667,
+        "base_recall10": 1.0,
+        "expanded_recall10": 1.0,
+        "base_candidate_recall100": 1.0,
+        "expanded_candidate_recall100": 1.0,
+        "new_relevant_in_candidates100": 0,
+        "lost_relevant_from_candidates100": 0,
+        "base_candidate_recall1000": 1.0,
+        "expanded_candidate_recall1000": 1.0
+      },
+      "relevant_document_count": 1,
+      "missing_relevant_document_ids": [],
+      "top10": {
+        "base_candidates_base_rank": [
+          "60508",
+          "86855",
+          "132078",
+          "300287",
+          "71816",
+          "304081",
+          "104988",
+          "259228",
+          "278398",
+          "390619"
+        ],
+        "base_candidates_expanded_rank": [
+          "104988",
+          "304081",
+          "300287",
+          "132078",
+          "86855",
+          "443676",
+          "60508",
+          "316149",
+          "286461",
+          "71816"
+        ],
+        "expanded_candidates_base_rank": [
+          "60508",
+          "86855",
+          "132078",
+          "300287",
+          "71816",
+          "304081",
+          "104988",
+          "259228",
+          "278398",
+          "390619"
+        ],
+        "expanded_candidates_expanded_rank": [
+          "104988",
+          "304081",
+          "300287",
+          "132078",
+          "86855",
+          "443676",
+          "60508",
+          "316149",
+          "286461",
+          "71816"
+        ]
+      },
+      "new_relevant_in_candidates100": [],
+      "lost_relevant_from_candidates100": [],
+      "documents": {
+        "60508": {
+          "title_or_text_start": " \"The following is from Wikipedia - Term life insurance (with very minor editing) Because term life insurance is a pure   death benefit, its primary use is to   provide coverage of financial   responsibilities, for the i",
+          "relevance_grade": 0,
+          "base_rank_top1000": 1,
+          "expanded_rank_top1000": 7,
+          "base_bm25": 16.74566,
+          "added_terms_bm25": {
+            "mortgage": 0.0,
+            "advisor": 0.0,
+            "deal": 0.0
+          },
+          "expanded_bm25": 16.74566
+        },
+        "71816": {
+          "title_or_text_start": " But were they bad mortgages? At the time, real estate prices were going up. The thinking was if someone defaulted, they could just foreclose on the property and recoup their money. Is that deceptive? They bundled poorer",
+          "relevance_grade": 0,
+          "base_rank_top1000": 5,
+          "expanded_rank_top1000": 10,
+          "base_bm25": 15.9941,
+          "added_terms_bm25": {
+            "mortgage": 0.0,
+            "advisor": 0.0,
+            "deal": 0.0
+          },
+          "expanded_bm25": 15.9941
+        },
+        "86855": {
+          "title_or_text_start": " In my experience financial advisors do not normally assist with budgeting and personal everyday finance. There certainly are people who do that, but you would normally only consult them when you have financial difficult",
+          "relevance_grade": 0,
+          "base_rank_top1000": 2,
+          "expanded_rank_top1000": 5,
+          "base_bm25": 16.34236,
+          "added_terms_bm25": {
+            "mortgage": 0.0,
+            "advisor": 5.39641,
+            "deal": 0.0
+          },
+          "expanded_bm25": 17.69147
+        },
+        "104988": {
+          "title_or_text_start": " Yes, maybe for themselves, but for you that depends on quite a number of things. But not all advisors are scum, but accept the fact that you are their cash cow and you are there for their takings. Some advisors are true",
+          "relevance_grade": 1,
+          "base_rank_top1000": 7,
+          "expanded_rank_top1000": 1,
+          "base_bm25": 15.91991,
+          "added_terms_bm25": {
+            "mortgage": 5.04634,
+            "advisor": 7.02936,
+            "deal": 3.29161
+          },
+          "expanded_bm25": 19.76174
+        },
+        "132078": {
+          "title_or_text_start": " \"Technically, anyone who advises how you should spend or proportion your money is a financial adviser.  A person that does it for money is a Financial Advisor (difference in spelling). Financial Advisors are people that",
+          "relevance_grade": 0,
+          "base_rank_top1000": 3,
+          "expanded_rank_top1000": 4,
+          "base_bm25": 16.01612,
+          "added_terms_bm25": {
+            "mortgage": 0.0,
+            "advisor": 4.75161,
+            "deal": 3.0686
+          },
+          "expanded_bm25": 17.97117
+        },
+        "259228": {
+          "title_or_text_start": " If you can set up automatic payments (like direct debits in the UK) and you can be disciplined enough to not spend the money on something else then this can be a good way of building/improving your credit rating. Banks ",
+          "relevance_grade": 0,
+          "base_rank_top1000": 8,
+          "expanded_rank_top1000": 12,
+          "base_bm25": 15.36534,
+          "added_terms_bm25": {
+            "mortgage": 0.0,
+            "advisor": 0.0,
+            "deal": 0.0
+          },
+          "expanded_bm25": 15.36534
+        },
+        "278398": {
+          "title_or_text_start": " He employs financial advisors because he's good at making money. That sounds like what any smart person would do... so I'm still confused? He built his own brands, he created his own company's, and whether or not he had",
+          "relevance_grade": 0,
+          "base_rank_top1000": 9,
+          "expanded_rank_top1000": 14,
+          "base_bm25": 15.29801,
+          "added_terms_bm25": {
+            "mortgage": 0.0,
+            "advisor": 0.0,
+            "deal": 0.0
+          },
+          "expanded_bm25": 15.29801
+        },
+        "286461": {
+          "title_or_text_start": " Yes, there is a profession that does exactly what you're looking for.  It's called a fee-only financial advisor. These are professionals who (in the United States) enter into a fiduciary relationship with a client, mean",
+          "relevance_grade": 0,
+          "base_rank_top1000": 14,
+          "expanded_rank_top1000": 9,
+          "base_bm25": 14.31818,
+          "added_terms_bm25": {
+            "mortgage": 0.0,
+            "advisor": 6.93163,
+            "deal": 0.0
+          },
+          "expanded_bm25": 16.05109
+        },
+        "300287": {
+          "title_or_text_start": " \"Exactly what you do with the money depends on various personal choices you'll have to make for yourself.  Investing your money in Vanguard index funds such as the ones you mentioned is certainly one smart move.  Howeve",
+          "relevance_grade": 0,
+          "base_rank_top1000": 4,
+          "expanded_rank_top1000": 3,
+          "base_bm25": 15.99513,
+          "added_terms_bm25": {
+            "mortgage": 0.0,
+            "advisor": 8.41227,
+            "deal": 0.0
+          },
+          "expanded_bm25": 18.0982
+        },
+        "304081": {
+          "title_or_text_start": " If you don't have the time or interest to manage investments, you need a financial advisor.  Generally speaking, you're better served by an advisor who collects an annual fee based on a percentage of your account value.",
+          "relevance_grade": 0,
+          "base_rank_top1000": 6,
+          "expanded_rank_top1000": 2,
+          "base_bm25": 15.94492,
+          "added_terms_bm25": {
+            "mortgage": 0.0,
+            "advisor": 9.19946,
+            "deal": 0.0
+          },
+          "expanded_bm25": 18.24479
+        },
+        "316149": {
+          "title_or_text_start": " Obviously mate. Mortgage advisors don't have just one client, similarly why should you have only one advisor? it´s an open market. Don't worry about wasting their time, you are not wasting their time if you are consider",
+          "relevance_grade": 0,
+          "base_rank_top1000": 63,
+          "expanded_rank_top1000": 8,
+          "base_bm25": 11.4933,
+          "added_terms_bm25": {
+            "mortgage": 5.74377,
+            "advisor": 8.3595,
+            "deal": 4.27898
+          },
+          "expanded_bm25": 16.08886
+        },
+        "390619": {
+          "title_or_text_start": " The mortgages were pooled with other mortgages and sold off to other firms, in theory mitigating the risk. However, the reason lenders searched out these types of deals was because they could use the lack of credit rati",
+          "relevance_grade": 0,
+          "base_rank_top1000": 10,
+          "expanded_rank_top1000": 17,
+          "base_bm25": 15.07972,
+          "added_terms_bm25": {
+            "mortgage": 0.0,
+            "advisor": 0.0,
+            "deal": 0.0
+          },
+          "expanded_bm25": 15.07972
+        },
+        "443676": {
+          "title_or_text_start": " Unless u borrow for a house but just get a financial advisor - i highly recommend the co. I work for. Pm me if u want details though it sounds like u may go the diy route which is fine but 9 out if 10 times it takes non",
+          "relevance_grade": 0,
+          "base_rank_top1000": 12,
+          "expanded_rank_top1000": 6,
+          "base_bm25": 14.92937,
+          "added_terms_bm25": {
+            "mortgage": 0.0,
+            "advisor": 6.67653,
+            "deal": 4.31172
+          },
+          "expanded_bm25": 17.67643
+        }
+      }
+    },
+    {
+      "dataset": "fiqa",
+      "query_id": "691",
+      "selection_reason": "large_decline",
+      "summary": {
+        "dataset": "fiqa",
+        "query_id": "691",
+        "change": "worsened",
+        "query": "How to categorize credit card payments?",
+        "expansion_terms": "payment | cat | cards",
+        "base_ndcg10": 1.0,
+        "fixed_candidates_expanded_rank_ndcg10": 0.63093,
+        "expanded_candidates_base_rank_ndcg10": 1.0,
+        "expanded_ndcg10": 0.63093,
+        "delta_ndcg10": -0.36907,
+        "base_recall10": 1.0,
+        "expanded_recall10": 1.0,
+        "base_candidate_recall100": 1.0,
+        "expanded_candidate_recall100": 1.0,
+        "new_relevant_in_candidates100": 0,
+        "lost_relevant_from_candidates100": 0,
+        "base_candidate_recall1000": 1.0,
+        "expanded_candidate_recall1000": 1.0
+      },
+      "relevant_document_count": 1,
+      "missing_relevant_document_ids": [],
+      "top10": {
+        "base_candidates_base_rank": [
+          "395912",
+          "183774",
+          "188072",
+          "89403",
+          "599142",
+          "30770",
+          "172127",
+          "309780",
+          "522734",
+          "65982"
+        ],
+        "base_candidates_expanded_rank": [
+          "183774",
+          "395912",
+          "89403",
+          "533933",
+          "188072",
+          "309780",
+          "599142",
+          "206267",
+          "522734",
+          "277590"
+        ],
+        "expanded_candidates_base_rank": [
+          "395912",
+          "183774",
+          "188072",
+          "89403",
+          "599142",
+          "30770",
+          "172127",
+          "309780",
+          "522734",
+          "65982"
+        ],
+        "expanded_candidates_expanded_rank": [
+          "183774",
+          "395912",
+          "89403",
+          "533933",
+          "188072",
+          "309780",
+          "599142",
+          "206267",
+          "522734",
+          "277590"
+        ]
+      },
+      "new_relevant_in_candidates100": [],
+      "lost_relevant_from_candidates100": [],
+      "documents": {
+        "30770": {
+          "title_or_text_start": " How will going from 75% Credit Utilization to 0% Credit Utilization affect my credit score? might answer your question if US based.  In the US, what counts is what shows on the bill. I've run $20K through a card with a ",
+          "relevance_grade": 0,
+          "base_rank_top1000": 6,
+          "expanded_rank_top1000": 14,
+          "base_bm25": 15.90225,
+          "added_terms_bm25": {
+            "payment": 0.0,
+            "cat": 0.0,
+            "cards": 0.0
+          },
+          "expanded_bm25": 15.90225
+        },
+        "65982": {
+          "title_or_text_start": " There are a couple of things to consider.   First, in order to avoid interest charges you generally just need to pay the statement balance before the statement due date.  This is your grace period.  You don't need to mo",
+          "relevance_grade": 0,
+          "base_rank_top1000": 10,
+          "expanded_rank_top1000": 11,
+          "base_bm25": 15.30099,
+          "added_terms_bm25": {
+            "payment": 2.74712,
+            "cat": 0.0,
+            "cards": 0.0
+          },
+          "expanded_bm25": 15.98777
+        },
+        "89403": {
+          "title_or_text_start": " Apparently it is up to the credit card company on how they want to report your available balance. Another disadvantage to the no-limit   credit card may not be apparent to   most people, but it is something noted   by o",
+          "relevance_grade": 0,
+          "base_rank_top1000": 4,
+          "expanded_rank_top1000": 3,
+          "base_bm25": 16.72457,
+          "added_terms_bm25": {
+            "payment": 0.0,
+            "cat": 0.0,
+            "cards": 4.25153
+          },
+          "expanded_bm25": 17.78745
+        },
+        "172127": {
+          "title_or_text_start": " There are rules and regulations as to how the credit card information must be stored, and I assume Square adhere to these rules. The point is that the barber doesn't need to see your credit card at all, and doesn't have",
+          "relevance_grade": 0,
+          "base_rank_top1000": 7,
+          "expanded_rank_top1000": 19,
+          "base_bm25": 15.52627,
+          "added_terms_bm25": {
+            "payment": 0.0,
+            "cat": 0.0,
+            "cards": 0.0
+          },
+          "expanded_bm25": 15.52627
+        },
+        "183774": {
+          "title_or_text_start": " At least in the US, many credit card companies offer statements that categorize your spending on that card and break it down by different categories depending on the merchant category code.   Having different cards for ",
+          "relevance_grade": 0,
+          "base_rank_top1000": 2,
+          "expanded_rank_top1000": 1,
+          "base_bm25": 17.91077,
+          "added_terms_bm25": {
+            "payment": 0.0,
+            "cat": 0.0,
+            "cards": 5.96806
+          },
+          "expanded_bm25": 19.40278
+        },
+        "188072": {
+          "title_or_text_start": " \"If you enter the transactions as you execute them (and categorize them then), Quicken will attempt to Match downloaded transactions with ones already in the register.  \"\"Memorized transactions\"\" with known parties can ",
+          "relevance_grade": 0,
+          "base_rank_top1000": 3,
+          "expanded_rank_top1000": 5,
+          "base_bm25": 17.31852,
+          "added_terms_bm25": {
+            "payment": 0.0,
+            "cat": 0.0,
+            "cards": 0.0
+          },
+          "expanded_bm25": 17.31852
+        },
+        "206267": {
+          "title_or_text_start": " \"First, a note of my personal experience: up until a year ago, my credit lines were composed exclusively of credit cards with perfect payment histories, and my credit score is fine. If you mean that credit cards have no",
+          "relevance_grade": 0,
+          "base_rank_top1000": 35,
+          "expanded_rank_top1000": 8,
+          "base_bm25": 13.81932,
+          "added_terms_bm25": {
+            "payment": 5.17133,
+            "cat": 0.0,
+            "cards": 5.17233
+          },
+          "expanded_bm25": 16.40523
+        },
+        "277590": {
+          "title_or_text_start": " \"I also feel it's important to NOT get a credit card. I'm in my mid 30's and have had credit cards since I was 20, as has everyone I know. Every single one of those people, with the exception of my dad, is currently car",
+          "relevance_grade": 0,
+          "base_rank_top1000": 12,
+          "expanded_rank_top1000": 10,
+          "base_bm25": 15.16416,
+          "added_terms_bm25": {
+            "payment": 0.0,
+            "cat": 0.0,
+            "cards": 4.22344
+          },
+          "expanded_bm25": 16.22002
+        },
+        "309780": {
+          "title_or_text_start": " Having a cushion / emergency fund will hopefully keep you from having to build up any more debt once your cards are paid off.  I would increase your payments on the 2% cards to a point where you feel comfortable in how ",
+          "relevance_grade": 0,
+          "base_rank_top1000": 8,
+          "expanded_rank_top1000": 6,
+          "base_bm25": 15.33302,
+          "added_terms_bm25": {
+            "payment": 0.0,
+            "cat": 0.0,
+            "cards": 5.55333
+          },
+          "expanded_bm25": 16.72135
+        },
+        "395912": {
+          "title_or_text_start": " \"Using the Transfer category is the best place to put these categories, as that accurately reflects what the transaction is. If you have your credit card and bank account linked in Mint, the debit and credit to both acc",
+          "relevance_grade": 1,
+          "base_rank_top1000": 1,
+          "expanded_rank_top1000": 2,
+          "base_bm25": 18.54112,
+          "added_terms_bm25": {
+            "payment": 0.0,
+            "cat": 0.0,
+            "cards": 0.0
+          },
+          "expanded_bm25": 18.54112
+        },
+        "522734": {
+          "title_or_text_start": " You need to find out if the credit card has been reporting these failed automated payments as late or missed payments to your credit report. To do this, go to annualcreditreport.com (the official site to get your free c",
+          "relevance_grade": 0,
+          "base_rank_top1000": 9,
+          "expanded_rank_top1000": 9,
+          "base_bm25": 15.32318,
+          "added_terms_bm25": {
+            "payment": 3.67663,
+            "cat": 0.0,
+            "cards": 0.0
+          },
+          "expanded_bm25": 16.24233
+        },
+        "533933": {
+          "title_or_text_start": " My view is from the Netherlands, a EU country. Con: Credit cards are more risky. If someone finds your card, they can use it for online purchases without knowing any PIN, just by entering the card number, expiration dat",
+          "relevance_grade": 0,
+          "base_rank_top1000": 13,
+          "expanded_rank_top1000": 4,
+          "base_bm25": 15.08636,
+          "added_terms_bm25": {
+            "payment": 3.52317,
+            "cat": 0.0,
+            "cards": 6.18349
+          },
+          "expanded_bm25": 17.51303
+        },
+        "599142": {
+          "title_or_text_start": " Why would you need to have a separate checking account just for tax payments? As long as your categorize your expense properly, you can run a report based on that category to present only your tax responsibilities. You ",
+          "relevance_grade": 0,
+          "base_rank_top1000": 5,
+          "expanded_rank_top1000": 7,
+          "base_bm25": 16.64481,
+          "added_terms_bm25": {
+            "payment": 0.0,
+            "cat": 0.0,
+            "cards": 0.0
+          },
+          "expanded_bm25": 16.64481
+        }
+      }
+    },
+    {
+      "dataset": "fiqa",
+      "query_id": "10122",
+      "selection_reason": "unchanged_with_new_relevant_candidate",
+      "summary": {
+        "dataset": "fiqa",
+        "query_id": "10122",
+        "change": "unchanged",
+        "query": "Why diversify stocks/investments?",
+        "expansion_terms": "divers | stock | because",
+        "base_ndcg10": 0.0,
+        "fixed_candidates_expanded_rank_ndcg10": 0.0,
+        "expanded_candidates_base_rank_ndcg10": 0.0,
+        "expanded_ndcg10": 0.0,
+        "delta_ndcg10": 0.0,
+        "base_recall10": 0.0,
+        "expanded_recall10": 0.0,
+        "base_candidate_recall100": 0.0,
+        "expanded_candidate_recall100": 0.25,
+        "new_relevant_in_candidates100": 1,
+        "lost_relevant_from_candidates100": 0,
+        "base_candidate_recall1000": 0.5,
+        "expanded_candidate_recall1000": 0.5
+      },
+      "relevant_document_count": 4,
+      "missing_relevant_document_ids": [],
+      "top10": {
+        "base_candidates_base_rank": [
+          "144261",
+          "286227",
+          "146181",
+          "122222",
+          "160170",
+          "170147",
+          "187124",
+          "15169",
+          "323916",
+          "387723"
+        ],
+        "base_candidates_expanded_rank": [
+          "144261",
+          "286227",
+          "160170",
+          "146181",
+          "122222",
+          "187124",
+          "170147",
+          "323916",
+          "336722",
+          "15169"
+        ],
+        "expanded_candidates_base_rank": [
+          "144261",
+          "286227",
+          "146181",
+          "122222",
+          "160170",
+          "170147",
+          "187124",
+          "15169",
+          "323916",
+          "387723"
+        ],
+        "expanded_candidates_expanded_rank": [
+          "144261",
+          "286227",
+          "160170",
+          "146181",
+          "122222",
+          "187124",
+          "170147",
+          "323916",
+          "336722",
+          "15169"
+        ]
+      },
+      "new_relevant_in_candidates100": [
+        "139368"
+      ],
+      "lost_relevant_from_candidates100": [],
+      "documents": {
+        "15169": {
+          "title_or_text_start": " \"The difference between dividend and growth in mutual funds has to do with the types of stocks the mutual fund invests in. Typically a company in the early stages are considered growth investments. In this phase the com",
+          "relevance_grade": 0,
+          "base_rank_top1000": 8,
+          "expanded_rank_top1000": 10,
+          "base_bm25": 12.71266,
+          "added_terms_bm25": {
+            "divers": 0.0,
+            "stock": 0.0,
+            "because": 0.0
+          },
+          "expanded_bm25": 12.71266
+        },
+        "122222": {
+          "title_or_text_start": " Apply as many deductions as you are legally entitled to. Those are taxes you may never ever pay.  Then turn around and put any more monies above the maximum retirement contributions into a taxable account. But this time",
+          "relevance_grade": 0,
+          "base_rank_top1000": 4,
+          "expanded_rank_top1000": 5,
+          "base_bm25": 13.87076,
+          "added_terms_bm25": {
+            "divers": 0.0,
+            "stock": 0.0,
+            "because": 0.0
+          },
+          "expanded_bm25": 13.87076
+        },
+        "139368": {
+          "title_or_text_start": " Diversifying is the first advice given to beginner in order to avoid big loss. For example in 2014 the company Theranos was really appealing before it fail in 2016. So a beginner could have invest ALL his money and lose",
+          "relevance_grade": 1,
+          "base_rank_top1000": 101,
+          "expanded_rank_top1000": 74,
+          "base_bm25": 8.61044,
+          "added_terms_bm25": {
+            "divers": 0.0,
+            "stock": 2.26149,
+            "because": 1.56324
+          },
+          "expanded_bm25": 9.56662
+        },
+        "144261": {
+          "title_or_text_start": " \"Index funds are well-known to give the best long-term investment. Not exactly. Indexes give the best long term performance when compared to actively managing investments directly in the underlying stocks. That is, if y",
+          "relevance_grade": 0,
+          "base_rank_top1000": 1,
+          "expanded_rank_top1000": 1,
+          "base_bm25": 17.22432,
+          "added_terms_bm25": {
+            "divers": 0.0,
+            "stock": 1.1882,
+            "because": 0.0
+          },
+          "expanded_bm25": 17.52137
+        },
+        "146181": {
+          "title_or_text_start": " \"For US stocks it's a bit of a gamble. Many actively managed funds underperform the market indexes, but some of them outperform in many years. With an index you will get average results. With an active manager you \"\"mig",
+          "relevance_grade": 0,
+          "base_rank_top1000": 3,
+          "expanded_rank_top1000": 4,
+          "base_bm25": 14.59225,
+          "added_terms_bm25": {
+            "divers": 0.0,
+            "stock": 0.0,
+            "because": 0.0
+          },
+          "expanded_bm25": 14.59225
+        },
+        "160170": {
+          "title_or_text_start": " What explains the most of the future returns of a portfolio is the allocation between asset classes. In the long term, stock investments are almost certain to return more than any other kinds of investments. For 40+ yea",
+          "relevance_grade": 0,
+          "base_rank_top1000": 5,
+          "expanded_rank_top1000": 3,
+          "base_bm25": 13.7701,
+          "added_terms_bm25": {
+            "divers": 0.0,
+            "stock": 2.61405,
+            "because": 0.72393
+          },
+          "expanded_bm25": 14.6046
+        },
+        "170147": {
+          "title_or_text_start": " They are using several banks, hedge funds or other financial institutions, in order to diversify the risk inherent to the fact that the firm holding (a fraction of) their cash, can be insolvent which would makes them in",
+          "relevance_grade": 0,
+          "base_rank_top1000": 6,
+          "expanded_rank_top1000": 7,
+          "base_bm25": 13.46945,
+          "added_terms_bm25": {
+            "divers": 0.0,
+            "stock": 0.0,
+            "because": 0.0
+          },
+          "expanded_bm25": 13.46945
+        },
+        "187124": {
+          "title_or_text_start": " \"There's already an excellent answer here from @BenMiller, but I wanted to expand a bit on Types of Investments with some additional actionable information. You can invest in stocks, bonds, mutual funds (which are simpl",
+          "relevance_grade": 0,
+          "base_rank_top1000": 7,
+          "expanded_rank_top1000": 6,
+          "base_bm25": 12.88326,
+          "added_terms_bm25": {
+            "divers": 0.0,
+            "stock": 3.52966,
+            "because": 0.0
+          },
+          "expanded_bm25": 13.76567
+        },
+        "286227": {
+          "title_or_text_start": " diversifying; but isn't that what mutual funds already do? They diversify and reduce stock-specific risk by moving from individual stocks to many stocks, but you can diversify even further by selecting different fund ty",
+          "relevance_grade": 0,
+          "base_rank_top1000": 2,
+          "expanded_rank_top1000": 2,
+          "base_bm25": 14.85146,
+          "added_terms_bm25": {
+            "divers": 0.0,
+            "stock": 1.89378,
+            "because": 0.0
+          },
+          "expanded_bm25": 15.3249
+        },
+        "323916": {
+          "title_or_text_start": " Well, the potential problem is that the FTSE 100 could go down, or just not up. Really, it's as simple as that. After all, why diversify if the FTSE 100 will only go up? So, the question is, why wait to diversify? Why n",
+          "relevance_grade": 0,
+          "base_rank_top1000": 9,
+          "expanded_rank_top1000": 8,
+          "base_bm25": 12.45807,
+          "added_terms_bm25": {
+            "divers": 0.0,
+            "stock": 2.6756,
+            "because": 0.0
+          },
+          "expanded_bm25": 13.12697
+        },
+        "336722": {
+          "title_or_text_start": " Your question reminds me of a Will Rogers quote: buy some good stock, and hold it till it goes up, then sell it. If it don’t go up, don’t buy it. There's no way to prevent yourself from buying a stock that goes down.  I",
+          "relevance_grade": 0,
+          "base_rank_top1000": 16,
+          "expanded_rank_top1000": 9,
+          "base_bm25": 11.77141,
+          "added_terms_bm25": {
+            "divers": 0.0,
+            "stock": 2.91448,
+            "because": 1.39801
+          },
+          "expanded_bm25": 12.84953
+        },
+        "387723": {
+          "title_or_text_start": " \"Diversify between high risk, medium risks investments as well as \"\"safe\"\" ones like bonds authored directly from the EU.  All in all you re much better off than lending money to the bank through a savings account for n",
+          "relevance_grade": 0,
+          "base_rank_top1000": 10,
+          "expanded_rank_top1000": 12,
+          "base_bm25": 12.37243,
+          "added_terms_bm25": {
+            "divers": 0.0,
+            "stock": 0.0,
+            "because": 0.0
+          },
+          "expanded_bm25": 12.37243
+        }
+      }
+    },
+    {
+      "dataset": "arguana",
+      "query_id": "test-sport-tshbmlbscac-con02a",
+      "selection_reason": "large_improvement",
+      "summary": {
+        "dataset": "arguana",
+        "query_id": "test-sport-tshbmlbscac-con02a",
+        "change": "improved",
+        "query": "Collisions are an example of violence that has no place in baseball.  Baseball is not a contact sport. It is not a sport that is supposed to rely on violence. This is one commentator’s point: “if you want to watch violent collisions, you can watch [American] football. Or hockey. Or MMA. There’s no reason baseball needs to have similar kinds of plays; it’s an entirely different sport with a different premise and different rules.” [1]  Baseball tries to make the game safe for its players. That’s why beanballs—pitches that endanger hitters—are disallowed. Baseball should not promote violence, and it certainly shouldn’t allow it when players’ careers hang in the balance.  [1] Dave Cameron, “It’s Time to End Home Plate Collisions,” FanGraphs, May 26, 2011,  .",
+        "expansion_terms": "bean | collision | mlb",
+        "base_ndcg10": 0.5,
+        "fixed_candidates_expanded_rank_ndcg10": 1.0,
+        "expanded_candidates_base_rank_ndcg10": 0.5,
+        "expanded_ndcg10": 1.0,
+        "delta_ndcg10": 0.5,
+        "base_recall10": 1.0,
+        "expanded_recall10": 1.0,
+        "base_candidate_recall100": 1.0,
+        "expanded_candidate_recall100": 1.0,
+        "new_relevant_in_candidates100": 0,
+        "lost_relevant_from_candidates100": 0,
+        "base_candidate_recall1000": 1.0,
+        "expanded_candidate_recall1000": 1.0
+      },
+      "relevant_document_count": 1,
+      "missing_relevant_document_ids": [],
+      "top10": {
+        "base_candidates_base_rank": [
+          "test-sport-tshbmlbscac-pro01a",
+          "test-sport-tshbmlbscac-pro02a",
+          "test-sport-tshbmlbscac-con02b",
+          "test-sport-tshbmlbscac-con03a",
+          "test-sport-tshbmlbscac-pro03a",
+          "test-sport-tshbmlbscac-pro04a",
+          "test-sport-tshbmlbscac-con01a",
+          "test-sport-tshbmlbscac-pro01b",
+          "test-sport-tshbmlbscac-pro02b",
+          "test-sport-tshbmlbscac-con01b"
+        ],
+        "base_candidates_expanded_rank": [
+          "test-sport-tshbmlbscac-con02b",
+          "test-sport-tshbmlbscac-pro02a",
+          "test-sport-tshbmlbscac-pro01a",
+          "test-sport-tshbmlbscac-pro03a",
+          "test-sport-tshbmlbscac-con03a",
+          "test-sport-tshbmlbscac-pro04a",
+          "test-sport-tshbmlbscac-con01a",
+          "test-sport-tshbmlbscac-pro02b",
+          "test-sport-tshbmlbscac-pro01b",
+          "test-sport-tshbmlbscac-con01b"
+        ],
+        "expanded_candidates_base_rank": [
+          "test-sport-tshbmlbscac-pro01a",
+          "test-sport-tshbmlbscac-pro02a",
+          "test-sport-tshbmlbscac-con02b",
+          "test-sport-tshbmlbscac-con03a",
+          "test-sport-tshbmlbscac-pro03a",
+          "test-sport-tshbmlbscac-pro04a",
+          "test-sport-tshbmlbscac-con01a",
+          "test-sport-tshbmlbscac-pro01b",
+          "test-sport-tshbmlbscac-pro02b",
+          "test-sport-tshbmlbscac-con01b"
+        ],
+        "expanded_candidates_expanded_rank": [
+          "test-sport-tshbmlbscac-con02b",
+          "test-sport-tshbmlbscac-pro02a",
+          "test-sport-tshbmlbscac-pro01a",
+          "test-sport-tshbmlbscac-pro03a",
+          "test-sport-tshbmlbscac-con03a",
+          "test-sport-tshbmlbscac-pro04a",
+          "test-sport-tshbmlbscac-con01a",
+          "test-sport-tshbmlbscac-pro02b",
+          "test-sport-tshbmlbscac-pro01b",
+          "test-sport-tshbmlbscac-con01b"
+        ]
+      },
+      "new_relevant_in_candidates100": [],
+      "lost_relevant_from_candidates100": [],
+      "documents": {
+        "test-sport-tshbmlbscac-pro02b": {
+          "title_or_text_start": "team sports house believes major league baseball should continue allow collisions Collisions are much less a part of the game than people believe. The notion that collisions have been in the game for ages is a widely hel",
+          "relevance_grade": 0,
+          "base_rank_top1000": 9,
+          "expanded_rank_top1000": 8,
+          "base_bm25": 67.76861,
+          "added_terms_bm25": {
+            "bean": 0.0,
+            "collision": 5.15049,
+            "mlb": 5.52208
+          },
+          "expanded_bm25": 70.43676
+        },
+        "test-sport-tshbmlbscac-pro02a": {
+          "title_or_text_start": "team sports house believes major league baseball should continue allow collisions Collisions are a part of the game.  First, collisions are part of the tradition of baseball. They have been part of the game for a very lo",
+          "relevance_grade": 0,
+          "base_rank_top1000": 2,
+          "expanded_rank_top1000": 2,
+          "base_bm25": 82.35723,
+          "added_terms_bm25": {
+            "bean": 0.0,
+            "collision": 3.92659,
+            "mlb": 0.0
+          },
+          "expanded_bm25": 83.33888
+        },
+        "test-sport-tshbmlbscac-pro01a": {
+          "title_or_text_start": "team sports house believes major league baseball should continue allow collisions Collisions are exciting and fun to watch.  Baseball is a form of entertainment, and few plays are as entertaining as bang-bang plays (a cl",
+          "relevance_grade": 0,
+          "base_rank_top1000": 1,
+          "expanded_rank_top1000": 3,
+          "base_bm25": 82.62762,
+          "added_terms_bm25": {
+            "bean": 0.0,
+            "collision": 0.0,
+            "mlb": 0.0
+          },
+          "expanded_bm25": 82.62762
+        },
+        "test-sport-tshbmlbscac-pro01b": {
+          "title_or_text_start": "team sports house believes major league baseball should continue allow collisions Collisions are often not entertaining, and when they are, it’s for the wrong reasons. Most collisions do not show two athletes engaged in ",
+          "relevance_grade": 0,
+          "base_rank_top1000": 8,
+          "expanded_rank_top1000": 9,
+          "base_bm25": 68.619,
+          "added_terms_bm25": {
+            "bean": 0.0,
+            "collision": 0.0,
+            "mlb": 0.0
+          },
+          "expanded_bm25": 68.619
+        },
+        "test-sport-tshbmlbscac-pro03a": {
+          "title_or_text_start": "team sports house believes major league baseball should continue allow collisions Collisions are not as dangerous as they’re feared to be.  Some hits lead to injury, but the vast majority do not. One commentator challeng",
+          "relevance_grade": 0,
+          "base_rank_top1000": 5,
+          "expanded_rank_top1000": 4,
+          "base_bm25": 74.7278,
+          "added_terms_bm25": {
+            "bean": 0.0,
+            "collision": 5.58275,
+            "mlb": 5.98553
+          },
+          "expanded_bm25": 77.61987
+        },
+        "test-sport-tshbmlbscac-pro04a": {
+          "title_or_text_start": "team sports house believes major league baseball should continue allow collisions Without collisions, either the catcher or the runner would have an enormous and unfair advantage.  There are two often-discussed ways to c",
+          "relevance_grade": 0,
+          "base_rank_top1000": 6,
+          "expanded_rank_top1000": 6,
+          "base_bm25": 72.55583,
+          "added_terms_bm25": {
+            "bean": 0.0,
+            "collision": 5.4999,
+            "mlb": 0.0
+          },
+          "expanded_bm25": 73.93081
+        },
+        "test-sport-tshbmlbscac-con01b": {
+          "title_or_text_start": "team sports house believes major league baseball should continue allow collisions Collisions are not as dangerous as they’re made out to be. (Proposition Argument #3 is directly relevant here, though it’s not repeated in",
+          "relevance_grade": 0,
+          "base_rank_top1000": 10,
+          "expanded_rank_top1000": 10,
+          "base_bm25": 64.25503,
+          "added_terms_bm25": {
+            "bean": 0.0,
+            "collision": 0.0,
+            "mlb": 4.92557
+          },
+          "expanded_bm25": 65.48643
+        },
+        "test-sport-tshbmlbscac-con03a": {
+          "title_or_text_start": "team sports house believes major league baseball should continue allow collisions Collisions are unnecessary.  Baseball doesn’t need collisions. By requiring the runner to slide, just as they must do when attempting to r",
+          "relevance_grade": 0,
+          "base_rank_top1000": 4,
+          "expanded_rank_top1000": 5,
+          "base_bm25": 75.28862,
+          "added_terms_bm25": {
+            "bean": 0.0,
+            "collision": 0.0,
+            "mlb": 0.0
+          },
+          "expanded_bm25": 75.28862
+        },
+        "test-sport-tshbmlbscac-con01a": {
+          "title_or_text_start": "team sports house believes major league baseball should continue allow collisions Collisions are dangerous and lead to injury.  Ray Fosse and Buster Posey (mentioned above in the Introduction) are just two examples of pl",
+          "relevance_grade": 0,
+          "base_rank_top1000": 7,
+          "expanded_rank_top1000": 7,
+          "base_bm25": 70.63336,
+          "added_terms_bm25": {
+            "bean": 0.0,
+            "collision": 6.19957,
+            "mlb": 0.0
+          },
+          "expanded_bm25": 72.18325
+        },
+        "test-sport-tshbmlbscac-con02b": {
+          "title_or_text_start": "team sports house believes major league baseball should continue allow collisions Some level of violence is called for in baseball. Just because most plays in baseball do not involve contact does not mean that no plays s",
+          "relevance_grade": 1,
+          "base_rank_top1000": 3,
+          "expanded_rank_top1000": 1,
+          "base_bm25": 81.34261,
+          "added_terms_bm25": {
+            "bean": 0.0,
+            "collision": 8.53489,
+            "mlb": 6.6273
+          },
+          "expanded_bm25": 85.13315
+        }
+      }
+    },
+    {
+      "dataset": "arguana",
+      "query_id": "test-culture-mmctghwbsa-pro03a",
+      "selection_reason": "large_decline",
+      "summary": {
+        "dataset": "arguana",
+        "query_id": "test-culture-mmctghwbsa-pro03a",
+        "change": "worsened",
+        "query": "Since advertising is pervasive in mediated messages, it has the power to influence social attitudes.  Adverts occupy more public space than ever before in history. Due to technology, public space is global and ads can been seen around the world, in 2009 the UK became the first major economy where advertisers spend more on internet advertising than on television advertising1. Through such dominance, ads contribute to attitudes and values. Due to their power to influence attitudes within a society, serious attention should be paid to the content of advertising. 1 Sweney, Mark, 'Internet overtakes television to become biggest advertising sector in the UK', The Guardian, 30 September 2009",
+        "expansion_terms": "ad | facilitated | over",
+        "base_ndcg10": 1.0,
+        "fixed_candidates_expanded_rank_ndcg10": 0.63093,
+        "expanded_candidates_base_rank_ndcg10": 1.0,
+        "expanded_ndcg10": 0.63093,
+        "delta_ndcg10": -0.36907,
+        "base_recall10": 1.0,
+        "expanded_recall10": 1.0,
+        "base_candidate_recall100": 1.0,
+        "expanded_candidate_recall100": 1.0,
+        "new_relevant_in_candidates100": 0,
+        "lost_relevant_from_candidates100": 0,
+        "base_candidate_recall1000": 1.0,
+        "expanded_candidate_recall1000": 1.0
+      },
+      "relevant_document_count": 1,
+      "missing_relevant_document_ids": [],
+      "top10": {
+        "base_candidates_base_rank": [
+          "test-culture-mmctghwbsa-pro03b",
+          "test-culture-mmctghwbsa-con04b",
+          "test-culture-mmctghwbsa-con01b",
+          "test-culture-mmctghwbsa-pro02b",
+          "test-culture-mmctghwbsa-con04a",
+          "training-free-speech-debate-esdbphwlfsr-pro02a",
+          "training-culture-mmchbnatp-pro04b",
+          "test-culture-mthbah-pro02a",
+          "training-health-mthwhwbpd-con03a",
+          "training-digital-freedoms-phwbtoabup-pro02a"
+        ],
+        "base_candidates_expanded_rank": [
+          "test-culture-mmctghwbsa-con04b",
+          "test-culture-mmctghwbsa-pro03b",
+          "test-culture-mmctghwbsa-con01b",
+          "test-culture-mmctghwbsa-con04a",
+          "test-culture-mmctghwbsa-pro02b",
+          "training-free-speech-debate-esdbphwlfsr-pro02a",
+          "training-culture-mmchbnatp-pro04b",
+          "test-culture-mthbah-pro02a",
+          "training-digital-freedoms-phwbtoabup-con02a",
+          "training-health-mthwhwbpd-con03a"
+        ],
+        "expanded_candidates_base_rank": [
+          "test-culture-mmctghwbsa-pro03b",
+          "test-culture-mmctghwbsa-con04b",
+          "test-culture-mmctghwbsa-con01b",
+          "test-culture-mmctghwbsa-pro02b",
+          "test-culture-mmctghwbsa-con04a",
+          "training-free-speech-debate-esdbphwlfsr-pro02a",
+          "training-culture-mmchbnatp-pro04b",
+          "test-culture-mthbah-pro02a",
+          "training-health-mthwhwbpd-con03a",
+          "training-digital-freedoms-phwbtoabup-pro02a"
+        ],
+        "expanded_candidates_expanded_rank": [
+          "test-culture-mmctghwbsa-con04b",
+          "test-culture-mmctghwbsa-pro03b",
+          "test-culture-mmctghwbsa-con01b",
+          "test-culture-mmctghwbsa-con04a",
+          "test-culture-mmctghwbsa-pro02b",
+          "training-free-speech-debate-esdbphwlfsr-pro02a",
+          "training-culture-mmchbnatp-pro04b",
+          "test-culture-mthbah-pro02a",
+          "training-digital-freedoms-phwbtoabup-con02a",
+          "training-health-mthwhwbpd-con03a"
+        ]
+      },
+      "new_relevant_in_candidates100": [],
+      "lost_relevant_from_candidates100": [],
+      "documents": {
+        "test-culture-mthbah-pro02a": {
+          "title_or_text_start": "media television house believes advertising harmful People are given too much choice, which makes them less happy.  Advertising leads to many people being overwhelmed by the endless need to decide between competing deman",
+          "relevance_grade": 0,
+          "base_rank_top1000": 8,
+          "expanded_rank_top1000": 8,
+          "base_bm25": 41.13223,
+          "added_terms_bm25": {
+            "ad": 0.0,
+            "facilitated": 0.0,
+            "over": 0.0
+          },
+          "expanded_bm25": 41.13223
+        },
+        "test-culture-mmctghwbsa-pro02b": {
+          "title_or_text_start": "media modern culture television gender house would ban sexist advertising Bans on sexist advertising will not necessarily solve the harms presented and could instead cause harm to businesses through restricting their abi",
+          "relevance_grade": 0,
+          "base_rank_top1000": 4,
+          "expanded_rank_top1000": 5,
+          "base_bm25": 48.08702,
+          "added_terms_bm25": {
+            "ad": 0.0,
+            "facilitated": 0.0,
+            "over": 0.0
+          },
+          "expanded_bm25": 48.08702
+        },
+        "test-culture-mmctghwbsa-pro03b": {
+          "title_or_text_start": "media modern culture television gender house would ban sexist advertising All types of messages are prevalent and advertisements do not possess any more influence than news or entertainment programming. Advertising is si",
+          "relevance_grade": 1,
+          "base_rank_top1000": 1,
+          "expanded_rank_top1000": 2,
+          "base_bm25": 61.01017,
+          "added_terms_bm25": {
+            "ad": 0.0,
+            "facilitated": 0.0,
+            "over": 0.0
+          },
+          "expanded_bm25": 61.01017
+        },
+        "test-culture-mmctghwbsa-con01b": {
+          "title_or_text_start": "media modern culture television gender house would ban sexist advertising Although business has a compelling self interest to make a profit and advertising is integral to that endeavour, business does not necessarily sac",
+          "relevance_grade": 0,
+          "base_rank_top1000": 3,
+          "expanded_rank_top1000": 3,
+          "base_bm25": 52.04555,
+          "added_terms_bm25": {
+            "ad": 0.0,
+            "facilitated": 0.0,
+            "over": 0.0
+          },
+          "expanded_bm25": 52.04555
+        },
+        "test-culture-mmctghwbsa-con04a": {
+          "title_or_text_start": "media modern culture television gender house would ban sexist advertising Individuals have a choice and right to respond to ads and their meaning.  Consumers have a choice to expose themselves to advertising through thei",
+          "relevance_grade": 0,
+          "base_rank_top1000": 5,
+          "expanded_rank_top1000": 4,
+          "base_bm25": 47.01538,
+          "added_terms_bm25": {
+            "ad": 5.58668,
+            "facilitated": 0.0,
+            "over": 0.0
+          },
+          "expanded_bm25": 48.41205
+        },
+        "test-culture-mmctghwbsa-con04b": {
+          "title_or_text_start": "media modern culture television gender house would ban sexist advertising It is true that individuals do have the right to consume media and have some power over how they perceive and respond to media. However, since the",
+          "relevance_grade": 0,
+          "base_rank_top1000": 2,
+          "expanded_rank_top1000": 1,
+          "base_bm25": 60.9581,
+          "added_terms_bm25": {
+            "ad": 0.0,
+            "facilitated": 0.0,
+            "over": 2.45913
+          },
+          "expanded_bm25": 61.57288
+        },
+        "training-health-mthwhwbpd-con03a": {
+          "title_or_text_start": " Countercase; Tackling food advertising  If the Proposition is so keen to tackle obesity then regulating then it should tackle food advertising rather than the advertising of diets. [1] Banning the promotion of dieting a",
+          "relevance_grade": 0,
+          "base_rank_top1000": 9,
+          "expanded_rank_top1000": 10,
+          "base_bm25": 40.48956,
+          "added_terms_bm25": {
+            "ad": 0.0,
+            "facilitated": 0.0,
+            "over": 0.0
+          },
+          "expanded_bm25": 40.48956
+        },
+        "training-free-speech-debate-esdbphwlfsr-pro02a": {
+          "title_or_text_start": " Corporate influence distracts politicians from the needs of their constituents.  The content of public speech is informed as much by the ideas and convictions of individuals engaged in free expression as it is by the co",
+          "relevance_grade": 0,
+          "base_rank_top1000": 6,
+          "expanded_rank_top1000": 6,
+          "base_bm25": 45.95425,
+          "added_terms_bm25": {
+            "ad": 0.0,
+            "facilitated": 0.0,
+            "over": 0.0
+          },
+          "expanded_bm25": 45.95425
+        },
+        "training-culture-mmchbnatp-pro04b": {
+          "title_or_text_start": " This argument overstates the situation. Newspapers are less profitable than they were at their peak, but newspapers have been affected by other media ever since the invention of the radio. Much of the evidence the propo",
+          "relevance_grade": 0,
+          "base_rank_top1000": 7,
+          "expanded_rank_top1000": 7,
+          "base_bm25": 43.42186,
+          "added_terms_bm25": {
+            "ad": 0.0,
+            "facilitated": 0.0,
+            "over": 0.0
+          },
+          "expanded_bm25": 43.42186
+        },
+        "training-digital-freedoms-phwbtoabup-pro02a": {
+          "title_or_text_start": " Consumers tend to find these strategies alienating  Internet users have come to understand the nature of demographic and personal marketing, and have generally rejected it. This is because they consider the whole proces",
+          "relevance_grade": 0,
+          "base_rank_top1000": 10,
+          "expanded_rank_top1000": 11,
+          "base_bm25": 39.90419,
+          "added_terms_bm25": {
+            "ad": 0.0,
+            "facilitated": 0.0,
+            "over": 0.0
+          },
+          "expanded_bm25": 39.90419
+        },
+        "training-digital-freedoms-phwbtoabup-con02a": {
+          "title_or_text_start": " The sort of information being used in this advertising is legitimate for firms to utilize  The information trail left online through cookies etc. is a public statement, put into the public sphere. Provided the individua",
+          "relevance_grade": 0,
+          "base_rank_top1000": 11,
+          "expanded_rank_top1000": 9,
+          "base_bm25": 39.57633,
+          "added_terms_bm25": {
+            "ad": 4.47305,
+            "facilitated": 0.0,
+            "over": 0.0
+          },
+          "expanded_bm25": 40.69459
+        }
+      }
+    },
+    {
+      "dataset": "arguana",
+      "query_id": "test-health-dhghhbampt-con01a",
+      "selection_reason": "unchanged_with_new_relevant_candidate",
+      "summary": {
+        "dataset": "arguana",
+        "query_id": "test-health-dhghhbampt-con01a",
+        "change": "unchanged",
+        "query": "A huge number of fully accepted medical practices started being seen as something a bit off the wall, it’s wrong to deny sick people access to a treatment that may be mainstream in 20 years  There is a fine line between what is considered alternative and what is thought of as mainstream. Techniques do move across that line and when they do so, they are seen as mainstream. However, this process of reform, refinement and acceptance takes time.  In the meantime it is simply unfair to deny treatment to patients who want it because the medical establishment is beholden to a conservative academic orthodoxy and drug and treatment providers with vested interests in ensuring that particular cures and techniques will continue to be purchased and utilised.",
+        "expansion_terms": "orthodox | alternatives | practice",
+        "base_ndcg10": 0.0,
+        "fixed_candidates_expanded_rank_ndcg10": 0.0,
+        "expanded_candidates_base_rank_ndcg10": 0.0,
+        "expanded_ndcg10": 0.0,
+        "delta_ndcg10": 0.0,
+        "base_recall10": 0.0,
+        "expanded_recall10": 0.0,
+        "base_candidate_recall100": 0.0,
+        "expanded_candidate_recall100": 1.0,
+        "new_relevant_in_candidates100": 1,
+        "lost_relevant_from_candidates100": 0,
+        "base_candidate_recall1000": 1.0,
+        "expanded_candidate_recall1000": 1.0
+      },
+      "relevant_document_count": 1,
+      "missing_relevant_document_ids": [],
+      "top10": {
+        "base_candidates_base_rank": [
+          "training-health-hpessghwgt-pro02a",
+          "training-health-fhhphwisu-con03a",
+          "training-health-hpessghwgt-con01a",
+          "training-health-bhhghwapc-pro02a",
+          "training-health-hpessghwgt-pro03a",
+          "test-digital-freedoms-piidfaihbg-pro03b",
+          "test-education-egscphsrdt-con02a",
+          "test-health-dhghhbampt-pro02b",
+          "test-law-phwmfri-pro03a",
+          "training-free-speech-debate-nvhbfemir-pro03b"
+        ],
+        "base_candidates_expanded_rank": [
+          "training-health-hpessghwgt-pro02a",
+          "training-health-fhhphwisu-con03a",
+          "training-health-hpessghwgt-con01a",
+          "training-health-bhhghwapc-pro02a",
+          "training-health-hpessghwgt-pro03a",
+          "test-digital-freedoms-piidfaihbg-pro03b",
+          "test-education-egscphsrdt-con02a",
+          "test-health-dhghhbampt-pro02b",
+          "test-law-phwmfri-pro03a",
+          "training-free-speech-debate-nvhbfemir-pro03b"
+        ],
+        "expanded_candidates_base_rank": [
+          "training-health-hpessghwgt-pro02a",
+          "training-health-fhhphwisu-con03a",
+          "training-health-hpessghwgt-con01a",
+          "training-health-bhhghwapc-pro02a",
+          "training-health-hpessghwgt-pro03a",
+          "test-digital-freedoms-piidfaihbg-pro03b",
+          "test-education-egscphsrdt-con02a",
+          "test-health-dhghhbampt-pro02b",
+          "test-law-phwmfri-pro03a",
+          "training-free-speech-debate-nvhbfemir-pro03b"
+        ],
+        "expanded_candidates_expanded_rank": [
+          "training-health-hpessghwgt-pro02a",
+          "training-health-fhhphwisu-con03a",
+          "training-health-hpessghwgt-con01a",
+          "training-health-bhhghwapc-pro02a",
+          "training-health-hpessghwgt-pro03a",
+          "test-digital-freedoms-piidfaihbg-pro03b",
+          "test-education-egscphsrdt-con02a",
+          "test-health-dhghhbampt-pro02b",
+          "test-law-phwmfri-pro03a",
+          "training-free-speech-debate-nvhbfemir-pro03b"
+        ]
+      },
+      "new_relevant_in_candidates100": [
+        "test-health-dhghhbampt-con01b"
+      ],
+      "lost_relevant_from_candidates100": [],
+      "documents": {
+        "test-health-dhghhbampt-pro02b": {
+          "title_or_text_start": "disease health general healthcare house believes alternative medicine poses threat Partly the problem here may well be that clinical research is simply looking for the wrong things. There is enough anecdotal evidence of ",
+          "relevance_grade": 0,
+          "base_rank_top1000": 8,
+          "expanded_rank_top1000": 8,
+          "base_bm25": 38.68912,
+          "added_terms_bm25": {
+            "orthodox": 0.0,
+            "alternatives": 0.0,
+            "practice": 0.0
+          },
+          "expanded_bm25": 38.68912
+        },
+        "test-health-dhghhbampt-con01b": {
+          "title_or_text_start": "disease health general healthcare house believes alternative medicine poses threat This comes down to the ‘well it can’t hurt, can it’ approach to alternatives. There is simply no serious medic – or any other scientist f",
+          "relevance_grade": 1,
+          "base_rank_top1000": 131,
+          "expanded_rank_top1000": 100,
+          "base_bm25": 27.76676,
+          "added_terms_bm25": {
+            "orthodox": 0.0,
+            "alternatives": 4.97365,
+            "practice": 0.0
+          },
+          "expanded_bm25": 29.01018
+        },
+        "test-law-phwmfri-pro03a": {
+          "title_or_text_start": "punishment house would make fines relative income Creates the perception that the rich are not immune to the consequences of their actions  Fines that are not proportionate to income may create the perception that the ri",
+          "relevance_grade": 0,
+          "base_rank_top1000": 9,
+          "expanded_rank_top1000": 9,
+          "base_bm25": 38.26164,
+          "added_terms_bm25": {
+            "orthodox": 0.0,
+            "alternatives": 0.0,
+            "practice": 0.0
+          },
+          "expanded_bm25": 38.26164
+        },
+        "test-education-egscphsrdt-con02a": {
+          "title_or_text_start": "education general secondary crime policing house supports random drug testing Keeping teenagers in education  Studies in Michigan in the USA have found that random drug tests in schools do not deter drug use, as schools ",
+          "relevance_grade": 0,
+          "base_rank_top1000": 7,
+          "expanded_rank_top1000": 7,
+          "base_bm25": 39.33167,
+          "added_terms_bm25": {
+            "orthodox": 0.0,
+            "alternatives": 0.0,
+            "practice": 0.0
+          },
+          "expanded_bm25": 39.33167
+        },
+        "test-digital-freedoms-piidfaihbg-pro03b": {
+          "title_or_text_start": "p ip internet digital freedoms access information house believes google China won’t budge that easily  China has already faced trade sanctions for its human rights abuses for years, in particular there are bans on arms s",
+          "relevance_grade": 0,
+          "base_rank_top1000": 6,
+          "expanded_rank_top1000": 6,
+          "base_bm25": 40.13266,
+          "added_terms_bm25": {
+            "orthodox": 0.0,
+            "alternatives": 0.0,
+            "practice": 0.0
+          },
+          "expanded_bm25": 40.13266
+        },
+        "training-health-hpessghwgt-pro02a": {
+          "title_or_text_start": " It is cruel to deny people the last hope  At a point when all ordinary medical avenues have been expended, and the outcome appears bleak, new treatments still undergoing trials can be seen as the last hope.  People are ",
+          "relevance_grade": 0,
+          "base_rank_top1000": 1,
+          "expanded_rank_top1000": 1,
+          "base_bm25": 52.83587,
+          "added_terms_bm25": {
+            "orthodox": 0.0,
+            "alternatives": 0.0,
+            "practice": 0.0
+          },
+          "expanded_bm25": 52.83587
+        },
+        "training-health-hpessghwgt-pro03a": {
+          "title_or_text_start": " It is unethical to force a ‘volunteer’ to take the chance of being randomised onto the placebo arm of a trial  Under the status quo, someone with a terminal illness is offered two choices: death, or to join a trial (whe",
+          "relevance_grade": 0,
+          "base_rank_top1000": 5,
+          "expanded_rank_top1000": 5,
+          "base_bm25": 40.87733,
+          "added_terms_bm25": {
+            "orthodox": 0.0,
+            "alternatives": 0.0,
+            "practice": 0.0
+          },
+          "expanded_bm25": 40.87733
+        },
+        "training-health-hpessghwgt-con01a": {
+          "title_or_text_start": " Disastrous impact on medical trials  We need medical trials. It is important to have large groups of recruits, which can often be very difficult: a problem with the speed at which new treatments for rare diseases is the",
+          "relevance_grade": 0,
+          "base_rank_top1000": 3,
+          "expanded_rank_top1000": 3,
+          "base_bm25": 44.18486,
+          "added_terms_bm25": {
+            "orthodox": 0.0,
+            "alternatives": 0.0,
+            "practice": 0.0
+          },
+          "expanded_bm25": 44.18486
+        },
+        "training-health-fhhphwisu-con03a": {
+          "title_or_text_start": " Universal healthcare stifles innovation  Profits drive innovation. That’s the long and short of it. Medical care is not exception, albeit the situation is a bit more complicated in this case.  The US’s current system ha",
+          "relevance_grade": 0,
+          "base_rank_top1000": 2,
+          "expanded_rank_top1000": 2,
+          "base_bm25": 44.31219,
+          "added_terms_bm25": {
+            "orthodox": 0.0,
+            "alternatives": 0.0,
+            "practice": 0.0
+          },
+          "expanded_bm25": 44.31219
+        },
+        "training-health-bhhghwapc-pro02a": {
+          "title_or_text_start": " Patients will be better informed than under the status quo  Advertising prescription drugs enables patients to learn, and to request innovation faster in order to benefit from the new drugs that health personnel still h",
+          "relevance_grade": 0,
+          "base_rank_top1000": 4,
+          "expanded_rank_top1000": 4,
+          "base_bm25": 41.52265,
+          "added_terms_bm25": {
+            "orthodox": 0.0,
+            "alternatives": 0.0,
+            "practice": 0.0
+          },
+          "expanded_bm25": 41.52265
+        },
+        "training-free-speech-debate-nvhbfemir-pro03b": {
+          "title_or_text_start": " The fact that religious thought tends to be subverted to defend the status quo is hardly a compelling argument as the same can be said for almost all forms of thought. There is a natural backlash from vested interests a",
+          "relevance_grade": 0,
+          "base_rank_top1000": 10,
+          "expanded_rank_top1000": 10,
+          "base_bm25": 38.16248,
+          "added_terms_bm25": {
+            "orthodox": 0.0,
+            "alternatives": 0.0,
+            "practice": 0.0
+          },
+          "expanded_bm25": 38.16248
+        }
+      }
+    },
+    {
+      "dataset": "nfcorpus",
+      "query_id": "PLAIN-2386",
+      "selection_reason": "improvement_with_new_relevant_candidates",
+      "summary": {
+        "dataset": "nfcorpus",
+        "query_id": "PLAIN-2386",
+        "change": "improved",
+        "query": "worms",
+        "expansion_terms": "worm | parasite | disease",
+        "base_ndcg10": 0.0,
+        "fixed_candidates_expanded_rank_ndcg10": 0.0,
+        "expanded_candidates_base_rank_ndcg10": 0.0,
+        "expanded_ndcg10": 0.331694,
+        "delta_ndcg10": 0.331694,
+        "base_recall10": 0.0,
+        "expanded_recall10": 0.210526,
+        "base_candidate_recall100": 0.0,
+        "expanded_candidate_recall100": 0.315789,
+        "new_relevant_in_candidates100": 6,
+        "lost_relevant_from_candidates100": 0,
+        "base_candidate_recall1000": 0.0,
+        "expanded_candidate_recall1000": 0.631579
+      },
+      "relevant_document_count": 19,
+      "missing_relevant_document_ids": [],
+      "top10": {
+        "base_candidates_base_rank": [
+          "MED-2346",
+          "MED-2510",
+          "MED-1724"
+        ],
+        "base_candidates_expanded_rank": [
+          "MED-2346",
+          "MED-2510",
+          "MED-1724"
+        ],
+        "expanded_candidates_base_rank": [
+          "MED-2346",
+          "MED-2510",
+          "MED-1724",
+          "MED-736",
+          "MED-757",
+          "MED-970",
+          "MED-972",
+          "MED-975",
+          "MED-983",
+          "MED-987"
+        ],
+        "expanded_candidates_expanded_rank": [
+          "MED-2346",
+          "MED-2510",
+          "MED-1724",
+          "MED-4742",
+          "MED-3175",
+          "MED-3172",
+          "MED-3177",
+          "MED-2339",
+          "MED-2345",
+          "MED-4957"
+        ]
+      },
+      "new_relevant_in_candidates100": [
+        "MED-4742",
+        "MED-3175",
+        "MED-3172",
+        "MED-3177",
+        "MED-3174",
+        "MED-3182"
+      ],
+      "lost_relevant_from_candidates100": [],
+      "documents": {
+        "MED-736": {
+          "title_or_text_start": "Diverticular disease: Epidemiology and management Diverticular disease of the colon is among the most prevalent conditions in western society and is among the leading reasons for outpatient visits and causes of hospitali",
+          "relevance_grade": 0,
+          "base_rank_top1000": null,
+          "expanded_rank_top1000": 54,
+          "base_bm25": 0.0,
+          "added_terms_bm25": {
+            "worm": 0.0,
+            "parasite": 0.0,
+            "disease": 2.41492
+          },
+          "expanded_bm25": 0.60373
+        },
+        "MED-757": {
+          "title_or_text_start": "Turning back the clock: adopting a healthy lifestyle in middle age. PURPOSE: To determine the frequency of adopting a healthy lifestyle (5 or more fruits and vegetables daily, regular exercise, BMI 18.5-29.9 kg/m2, no cu",
+          "relevance_grade": 0,
+          "base_rank_top1000": null,
+          "expanded_rank_top1000": 80,
+          "base_bm25": 0.0,
+          "added_terms_bm25": {
+            "worm": 0.0,
+            "parasite": 0.0,
+            "disease": 2.32126
+          },
+          "expanded_bm25": 0.58032
+        },
+        "MED-970": {
+          "title_or_text_start": "Diet and risk of diverticular disease in Oxford cohort of European Prospective Investigation into Cancer and Nutrition (EPIC): prospective study of British vegetarians and non-vegetarians Objective To examine the associa",
+          "relevance_grade": 0,
+          "base_rank_top1000": null,
+          "expanded_rank_top1000": 26,
+          "base_bm25": 0.0,
+          "added_terms_bm25": {
+            "worm": 0.0,
+            "parasite": 0.0,
+            "disease": 2.49676
+          },
+          "expanded_bm25": 0.62419
+        },
+        "MED-972": {
+          "title_or_text_start": "Symptomless diverticular disease and intake of dietary fibre. A study is reported in which the prevalence of symptomless diverticular disease of the colon is related to the consumption of dietary fibre in vegetarians and",
+          "relevance_grade": 0,
+          "base_rank_top1000": null,
+          "expanded_rank_top1000": 17,
+          "base_bm25": 0.0,
+          "added_terms_bm25": {
+            "worm": 0.0,
+            "parasite": 0.0,
+            "disease": 2.58963
+          },
+          "expanded_bm25": 0.64741
+        },
+        "MED-975": {
+          "title_or_text_start": "Diverticular disease of the colon. The first of the Western diseases shown to be due to a deficiency of dietary fibre. Diverticular disease of the colon is a new disease that appeared at the beginning of this century. It",
+          "relevance_grade": 0,
+          "base_rank_top1000": null,
+          "expanded_rank_top1000": 13,
+          "base_bm25": 0.0,
+          "added_terms_bm25": {
+            "worm": 0.0,
+            "parasite": 0.0,
+            "disease": 2.6435
+          },
+          "expanded_bm25": 0.66087
+        },
+        "MED-983": {
+          "title_or_text_start": "Forecasting the global burden of Alzheimer's disease. BACKGROUND: Our goal was to forecast the global burden of Alzheimer's disease and evaluate the potential impact of interventions that delay disease onset or progressi",
+          "relevance_grade": 0,
+          "base_rank_top1000": null,
+          "expanded_rank_top1000": 12,
+          "base_bm25": 0.0,
+          "added_terms_bm25": {
+            "worm": 0.0,
+            "parasite": 0.0,
+            "disease": 2.6789
+          },
+          "expanded_bm25": 0.66973
+        },
+        "MED-987": {
+          "title_or_text_start": "Plasma homocysteine as a risk factor for dementia and Alzheimer's disease. BACKGROUND: In cross-sectional studies, elevated plasma homocysteine levels have been associated with poor cognition and dementia. Studies of new",
+          "relevance_grade": 0,
+          "base_rank_top1000": null,
+          "expanded_rank_top1000": 92,
+          "base_bm25": 0.0,
+          "added_terms_bm25": {
+            "worm": 0.0,
+            "parasite": 0.0,
+            "disease": 2.29996
+          },
+          "expanded_bm25": 0.57499
+        },
+        "MED-1724": {
+          "title_or_text_start": "A low-fat, whole-food vegan diet, as well as other strategies that down-regulate IGF-I activity, may slow the human aging process. A considerable amount of evidence is consistent with the proposition that systemic IGF-I ",
+          "relevance_grade": 0,
+          "base_rank_top1000": 3,
+          "expanded_rank_top1000": 3,
+          "base_bm25": 6.21828,
+          "added_terms_bm25": {
+            "worm": 0.0,
+            "parasite": 0.0,
+            "disease": 0.0
+          },
+          "expanded_bm25": 6.21828
+        },
+        "MED-2339": {
+          "title_or_text_start": "Anisakis simplex allergy after eating chicken meat. BACKGROUND: Allergic reactions to food can be produced by contaminants that induce sensitization. Among these, Anisakis simplex can cause seafood infestation, and aller",
+          "relevance_grade": 0,
+          "base_rank_top1000": null,
+          "expanded_rank_top1000": 8,
+          "base_bm25": 0.0,
+          "added_terms_bm25": {
+            "worm": 0.0,
+            "parasite": 7.76589,
+            "disease": 0.0
+          },
+          "expanded_bm25": 1.94147
+        },
+        "MED-2345": {
+          "title_or_text_start": "Anisakiasis, an underestimated infection: effect on intestinal permeability of Anisakis simplex-sensitized patients. Anisakis simplex is a parasite that, if present in uncooked and contaminated saltwater fish, can invade",
+          "relevance_grade": 0,
+          "base_rank_top1000": null,
+          "expanded_rank_top1000": 9,
+          "base_bm25": 0.0,
+          "added_terms_bm25": {
+            "worm": 0.0,
+            "parasite": 5.42947,
+            "disease": 1.21869
+          },
+          "expanded_bm25": 1.66204
+        },
+        "MED-2346": {
+          "title_or_text_start": "Anisakis simplex: from Obscure Infectious Worm to Inducer of Immune Hypersensitivity Summary: Infection of humans with the nematode worm parasite Anisakis simplex was first described in the 1960s in association with the ",
+          "relevance_grade": 0,
+          "base_rank_top1000": 1,
+          "expanded_rank_top1000": 1,
+          "base_bm25": 9.40728,
+          "added_terms_bm25": {
+            "worm": 10.55493,
+            "parasite": 9.97084,
+            "disease": 0.0
+          },
+          "expanded_bm25": 14.53873
+        },
+        "MED-2510": {
+          "title_or_text_start": "Comparative and meta-analytic insights into life extension via dietary restriction. Dietary restriction (DR) extends the lifespan of a wide range of species, although the universality of this effect has never been quanti",
+          "relevance_grade": 0,
+          "base_rank_top1000": 2,
+          "expanded_rank_top1000": 2,
+          "base_bm25": 7.91743,
+          "added_terms_bm25": {
+            "worm": 0.0,
+            "parasite": 0.0,
+            "disease": 0.0
+          },
+          "expanded_bm25": 7.91743
+        },
+        "MED-3172": {
+          "title_or_text_start": "Neurocysticercosis and oncogenesis. Recent studies suggest that neurocysticercosis may be a risk factor for human cancer. Pathogenetic mechanisms explaining possible oncogenic effects of cysticerci include the following:",
+          "relevance_grade": 1,
+          "base_rank_top1000": null,
+          "expanded_rank_top1000": 6,
+          "base_bm25": 0.0,
+          "added_terms_bm25": {
+            "worm": 0.0,
+            "parasite": 8.95308,
+            "disease": 0.0
+          },
+          "expanded_bm25": 2.23827
+        },
+        "MED-3174": {
+          "title_or_text_start": "The Impact of Neurocysticercosis in California: A Review of Hospitalized Cases To assess the burden of neurocysticercosis (NCC) in California we examined statewide hospital discharge data for 2009. There were 304 cases h",
+          "relevance_grade": 1,
+          "base_rank_top1000": null,
+          "expanded_rank_top1000": 44,
+          "base_bm25": 0.0,
+          "added_terms_bm25": {
+            "worm": 0.0,
+            "parasite": 0.0,
+            "disease": 2.43137
+          },
+          "expanded_bm25": 0.60784
+        },
+        "MED-3175": {
+          "title_or_text_start": "Neurocysticercosis in pregnancy: not just another headache. Infection with pork tapeworm, or Taenia solium, affects approximately 50 million people worldwide. The most important and potentially devastating form of the in",
+          "relevance_grade": 1,
+          "base_rank_top1000": null,
+          "expanded_rank_top1000": 5,
+          "base_bm25": 0.0,
+          "added_terms_bm25": {
+            "worm": 0.0,
+            "parasite": 7.8347,
+            "disease": 1.75856
+          },
+          "expanded_bm25": 2.39832
+        },
+        "MED-3177": {
+          "title_or_text_start": "Neurocysticercosis: the enigmatic disease. Neurocysticercosis (NCC) is an infection of the central nervous system (CNS) caused by the metacestode larval form of the parasite Taenia sp. Many factors can contribute to the ",
+          "relevance_grade": 1,
+          "base_rank_top1000": null,
+          "expanded_rank_top1000": 7,
+          "base_bm25": 0.0,
+          "added_terms_bm25": {
+            "worm": 0.0,
+            "parasite": 7.20227,
+            "disease": 1.11529
+          },
+          "expanded_bm25": 2.07939
+        },
+        "MED-3182": {
+          "title_or_text_start": "A review of cases of human cysticercosis in Canada. OBJECTIVE: Review of human cysticercosis in Canada, to estimate the magnitude of the disease and to describe the pattern of disease expression in this country. METHODS:",
+          "relevance_grade": 1,
+          "base_rank_top1000": null,
+          "expanded_rank_top1000": 59,
+          "base_bm25": 0.0,
+          "added_terms_bm25": {
+            "worm": 0.0,
+            "parasite": 0.0,
+            "disease": 2.38904
+          },
+          "expanded_bm25": 0.59726
+        },
+        "MED-4742": {
+          "title_or_text_start": "Evaluation of a real-time polymerase chain reaction (PCR) assay for detection of anisakis simplex parasite as a food-borne allergen source in seafo... Anisakis simplex has been recognized as an important cause of disease",
+          "relevance_grade": 1,
+          "base_rank_top1000": null,
+          "expanded_rank_top1000": 4,
+          "base_bm25": 0.0,
+          "added_terms_bm25": {
+            "worm": 0.0,
+            "parasite": 10.9793,
+            "disease": 1.3661
+          },
+          "expanded_bm25": 3.08635
+        },
+        "MED-4957": {
+          "title_or_text_start": "Detection of sarcocystis parasites in retail beef: a regional survey combining histological and genetic detection methods. Sarcocystis spp. are parasitic protists acquired when undercooked, cyst-laden meat is consumed. W",
+          "relevance_grade": 0,
+          "base_rank_top1000": null,
+          "expanded_rank_top1000": 10,
+          "base_bm25": 0.0,
+          "added_terms_bm25": {
+            "worm": 0.0,
+            "parasite": 6.39106,
+            "disease": 0.0
+          },
+          "expanded_bm25": 1.59777
+        }
+      }
+    },
+    {
+      "dataset": "nfcorpus",
+      "query_id": "PLAIN-2600",
+      "selection_reason": "improvement_without_new_relevant_candidates",
+      "summary": {
+        "dataset": "nfcorpus",
+        "query_id": "PLAIN-2600",
+        "change": "improved",
+        "query": "Eggs and Arterial Function",
+        "expansion_terms": "egg | artery | functions",
+        "base_ndcg10": 0.227079,
+        "fixed_candidates_expanded_rank_ndcg10": 0.471031,
+        "expanded_candidates_base_rank_ndcg10": 0.227079,
+        "expanded_ndcg10": 0.471031,
+        "delta_ndcg10": 0.243952,
+        "base_recall10": 0.2,
+        "expanded_recall10": 0.3,
+        "base_candidate_recall100": 0.3,
+        "expanded_candidate_recall100": 0.3,
+        "new_relevant_in_candidates100": 0,
+        "lost_relevant_from_candidates100": 0,
+        "base_candidate_recall1000": 0.5,
+        "expanded_candidate_recall1000": 0.6
+      },
+      "relevant_document_count": 10,
+      "missing_relevant_document_ids": [],
+      "top10": {
+        "base_candidates_base_rank": [
+          "MED-2939",
+          "MED-4520",
+          "MED-877",
+          "MED-2371",
+          "MED-1516",
+          "MED-967",
+          "MED-2697",
+          "MED-2946",
+          "MED-4324",
+          "MED-5330"
+        ],
+        "base_candidates_expanded_rank": [
+          "MED-2939",
+          "MED-2371",
+          "MED-4324",
+          "MED-2946",
+          "MED-2372",
+          "MED-4520",
+          "MED-2697",
+          "MED-5330",
+          "MED-877",
+          "MED-1516"
+        ],
+        "expanded_candidates_base_rank": [
+          "MED-2939",
+          "MED-4520",
+          "MED-877",
+          "MED-2371",
+          "MED-1516",
+          "MED-967",
+          "MED-2697",
+          "MED-2946",
+          "MED-4324",
+          "MED-5330"
+        ],
+        "expanded_candidates_expanded_rank": [
+          "MED-2939",
+          "MED-2371",
+          "MED-4324",
+          "MED-2946",
+          "MED-2372",
+          "MED-4520",
+          "MED-2697",
+          "MED-5330",
+          "MED-877",
+          "MED-1516"
+        ]
+      },
+      "new_relevant_in_candidates100": [],
+      "lost_relevant_from_candidates100": [],
+      "documents": {
+        "MED-877": {
+          "title_or_text_start": "Detrimental effects of energy drink consumption on platelet and endothelial function. BACKGROUND: Energy drink consumption has been anecdotally linked with sudden cardiac death and, more recently, myocardial infarction. ",
+          "relevance_grade": 0,
+          "base_rank_top1000": 3,
+          "expanded_rank_top1000": 9,
+          "base_bm25": 10.48755,
+          "added_terms_bm25": {
+            "egg": 0.0,
+            "artery": 0.0,
+            "functions": 0.0
+          },
+          "expanded_bm25": 10.48755
+        },
+        "MED-967": {
+          "title_or_text_start": "Dietary intake of fruits and vegetables improves microvascular function in hypertensive subjects in a dose-dependent manner. BACKGROUND: Observational evidence has consistently linked increased fruit and vegetable consum",
+          "relevance_grade": 0,
+          "base_rank_top1000": 6,
+          "expanded_rank_top1000": 11,
+          "base_bm25": 10.22788,
+          "added_terms_bm25": {
+            "egg": 0.0,
+            "artery": 0.0,
+            "functions": 0.0
+          },
+          "expanded_bm25": 10.22788
+        },
+        "MED-1516": {
+          "title_or_text_start": "Sitting and endothelial dysfunction: The role of shear stress Summary Sedentary activity is a modifiable life-style behavior and a key component in the etiology of atherosclerotic cardiovascular disease (ACVD). US adults",
+          "relevance_grade": 0,
+          "base_rank_top1000": 5,
+          "expanded_rank_top1000": 10,
+          "base_bm25": 10.32845,
+          "added_terms_bm25": {
+            "egg": 0.0,
+            "artery": 0.0,
+            "functions": 0.0
+          },
+          "expanded_bm25": 10.32845
+        },
+        "MED-2371": {
+          "title_or_text_start": "Daily egg consumption in hyperlipidemic adults - Effects on endothelial function and cardiovascular risk Background Limiting consumption of eggs, which are high in cholesterol, is generally recommended to reduce risk of ",
+          "relevance_grade": 2,
+          "base_rank_top1000": 4,
+          "expanded_rank_top1000": 2,
+          "base_bm25": 10.35537,
+          "added_terms_bm25": {
+            "egg": 8.4011,
+            "artery": 0.0,
+            "functions": 0.0
+          },
+          "expanded_bm25": 12.45565
+        },
+        "MED-2372": {
+          "title_or_text_start": "Egg consumption and endothelial function: a randomized controlled crossover trial. BACKGROUND: Because of egg cholesterol content, reduction in egg consumption is generally recommended to reduce risk of cardiovascular di",
+          "relevance_grade": 2,
+          "base_rank_top1000": 20,
+          "expanded_rank_top1000": 5,
+          "base_bm25": 7.58541,
+          "added_terms_bm25": {
+            "egg": 8.65067,
+            "artery": 4.79491,
+            "functions": 0.0
+          },
+          "expanded_bm25": 10.94681
+        },
+        "MED-2697": {
+          "title_or_text_start": "Impaired endothelial function following a meal rich in used cooking fat. OBJECTIVES: The purpose of this study was to test the hypothesis that intake of used cooking fat is associated with impaired endothelial function. ",
+          "relevance_grade": 0,
+          "base_rank_top1000": 7,
+          "expanded_rank_top1000": 7,
+          "base_bm25": 9.90109,
+          "added_terms_bm25": {
+            "egg": 0.0,
+            "artery": 3.39982,
+            "functions": 0.0
+          },
+          "expanded_bm25": 10.75104
+        },
+        "MED-2939": {
+          "title_or_text_start": "Arterial function of carotid and brachial arteries in postmenopausal vegetarians Background: Vegetarianism is associated with a lower risk of cardiovascular disease. However, studies of arterial function in vegetarians a",
+          "relevance_grade": 0,
+          "base_rank_top1000": 1,
+          "expanded_rank_top1000": 1,
+          "base_bm25": 11.74978,
+          "added_terms_bm25": {
+            "egg": 0.0,
+            "artery": 4.92641,
+            "functions": 0.0
+          },
+          "expanded_bm25": 12.98138
+        },
+        "MED-2946": {
+          "title_or_text_start": "Vitamin B-12 supplementation improves arterial function in vegetarians with subnormal vitamin B-12 status. OBJECTIVE: Vegetarians are more vascular-healthy but those with subnormal vitamin B-12 status have impaired arter",
+          "relevance_grade": 0,
+          "base_rank_top1000": 8,
+          "expanded_rank_top1000": 4,
+          "base_bm25": 9.86189,
+          "added_terms_bm25": {
+            "egg": 0.0,
+            "artery": 4.49962,
+            "functions": 0.0
+          },
+          "expanded_bm25": 10.98679
+        },
+        "MED-4324": {
+          "title_or_text_start": "Egg yolk consumption and carotid plaque. BACKGROUND: Increasingly the potential harm from high cholesterol intake, and specifically from egg yolks, is considered insignificant. We therefore assessed total plaque area (TP",
+          "relevance_grade": 2,
+          "base_rank_top1000": 9,
+          "expanded_rank_top1000": 3,
+          "base_bm25": 9.73966,
+          "added_terms_bm25": {
+            "egg": 8.52034,
+            "artery": 0.0,
+            "functions": 0.0
+          },
+          "expanded_bm25": 11.86975
+        },
+        "MED-4520": {
+          "title_or_text_start": "Assessment of atherosclerosis: the role of flow-mediated dilatation. Evidence suggests that endothelial dysfunction is on the causal pathway for both atherogenesis and destabilization of established plaques. In this revi",
+          "relevance_grade": 0,
+          "base_rank_top1000": 2,
+          "expanded_rank_top1000": 6,
+          "base_bm25": 10.85063,
+          "added_terms_bm25": {
+            "egg": 0.0,
+            "artery": 0.0,
+            "functions": 0.0
+          },
+          "expanded_bm25": 10.85063
+        },
+        "MED-5330": {
+          "title_or_text_start": "Effect of a single high-fat meal on endothelial function in healthy subjects. Although there is a well-established relation between serum cholesterol and coronary artery disease risk, individual and national variations i",
+          "relevance_grade": 0,
+          "base_rank_top1000": 10,
+          "expanded_rank_top1000": 8,
+          "base_bm25": 9.40838,
+          "added_terms_bm25": {
+            "egg": 0.0,
+            "artery": 4.58578,
+            "functions": 0.0
+          },
+          "expanded_bm25": 10.55482
+        }
+      }
+    },
+    {
+      "dataset": "nfcorpus",
+      "query_id": "PLAIN-3085",
+      "selection_reason": "decline_without_lost_relevant_candidates",
+      "summary": {
+        "dataset": "nfcorpus",
+        "query_id": "PLAIN-3085",
+        "change": "worsened",
+        "query": "The Difficulty of Arriving at a Vitamin D Recommendation",
+        "expansion_terms": "difficult | recommended | arrive",
+        "base_ndcg10": 0.650921,
+        "fixed_candidates_expanded_rank_ndcg10": 0.44158,
+        "expanded_candidates_base_rank_ndcg10": 0.650921,
+        "expanded_ndcg10": 0.44158,
+        "delta_ndcg10": -0.209341,
+        "base_recall10": 1.0,
+        "expanded_recall10": 1.0,
+        "base_candidate_recall100": 1.0,
+        "expanded_candidate_recall100": 1.0,
+        "new_relevant_in_candidates100": 0,
+        "lost_relevant_from_candidates100": 0,
+        "base_candidate_recall1000": 1.0,
+        "expanded_candidate_recall1000": 1.0
+      },
+      "relevant_document_count": 2,
+      "missing_relevant_document_ids": [],
+      "top10": {
+        "base_candidates_base_rank": [
+          "MED-4872",
+          "MED-4570",
+          "MED-3988",
+          "MED-4573",
+          "MED-919",
+          "MED-716",
+          "MED-714",
+          "MED-3986",
+          "MED-3990",
+          "MED-4575"
+        ],
+        "base_candidates_expanded_rank": [
+          "MED-4872",
+          "MED-716",
+          "MED-919",
+          "MED-4575",
+          "MED-4570",
+          "MED-3988",
+          "MED-4573",
+          "MED-714",
+          "MED-3986",
+          "MED-3990"
+        ],
+        "expanded_candidates_base_rank": [
+          "MED-4872",
+          "MED-4570",
+          "MED-3988",
+          "MED-4573",
+          "MED-919",
+          "MED-716",
+          "MED-714",
+          "MED-3986",
+          "MED-3990",
+          "MED-4575"
+        ],
+        "expanded_candidates_expanded_rank": [
+          "MED-4872",
+          "MED-716",
+          "MED-919",
+          "MED-4575",
+          "MED-4570",
+          "MED-3988",
+          "MED-4573",
+          "MED-714",
+          "MED-3986",
+          "MED-3990"
+        ]
+      },
+      "new_relevant_in_candidates100": [],
+      "lost_relevant_from_candidates100": [],
+      "documents": {
+        "MED-714": {
+          "title_or_text_start": "Towards prevention of vitamin D deficiency and beyond: knowledge gaps and research needs in vitamin D nutrition and public health. The North American Institute of Medicine (IOM) recently published their report on dietary",
+          "relevance_grade": 0,
+          "base_rank_top1000": 7,
+          "expanded_rank_top1000": 8,
+          "base_bm25": 12.1294,
+          "added_terms_bm25": {
+            "difficult": 0.0,
+            "recommended": 0.0,
+            "arrive": 0.0
+          },
+          "expanded_bm25": 12.1294
+        },
+        "MED-716": {
+          "title_or_text_start": "VITAMIN D: A D-LIGHTFUL SOLUTION FOR HEALTH Throughout evolution sunlight produced vitamin D in the skin has been critically important for health. Vitamin D, known as the sunshine vitamin, is actually a hormone. Once it ",
+          "relevance_grade": 0,
+          "base_rank_top1000": 6,
+          "expanded_rank_top1000": 2,
+          "base_bm25": 12.1638,
+          "added_terms_bm25": {
+            "difficult": 4.83245,
+            "recommended": 0.0,
+            "arrive": 0.0
+          },
+          "expanded_bm25": 13.37191
+        },
+        "MED-919": {
+          "title_or_text_start": "Evaluation, treatment, and prevention of vitamin D deficiency: an Endocrine Society clinical practice guideline. OBJECTIVE: The objective was to provide guidelines to clinicians for the evaluation, treatment, and prevent",
+          "relevance_grade": 0,
+          "base_rank_top1000": 5,
+          "expanded_rank_top1000": 3,
+          "base_bm25": 12.22426,
+          "added_terms_bm25": {
+            "difficult": 0.0,
+            "recommended": 4.44007,
+            "arrive": 0.0
+          },
+          "expanded_bm25": 13.33427
+        },
+        "MED-3986": {
+          "title_or_text_start": "Bioavailability of vitamin D₂ from UV-B-irradiated button mushrooms in healthy adults deficient in serum 25-hydroxyvitamin D: a randomized controll... BACKGROUND/OBJECTIVES: Mushrooms contain very little or any vitamin D",
+          "relevance_grade": 0,
+          "base_rank_top1000": 8,
+          "expanded_rank_top1000": 9,
+          "base_bm25": 11.99887,
+          "added_terms_bm25": {
+            "difficult": 0.0,
+            "recommended": 0.0,
+            "arrive": 0.0
+          },
+          "expanded_bm25": 11.99887
+        },
+        "MED-3988": {
+          "title_or_text_start": "Vitamin D2 Is as Effective as Vitamin D3 in Maintaining Circulating Concentrations of 25-Hydroxyvitamin D Context: Two reports suggested that vitamin D2 is less effective than vitamin D3 in maintaining vitamin D status. ",
+          "relevance_grade": 0,
+          "base_rank_top1000": 3,
+          "expanded_rank_top1000": 6,
+          "base_bm25": 12.31053,
+          "added_terms_bm25": {
+            "difficult": 0.0,
+            "recommended": 0.0,
+            "arrive": 0.0
+          },
+          "expanded_bm25": 12.31053
+        },
+        "MED-3990": {
+          "title_or_text_start": "Vitamin D supplementation for prevention of mortality in adults. BACKGROUND: The available evidence on vitamin D and mortality is inconclusive. OBJECTIVES: To assess the beneficial and harmful effects of vitamin D for pr",
+          "relevance_grade": 0,
+          "base_rank_top1000": 9,
+          "expanded_rank_top1000": 10,
+          "base_bm25": 11.86663,
+          "added_terms_bm25": {
+            "difficult": 0.0,
+            "recommended": 0.0,
+            "arrive": 0.0
+          },
+          "expanded_bm25": 11.86663
+        },
+        "MED-4570": {
+          "title_or_text_start": "Vitamin D supplement doses and serum 25-hydroxyvitamin D in the range associated with cancer prevention. BACKGROUND: Studies indicate that intake of vitamin D in the range from 1,100 to 4,000 IU/d and a serum 25-hydroxyv",
+          "relevance_grade": 2,
+          "base_rank_top1000": 2,
+          "expanded_rank_top1000": 5,
+          "base_bm25": 12.38284,
+          "added_terms_bm25": {
+            "difficult": 0.0,
+            "recommended": 0.0,
+            "arrive": 0.0
+          },
+          "expanded_bm25": 12.38284
+        },
+        "MED-4573": {
+          "title_or_text_start": "Low Vitamin D Status: Definition, Prevalence, Consequences and Correction Vitamin D is obtained from cutaneous production when 7-dehydrocholesterol is converted to vitamin D3 (cholecalciferol) by ultraviolet B radiation ",
+          "relevance_grade": 2,
+          "base_rank_top1000": 4,
+          "expanded_rank_top1000": 7,
+          "base_bm25": 12.26048,
+          "added_terms_bm25": {
+            "difficult": 0.0,
+            "recommended": 0.0,
+            "arrive": 0.0
+          },
+          "expanded_bm25": 12.26048
+        },
+        "MED-4575": {
+          "title_or_text_start": "Vitamin D: extraskeletal health. Vitamin D deficiency is the most common nutritional deficiency and likely the most common medical condition in the world. The major cause of vitamin D deficiency has been the lack of appr",
+          "relevance_grade": 0,
+          "base_rank_top1000": 10,
+          "expanded_rank_top1000": 4,
+          "base_bm25": 11.86481,
+          "added_terms_bm25": {
+            "difficult": 0.0,
+            "recommended": 4.03183,
+            "arrive": 0.0
+          },
+          "expanded_bm25": 12.87276
+        },
+        "MED-4872": {
+          "title_or_text_start": "Safety considerations and potential interactions of vitamins: should vitamins be considered drugs? OBJECTIVE: To examine adverse effects, adverse events, and potential interactions of vitamins in light of their current p",
+          "relevance_grade": 0,
+          "base_rank_top1000": 1,
+          "expanded_rank_top1000": 1,
+          "base_bm25": 13.1435,
+          "added_terms_bm25": {
+            "difficult": 0.0,
+            "recommended": 3.19538,
+            "arrive": 0.0
+          },
+          "expanded_bm25": 13.94234
+        }
+      }
+    },
+    {
+      "dataset": "nfcorpus",
+      "query_id": "PLAIN-3171",
+      "selection_reason": "decline_with_lost_relevant_candidate",
+      "summary": {
+        "dataset": "nfcorpus",
+        "query_id": "PLAIN-3171",
+        "change": "worsened",
+        "query": "Convergence of Evidence",
+        "expansion_terms": "converge | proof | theory",
+        "base_ndcg10": 0.199066,
+        "fixed_candidates_expanded_rank_ndcg10": 0.173356,
+        "expanded_candidates_base_rank_ndcg10": 0.199066,
+        "expanded_ndcg10": 0.044175,
+        "delta_ndcg10": -0.154891,
+        "base_recall10": 0.088235,
+        "expanded_recall10": 0.029412,
+        "base_candidate_recall100": 0.235294,
+        "expanded_candidate_recall100": 0.205882,
+        "new_relevant_in_candidates100": 0,
+        "lost_relevant_from_candidates100": 1,
+        "base_candidate_recall1000": 0.5,
+        "expanded_candidate_recall1000": 0.5
+      },
+      "relevant_document_count": 34,
+      "missing_relevant_document_ids": [],
+      "top10": {
+        "base_candidates_base_rank": [
+          "MED-2333",
+          "MED-1502",
+          "MED-5123",
+          "MED-3247",
+          "MED-3690",
+          "MED-1504",
+          "MED-4292",
+          "MED-1498",
+          "MED-2716",
+          "MED-4153"
+        ],
+        "base_candidates_expanded_rank": [
+          "MED-2333",
+          "MED-4170",
+          "MED-1502",
+          "MED-5123",
+          "MED-3247",
+          "MED-3690",
+          "MED-1504",
+          "MED-4292",
+          "MED-1498",
+          "MED-2716"
+        ],
+        "expanded_candidates_base_rank": [
+          "MED-2333",
+          "MED-1502",
+          "MED-5123",
+          "MED-3247",
+          "MED-3690",
+          "MED-1504",
+          "MED-4292",
+          "MED-1498",
+          "MED-2716",
+          "MED-4153"
+        ],
+        "expanded_candidates_expanded_rank": [
+          "MED-2333",
+          "MED-4170",
+          "MED-1349",
+          "MED-2699",
+          "MED-5072",
+          "MED-4697",
+          "MED-4693",
+          "MED-5339",
+          "MED-3461",
+          "MED-1502"
+        ]
+      },
+      "new_relevant_in_candidates100": [],
+      "lost_relevant_from_candidates100": [
+        "MED-1505"
+      ],
+      "documents": {
+        "MED-1349": {
+          "title_or_text_start": "Antidepressants and the Placebo Effect Antidepressants are supposed to work by fixing a chemical imbalance, specifically, a lack of serotonin in the brain. Indeed, their supposed effectiveness is the primary evidence for",
+          "relevance_grade": 0,
+          "base_rank_top1000": 242,
+          "expanded_rank_top1000": 3,
+          "base_bm25": 1.96325,
+          "added_terms_bm25": {
+            "converge": 0.0,
+            "proof": 0.0,
+            "theory": 8.27937
+          },
+          "expanded_bm25": 4.03309
+        },
+        "MED-1498": {
+          "title_or_text_start": "A modest proposal for a longitudinal study of dementia prevention (with apologies to Jonathan Swift, 1729). Many studies have documented the role of risk and protective factors for late life dementing illnesses, particul",
+          "relevance_grade": 1,
+          "base_rank_top1000": 8,
+          "expanded_rank_top1000": 16,
+          "base_bm25": 3.03927,
+          "added_terms_bm25": {
+            "converge": 0.0,
+            "proof": 0.0,
+            "theory": 0.0
+          },
+          "expanded_bm25": 3.03927
+        },
+        "MED-1501": {
+          "title_or_text_start": "Systematic review: factors associated with risk for and possible prevention of cognitive decline in later life. BACKGROUND: Many biological, behavioral, social, and environmental factors may contribute to the delay or pr",
+          "relevance_grade": 1,
+          "base_rank_top1000": 12,
+          "expanded_rank_top1000": 22,
+          "base_bm25": 2.99857,
+          "added_terms_bm25": {
+            "converge": 0.0,
+            "proof": 0.0,
+            "theory": 0.0
+          },
+          "expanded_bm25": 2.99857
+        },
+        "MED-1502": {
+          "title_or_text_start": "The longer-term impacts of Western diet on human cognition and the brain. Animal work over the last three decades has generated a convincing body of evidence that a Western diet - one high in saturated fat and refined ca",
+          "relevance_grade": 1,
+          "base_rank_top1000": 2,
+          "expanded_rank_top1000": 10,
+          "base_bm25": 3.16795,
+          "added_terms_bm25": {
+            "converge": 0.0,
+            "proof": 0.0,
+            "theory": 0.0
+          },
+          "expanded_bm25": 3.16795
+        },
+        "MED-1504": {
+          "title_or_text_start": "Risk factors and preventive interventions for Alzheimer disease: state of the science. BACKGROUND: Numerous studies have investigated risk factors for Alzheimer disease (AD). However, at a recent National Institutes of H",
+          "relevance_grade": 1,
+          "base_rank_top1000": 6,
+          "expanded_rank_top1000": 14,
+          "base_bm25": 3.06145,
+          "added_terms_bm25": {
+            "converge": 0.0,
+            "proof": 0.0,
+            "theory": 0.0
+          },
+          "expanded_bm25": 3.06145
+        },
+        "MED-1505": {
+          "title_or_text_start": "Nutritional modulation of cognitive function and mental health. The important role of diet in cardiometabolic health is generally well recognised; for mental health, it is not so well understood. However, lifestyle risk ",
+          "relevance_grade": 1,
+          "base_rank_top1000": 99,
+          "expanded_rank_top1000": 111,
+          "base_bm25": 2.442,
+          "added_terms_bm25": {
+            "converge": 0.0,
+            "proof": 0.0,
+            "theory": 0.0
+          },
+          "expanded_bm25": 2.442
+        },
+        "MED-2333": {
+          "title_or_text_start": "Shared signals and the potential for phylogenetic espionage between plants and animals. Until recently, the study and understanding of plant and animal signalling and response mechanisms have developed independently. Rec",
+          "relevance_grade": 0,
+          "base_rank_top1000": 1,
+          "expanded_rank_top1000": 1,
+          "base_bm25": 8.78643,
+          "added_terms_bm25": {
+            "converge": 0.0,
+            "proof": 0.0,
+            "theory": 0.0
+          },
+          "expanded_bm25": 8.78643
+        },
+        "MED-2699": {
+          "title_or_text_start": "The Free Radical Theory of Aging Revisited: The Cell Signaling Disruption Theory of Aging Significance: The free radical theory of aging has provided a theoretical framework for an enormous amount of work leading to sign",
+          "relevance_grade": 0,
+          "base_rank_top1000": 495,
+          "expanded_rank_top1000": 4,
+          "base_bm25": 1.62474,
+          "added_terms_bm25": {
+            "converge": 0.0,
+            "proof": 0.0,
+            "theory": 8.84477
+          },
+          "expanded_bm25": 3.83593
+        },
+        "MED-2716": {
+          "title_or_text_start": "Myths, Presumptions, and Facts about Obesity BACKGROUND Many beliefs about obesity persist in the absence of supporting scientific evidence (presumptions); some persist despite contradicting evidence (myths). The promulg",
+          "relevance_grade": 0,
+          "base_rank_top1000": 9,
+          "expanded_rank_top1000": 17,
+          "base_bm25": 3.03153,
+          "added_terms_bm25": {
+            "converge": 0.0,
+            "proof": 0.0,
+            "theory": 0.0
+          },
+          "expanded_bm25": 3.03153
+        },
+        "MED-3247": {
+          "title_or_text_start": "Evidence Report: The efficacy and safety of mitoxantrone (Novantrone) in the treatment of multiple sclerosis Objective: The chemotherapeutic agent mitoxantrone was approved for use in multiple sclerosis (MS) in 2000. Aft",
+          "relevance_grade": 0,
+          "base_rank_top1000": 4,
+          "expanded_rank_top1000": 12,
+          "base_bm25": 3.08313,
+          "added_terms_bm25": {
+            "converge": 0.0,
+            "proof": 0.0,
+            "theory": 0.0
+          },
+          "expanded_bm25": 3.08313
+        },
+        "MED-3461": {
+          "title_or_text_start": "Acute inflammation: the underlying mechanism in delayed onset muscle soreness? It is well documented in animal and human research that unaccustomed eccentric muscle action of sufficient intensity and/or duration causes d",
+          "relevance_grade": 0,
+          "base_rank_top1000": 269,
+          "expanded_rank_top1000": 9,
+          "base_bm25": 1.91544,
+          "added_terms_bm25": {
+            "converge": 0.0,
+            "proof": 0.0,
+            "theory": 5.53597
+          },
+          "expanded_bm25": 3.29943
+        },
+        "MED-3690": {
+          "title_or_text_start": "Probiotics as prevention and treatment for diarrhea. PURPOSE OF REVIEW: To critically appraise evidence on probiotic use for prevention and treatment of diarrhea in children and adults. RECENT FINDINGS: Several randomize",
+          "relevance_grade": 0,
+          "base_rank_top1000": 5,
+          "expanded_rank_top1000": 13,
+          "base_bm25": 3.07182,
+          "added_terms_bm25": {
+            "converge": 0.0,
+            "proof": 0.0,
+            "theory": 0.0
+          },
+          "expanded_bm25": 3.07182
+        },
+        "MED-4153": {
+          "title_or_text_start": "Occupational sitting and health risks: a systematic review. CONTEXT: Emerging evidence suggests that sedentary behavior (i.e., time spent sitting) may be negatively associated with health. The aim of this study was to sy",
+          "relevance_grade": 0,
+          "base_rank_top1000": 10,
+          "expanded_rank_top1000": 18,
+          "base_bm25": 3.02471,
+          "added_terms_bm25": {
+            "converge": 0.0,
+            "proof": 0.0,
+            "theory": 0.0
+          },
+          "expanded_bm25": 3.02471
+        },
+        "MED-4170": {
+          "title_or_text_start": "To breastfeed or not to breastfeed: a review of the impact of lactational exposure to polychlorinated biphenyls (PCBs) on infants. Researchers have long debated the adverse effects of exposure to polychlorinated biphenyl",
+          "relevance_grade": 0,
+          "base_rank_top1000": 22,
+          "expanded_rank_top1000": 2,
+          "base_bm25": 2.89857,
+          "added_terms_bm25": {
+            "converge": 0.0,
+            "proof": 6.86078,
+            "theory": 0.0
+          },
+          "expanded_bm25": 4.61377
+        },
+        "MED-4292": {
+          "title_or_text_start": "A review of the evidence: nuts and body weight. There is currently no single dietary or lifestyle intervention that is effective in long-term weight loss. Traditional weight loss diets tend to be low in total fat and the",
+          "relevance_grade": 0,
+          "base_rank_top1000": 7,
+          "expanded_rank_top1000": 15,
+          "base_bm25": 3.04792,
+          "added_terms_bm25": {
+            "converge": 0.0,
+            "proof": 0.0,
+            "theory": 0.0
+          },
+          "expanded_bm25": 3.04792
+        },
+        "MED-4693": {
+          "title_or_text_start": "Light-at-night, circadian disruption and breast cancer: assessment of existing evidence Background Breast cancer incidence is increasing globally for largely unknown reasons. The possibility that a portion of the breast ",
+          "relevance_grade": 0,
+          "base_rank_top1000": 164,
+          "expanded_rank_top1000": 7,
+          "base_bm25": 2.23284,
+          "added_terms_bm25": {
+            "converge": 0.0,
+            "proof": 0.0,
+            "theory": 4.61329
+          },
+          "expanded_bm25": 3.38616
+        },
+        "MED-4697": {
+          "title_or_text_start": "Is there more to aging than mitochondrial DNA and reactive oxygen species? Summary With the aging of the population, we are seeing a global increase in age-related disorders, especially in developed countries. Chronic di",
+          "relevance_grade": 0,
+          "base_rank_top1000": 231,
+          "expanded_rank_top1000": 6,
+          "base_bm25": 1.9826,
+          "added_terms_bm25": {
+            "converge": 0.0,
+            "proof": 0.0,
+            "theory": 5.7306
+          },
+          "expanded_bm25": 3.41525
+        },
+        "MED-5072": {
+          "title_or_text_start": "Lycopene-rich treatments modify noneosinophilic airway inflammation in asthma: proof of concept. Antioxidant-rich diets are associated with reduced asthma prevalence. However, direct evidence that altering intake of anti",
+          "relevance_grade": 0,
+          "base_rank_top1000": 271,
+          "expanded_rank_top1000": 5,
+          "base_bm25": 1.91503,
+          "added_terms_bm25": {
+            "converge": 0.0,
+            "proof": 6.52421,
+            "theory": 0.0
+          },
+          "expanded_bm25": 3.54608
+        },
+        "MED-5123": {
+          "title_or_text_start": "Tea or coffee? A case study on evidence for dietary advice. The present paper explores the level of evidence required to justify giving dietary advice to the public. There are important practical differences between the ",
+          "relevance_grade": 0,
+          "base_rank_top1000": 3,
+          "expanded_rank_top1000": 11,
+          "base_bm25": 3.10657,
+          "added_terms_bm25": {
+            "converge": 0.0,
+            "proof": 0.0,
+            "theory": 0.0
+          },
+          "expanded_bm25": 3.10657
+        },
+        "MED-5339": {
+          "title_or_text_start": "Is Escherichia coli urinary tract infection a zoonosis? Proof of direct link with production animals and meat. Recently, it has been suggested that the Escherichia coli causing urinary tract infection (UTI) may come from",
+          "relevance_grade": 0,
+          "base_rank_top1000": 345,
+          "expanded_rank_top1000": 8,
+          "base_bm25": 1.78388,
+          "added_terms_bm25": {
+            "converge": 0.0,
+            "proof": 6.07702,
+            "theory": 0.0
+          },
+          "expanded_bm25": 3.30313
+        }
+      }
+    },
+    {
+      "dataset": "nfcorpus",
+      "query_id": "PLAIN-112",
+      "selection_reason": "unchanged_with_new_relevant_candidate",
+      "summary": {
+        "dataset": "nfcorpus",
+        "query_id": "PLAIN-112",
+        "change": "unchanged",
+        "query": "Food Dyes and ADHD",
+        "expansion_terms": "dye | ad | kitchen",
+        "base_ndcg10": 0.465512,
+        "fixed_candidates_expanded_rank_ndcg10": 0.465512,
+        "expanded_candidates_base_rank_ndcg10": 0.465512,
+        "expanded_ndcg10": 0.465512,
+        "delta_ndcg10": 0.0,
+        "base_recall10": 0.035714,
+        "expanded_recall10": 0.035714,
+        "base_candidate_recall100": 0.089286,
+        "expanded_candidate_recall100": 0.107143,
+        "new_relevant_in_candidates100": 1,
+        "lost_relevant_from_candidates100": 0,
+        "base_candidate_recall1000": 0.357143,
+        "expanded_candidate_recall1000": 0.375
+      },
+      "relevant_document_count": 56,
+      "missing_relevant_document_ids": [],
+      "top10": {
+        "base_candidates_base_rank": [
+          "MED-3380",
+          "MED-2618",
+          "MED-3382",
+          "MED-2616",
+          "MED-4604",
+          "MED-3383",
+          "MED-1153",
+          "MED-4655",
+          "MED-2643",
+          "MED-2992"
+        ],
+        "base_candidates_expanded_rank": [
+          "MED-3380",
+          "MED-2618",
+          "MED-3382",
+          "MED-2616",
+          "MED-4604",
+          "MED-3383",
+          "MED-1153",
+          "MED-4655",
+          "MED-2643",
+          "MED-2992"
+        ],
+        "expanded_candidates_base_rank": [
+          "MED-3380",
+          "MED-2618",
+          "MED-3382",
+          "MED-2616",
+          "MED-4604",
+          "MED-3383",
+          "MED-1153",
+          "MED-4655",
+          "MED-2643",
+          "MED-2992"
+        ],
+        "expanded_candidates_expanded_rank": [
+          "MED-3380",
+          "MED-2618",
+          "MED-3382",
+          "MED-2616",
+          "MED-4604",
+          "MED-3383",
+          "MED-1153",
+          "MED-4655",
+          "MED-2643",
+          "MED-2992"
+        ]
+      },
+      "new_relevant_in_candidates100": [
+        "MED-4488"
+      ],
+      "lost_relevant_from_candidates100": [],
+      "documents": {
+        "MED-1153": {
+          "title_or_text_start": "ATTENTION DEFICIT/HYPERACTIVITY DISORDER AND URINARY METABOLITES OF ORGANOPHOSPHATE PESTICIDES IN U.S. CHILDREN 8–15 YEARS Context Exposure to organophosphate (OP) pesticides is common, and although these compounds have ",
+          "relevance_grade": 0,
+          "base_rank_top1000": 7,
+          "expanded_rank_top1000": 7,
+          "base_bm25": 11.74663,
+          "added_terms_bm25": {
+            "dye": 0.0,
+            "ad": 0.0,
+            "kitchen": 0.0
+          },
+          "expanded_bm25": 11.74663
+        },
+        "MED-2616": {
+          "title_or_text_start": "The significance of azo-reduction in the mutagenesis and carcinogenesis of azo dyes. Azo dyes are widely used in textile, printing, cosmetic, drug and food-processing industries. They are also used extensively in laborat",
+          "relevance_grade": 0,
+          "base_rank_top1000": 4,
+          "expanded_rank_top1000": 4,
+          "base_bm25": 13.31284,
+          "added_terms_bm25": {
+            "dye": 0.0,
+            "ad": 0.0,
+            "kitchen": 0.0
+          },
+          "expanded_bm25": 13.31284
+        },
+        "MED-2618": {
+          "title_or_text_start": "Toxicology of food dyes. BACKGROUND: Food dyes, synthesized originally from coal tar and now petroleum, have long been controversial because of safety concerns. Many dyes have been banned because of their adverse effects",
+          "relevance_grade": 0,
+          "base_rank_top1000": 2,
+          "expanded_rank_top1000": 2,
+          "base_bm25": 14.67331,
+          "added_terms_bm25": {
+            "dye": 0.0,
+            "ad": 0.0,
+            "kitchen": 0.0
+          },
+          "expanded_bm25": 14.67331
+        },
+        "MED-2643": {
+          "title_or_text_start": "Endocrine-Disrupting Chemicals: Associated Disorders and Mechanisms of Action The incidence and/or prevalence of health problems associated with endocrine-disruption have increased. Many chemicals have endocrine-disrupti",
+          "relevance_grade": 0,
+          "base_rank_top1000": 9,
+          "expanded_rank_top1000": 9,
+          "base_bm25": 6.56807,
+          "added_terms_bm25": {
+            "dye": 0.0,
+            "ad": 0.0,
+            "kitchen": 0.0
+          },
+          "expanded_bm25": 6.56807
+        },
+        "MED-2992": {
+          "title_or_text_start": "TOXICITY AND CARCINOGENICITY STUDIES OF 4-METHYLIMIDAZOLE IN F344/N RATS AND B6C3F1 MICE 4-Methylimidazole (4MI) is used in the manufacture of pharmaceuticals, photographic chemicals, dyes and pigments, cleaning and agri",
+          "relevance_grade": 0,
+          "base_rank_top1000": 10,
+          "expanded_rank_top1000": 10,
+          "base_bm25": 5.97709,
+          "added_terms_bm25": {
+            "dye": 0.0,
+            "ad": 0.0,
+            "kitchen": 0.0
+          },
+          "expanded_bm25": 5.97709
+        },
+        "MED-3380": {
+          "title_or_text_start": "Artificial food dyes and attention deficit hyperactivity disorder. Attention deficit hyperactivity disorder (ADHD) is one of the most common behavioral disorders in children. Symptoms of ADHD include hyperactivity, low f",
+          "relevance_grade": 2,
+          "base_rank_top1000": 1,
+          "expanded_rank_top1000": 1,
+          "base_bm25": 25.47111,
+          "added_terms_bm25": {
+            "dye": 0.0,
+            "ad": 0.0,
+            "kitchen": 0.0
+          },
+          "expanded_bm25": 25.47111
+        },
+        "MED-3382": {
+          "title_or_text_start": "Dietary sensitivities and ADHD symptoms: thirty-five years of research. Artificial food colors (AFCs) have not been established as the main cause of attention-deficit hyperactivity disorder (ADHD), but accumulated eviden",
+          "relevance_grade": 2,
+          "base_rank_top1000": 3,
+          "expanded_rank_top1000": 3,
+          "base_bm25": 13.35743,
+          "added_terms_bm25": {
+            "dye": 0.0,
+            "ad": 0.0,
+            "kitchen": 0.0
+          },
+          "expanded_bm25": 13.35743
+        },
+        "MED-3383": {
+          "title_or_text_start": "The effects of physical activity on attention deficit hyperactivity disorder symptoms: the evidence. Evidence supports the beneficial effects of physical activity (PA) on cognitive performance and suggests that effects m",
+          "relevance_grade": 0,
+          "base_rank_top1000": 6,
+          "expanded_rank_top1000": 6,
+          "base_bm25": 12.23145,
+          "added_terms_bm25": {
+            "dye": 0.0,
+            "ad": 0.0,
+            "kitchen": 0.0
+          },
+          "expanded_bm25": 12.23145
+        },
+        "MED-4488": {
+          "title_or_text_start": "Epidemilogical trends strongly suggest exposures as etiologic agents in the pathogenesis of sporadic Alzheimer's disease, diabetes mellitus, and no... Nitrosamines mediate their mutagenic effects by causing DNA damage, o",
+          "relevance_grade": 1,
+          "base_rank_top1000": 292,
+          "expanded_rank_top1000": 20,
+          "base_bm25": 2.06962,
+          "added_terms_bm25": {
+            "dye": 0.0,
+            "ad": 5.76472,
+            "kitchen": 0.0
+          },
+          "expanded_bm25": 3.5108
+        },
+        "MED-4604": {
+          "title_or_text_start": "The comet assay with 8 mouse organs: results with 39 currently used food additives. We determined the genotoxicity of 39 chemicals currently in use as food additives. They fell into six categories-dyes, color fixatives a",
+          "relevance_grade": 0,
+          "base_rank_top1000": 5,
+          "expanded_rank_top1000": 5,
+          "base_bm25": 12.33398,
+          "added_terms_bm25": {
+            "dye": 0.0,
+            "ad": 0.0,
+            "kitchen": 0.0
+          },
+          "expanded_bm25": 12.33398
+        },
+        "MED-4655": {
+          "title_or_text_start": "Phthalates exposure and attention-deficit/hyperactivity disorder in school-age children. BACKGROUND: Very few studies have examined the association between attention-deficit/hyperactivity disorder (ADHD) and phthalate ex",
+          "relevance_grade": 0,
+          "base_rank_top1000": 8,
+          "expanded_rank_top1000": 8,
+          "base_bm25": 11.55817,
+          "added_terms_bm25": {
+            "dye": 0.0,
+            "ad": 0.0,
+            "kitchen": 0.0
+          },
+          "expanded_bm25": 11.55817
+        }
+      }
+    }
+  ]
+}
