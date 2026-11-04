@@ -1,0 +1,22 @@
+[project]
+name = "splade-query-expansion"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pyserini>=2.4.0",
+]
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cpu" }
+
+[dependency-groups]
+dev = [
+    "ruff>=0.17.3",
+]
