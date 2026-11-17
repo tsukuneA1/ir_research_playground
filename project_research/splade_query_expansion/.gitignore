@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+.ruff_cache/
+results/
+indexes/
+.cache/
+cache/
+*.run
+*.run.json
+*.run.tmp
+data/*
+!data/scifact/
+data/scifact/*
+!data/scifact/main.py
