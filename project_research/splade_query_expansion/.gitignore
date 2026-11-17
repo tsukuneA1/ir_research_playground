@@ -8,7 +8,4 @@ cache/
 *.run
 *.run.json
 *.run.tmp
-data/*
-!data/scifact/
-data/scifact/*
-!data/scifact/main.py
+data/
