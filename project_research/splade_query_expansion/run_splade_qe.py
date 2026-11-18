@@ -1,4 +1,4 @@
-"""SciFactのSPLADE QEを順次実行し、推論キャッシュ・追加語・runを保存する。"""
+"""指定データセットのSPLADE QEを順次実行し、推論キャッシュ・追加語・runを保存する。"""
 
 import argparse
 import hashlib
@@ -11,7 +11,8 @@ from importlib.metadata import version
 from pathlib import Path
 
 from bm25_baseline import configure_bm25
-from run_bm25 import COLLECTION, INDEX, format_run, runtime_metadata
+from retrieval_datasets import DATASETS, identify_dataset
+from run_bm25 import format_run, runtime_metadata
 from splade_model import MAX_INPUT_TOKENS, MODEL_ID, MODEL_REVISION, load_splade
 from splade_qe import search_with_splade
 from splade_query import SparseQuery, TokenWeight
@@ -66,8 +67,11 @@ def save_cached_query(
 
 
 def main() -> None:
-    """指定k・λでSciFactを再検索し、既存の評価CLIで読めるrunとJSONを保存する。"""
+    """指定k・λで再検索し、既存の評価CLIで読めるrunとJSONを保存する。"""
     parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "--dataset", choices=DATASETS, help="省略時はメタデータから判定"
+    )
     parser.add_argument("--k", type=int, required=True, help="選別後の追加索引語数")
     parser.add_argument("--lambda", dest="expansion_weight", type=float, required=True)
     parser.add_argument("--weighting", choices=("splade", "uniform"), default="splade")
@@ -75,26 +79,34 @@ def main() -> None:
     parser.add_argument(
         "--query-id", action="append", help="省略すると全評価対象クエリ"
     )
-    parser.add_argument(
-        "--baseline-metadata", type=Path, default=Path("results/scifact/bm25.run.json")
-    )
-    parser.add_argument(
-        "--cache-dir", type=Path, default=Path("results/scifact/splade-cache")
-    )
+    parser.add_argument("--baseline-metadata", type=Path)
+    parser.add_argument("--cache-dir", type=Path)
     parser.add_argument("--output", type=Path)
     args = parser.parse_args()
     if args.k < 1 or args.top_k < 1:
         parser.error("kとtop-kは正の整数で指定してください")
     if not math.isfinite(args.expansion_weight) or args.expansion_weight < 0:
         parser.error("λは有限の非負値で指定してください")
+    args.baseline_metadata = args.baseline_metadata or Path(
+        f"results/{args.dataset or 'scifact'}/bm25.run.json"
+    )
     baseline = json.loads(args.baseline_metadata.read_text(encoding="utf-8"))
-    if baseline["collection"] != COLLECTION or baseline["index"] != INDEX:
-        parser.error("SciFact testのBM25メタデータを指定してください")
+    try:
+        dataset = identify_dataset(baseline["index"], baseline["collection"])
+    except ValueError as error:
+        parser.error(str(error))
+    if args.dataset is not None and args.dataset != dataset.name:
+        parser.error("指定データセットとベースラインのメタデータが一致しません")
+    args.cache_dir = args.cache_dir or Path(f"results/{dataset.name}/splade-cache")
     qids = args.query_id or baseline["query_ids"]
-    if len(qids) != len(set(qids)) or set(qids) - set(baseline["query_ids"]):
+    if (
+        not qids
+        or len(qids) != len(set(qids))
+        or set(qids) - set(baseline["query_ids"])
+    ):
         parser.error("クエリIDが重複しているか、ベースラインの評価対象にありません")
     tag = f"splade-{args.weighting}-k{args.k}-lambda{args.expansion_weight:g}"
-    output = args.output or Path(f"results/scifact/{tag}.run")
+    output = args.output or Path(f"results/{dataset.name}/{tag}.run")
     if output.resolve() in (
         args.baseline_metadata.resolve(),
         args.baseline_metadata.with_suffix("").resolve(),
@@ -112,11 +124,13 @@ def main() -> None:
     metadata = runtime_metadata(
         searcher,
         {"filename": baseline["index_archive"], "md5": baseline["index_archive_md5"]},
+        dataset,
     )
     identity = cache_identity()
     metadata.update(
         created_at=datetime.now(UTC).isoformat(),
-        collection=COLLECTION,
+        collection=dataset.collection,
+        baseline_query_selection=baseline.get("query_selection"),
         baseline_metadata=str(args.baseline_metadata),
         k1=baseline["k1"],
         b=baseline["b"],
@@ -169,6 +183,7 @@ def main() -> None:
                 weighting=args.weighting,
                 top_k=args.top_k,
                 encoded=encoded,
+                exclude_self_match=dataset.exclude_self_match,
             )
             if not cached:
                 save_cached_query(cache_path, identity, result.sparse_query)

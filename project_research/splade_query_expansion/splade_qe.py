@@ -153,6 +153,7 @@ def search_with_splade(
     weighting: Weighting = "splade",
     top_k: int = 1000,
     encoded: SparseQuery | None = None,
+    exclude_self_match: bool = True,
 ) -> ExpandedSearchResult:
     """自然文1件のSPLADE推論、追加語選別・重み付け、全コーパス検索を行う。
 
@@ -165,6 +166,7 @@ def search_with_splade(
     戻り値には全正重みの疎表現、選択した語と重み、検索結果を含める。
     既存BM25の上位候補に限定した再順位付けではなく、重み付きクエリで
     再検索する。自己一致除外・件数補充・同点処理はBM25と同じ関数を使う。
+    クエリと文書のID体系が異なるMS MARCOではexclude_self_match=Falseを渡す。
     """
     if encoded is None:
         if loaded is None:
@@ -176,5 +178,7 @@ def search_with_splade(
         encoded, analyzer, searcher.index_reader, k, weighting
     )
     lucene_query = build_expanded_query(query, analyzer, terms, expansion_weight)
-    hits = search_query(searcher, lucene_query, qid, top_k)
+    hits = search_query(
+        searcher, lucene_query, qid, top_k, exclude_self_match=exclude_self_match
+    )
     return ExpandedSearchResult(encoded, terms, lucene_query.toString(), hits)
