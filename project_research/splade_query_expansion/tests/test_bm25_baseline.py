@@ -4,6 +4,7 @@ import unittest
 from types import SimpleNamespace
 
 from bm25_baseline import Hit, search_query
+from retrieval_datasets import DATASETS, identify_dataset
 from run_bm25 import format_run, normalize_data
 
 
@@ -19,6 +20,25 @@ class Searcher:
 
 
 class RankingTests(unittest.TestCase):
+    def test_msmarco_numeric_id_collision_is_not_a_self_match(self) -> None:
+        dataset = DATASETS["msmarco"]
+        self.assertEqual(
+            search_query(
+                Searcher([("42", 3), ("a", 2)]),
+                "query",
+                "42",
+                1,
+                exclude_self_match=dataset.exclude_self_match,
+            ),
+            [Hit("42", 3)],
+        )
+
+    def test_dataset_requires_matching_index_and_collection(self) -> None:
+        dataset = DATASETS["msmarco"]
+        self.assertEqual(identify_dataset(dataset.index, dataset.collection), dataset)
+        with self.assertRaises(ValueError):
+            identify_dataset(dataset.index, DATASETS["scifact"].collection)
+
     def test_complete_cutoff_tie_before_lexical_sort(self) -> None:
         searcher = Searcher([("z", 3), ("y", 2), ("x", 2), ("a", 2), ("b", 1)])
         hits = search_query(searcher, "query", "q", 2)
