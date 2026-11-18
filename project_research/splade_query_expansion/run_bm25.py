@@ -51,10 +51,10 @@ def normalize_data(topics: Topics, qrels: RawQrels) -> tuple[Queries, Qrels]:
     return queries, judgments
 
 
-def format_run(qid: str, hits: Sequence[Hit]) -> str:
+def format_run(qid: str, hits: Sequence[Hit], run_tag: str = "bm25-scifact") -> str:
     """順位順の検索結果を、1始まりの順位を持つTREC run形式に変換する。"""
     return "".join(
-        f"{qid} Q0 {hit.docid} {rank} {hit.score:.17g} bm25-scifact\n"
+        f"{qid} Q0 {hit.docid} {rank} {hit.score:.17g} {run_tag}\n"
         for rank, hit in enumerate(hits, 1)
     )
 
