@@ -10,7 +10,7 @@ from typing import TYPE_CHECKING, TypedDict
 if TYPE_CHECKING:
     from pyserini.analysis import Analyzer
     from pyserini.index.lucene import LuceneIndexReader
-    from pyserini.search.lucene import LuceneSearcher
+    from pyserini.search.lucene import JQuery, LuceneSearcher
 
 
 @dataclass(frozen=True)
@@ -62,7 +62,7 @@ def configure_bm25(searcher: LuceneSearcher, k1: float, b: float) -> Analyzer:
 
 
 def search_query(
-    searcher: LuceneSearcher, query: str, qid: str, top_k: int
+    searcher: LuceneSearcher, query: str | JQuery, qid: str, top_k: int
 ) -> list[Hit]:
     """クエリを検索し、自己一致と重複を除いて上位文書を返す。
 
@@ -73,7 +73,8 @@ def search_query(
 
     引数:
         searcher: 前処理とBM25係数を設定済みの検索器。
-        query: 前処理前の自然文クエリ。検索器側で索引語へ変換する。
+        query: 自然文なら検索器側で索引語へ変換する。構築済みのLuceneクエリも
+            指定でき、その場合は再度の前処理を行わない。
         qid: クエリID。同じ外部文書IDを持つ自己一致文書を除外する。
         top_k: 除外後に返したい最大件数。正の整数を指定する。
 
