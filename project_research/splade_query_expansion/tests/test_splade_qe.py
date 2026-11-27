@@ -22,11 +22,63 @@ class Analyzer:
 
 
 class Reader:
+<<<<<<< Updated upstream
+=======
+    def stats(self) -> dict[str, int]:
+        return {"documents": 100}
+
+>>>>>>> Stashed changes
     def get_term_counts(self, term: str, analyzer=None) -> tuple[int, int]:
         return (0, 0) if term == "missing" else (1, 1)
 
 
 class SelectionTests(unittest.TestCase):
+<<<<<<< Updated upstream
+=======
+    def test_df_filter_before_top_k_and_normalization(self) -> None:
+        class FrequencyReader(Reader):
+            def get_term_counts(self, term, analyzer=None):
+                return {"a": (10, 10), "b": (9, 9), "fragment": (1, 1)}.get(
+                    term, (0, 0)
+                )
+
+        reader = FrequencyReader()
+        unfiltered = select_expansion_terms(self.encoded, Analyzer(), reader, 2)
+        filtered = select_expansion_terms(
+            self.encoded, Analyzer(), reader, 2, max_df_ratio=0.1
+        )
+        self.assertEqual([term.term for term in unfiltered], ["a", "b"])
+        self.assertEqual([term.term for term in filtered], ["b", "fragment"])
+        self.assertAlmostEqual(filtered[0].weight, 8 / 11)
+        self.assertAlmostEqual(sum(term.weight for term in filtered), 1)
+        uniform = select_expansion_terms(
+            self.encoded, Analyzer(), reader, 2, "uniform", max_df_ratio=0.1
+        )
+        self.assertEqual([term.weight for term in uniform], [0.5, 0.5])
+        self.assertEqual(
+            select_expansion_terms(
+                self.encoded, Analyzer(), reader, 2, max_df_ratio=0.01
+            ),
+            [],
+        )
+
+    def test_df_filter_rejects_invalid_threshold_and_empty_index(self) -> None:
+        for ratio in (0, -0.1, 1.1, float("nan"), float("inf")):
+            with self.assertRaises(ValueError):
+                select_expansion_terms(
+                    self.encoded, Analyzer(), Reader(), 5, max_df_ratio=ratio
+                )
+
+        class EmptyReader(Reader):
+            def stats(self):
+                return {"documents": 0}
+
+        with self.assertRaises(ValueError):
+            select_expansion_terms(
+                self.encoded, Analyzer(), EmptyReader(), 5, max_df_ratio=0.1
+            )
+
+>>>>>>> Stashed changes
     def setUp(self) -> None:
         self.encoded = SparseQuery(
             "query",

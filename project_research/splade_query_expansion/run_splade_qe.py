@@ -75,6 +75,14 @@ def main() -> None:
     parser.add_argument("--k", type=int, required=True, help="選別後の追加索引語数")
     parser.add_argument("--lambda", dest="expansion_weight", type=float, required=True)
     parser.add_argument("--weighting", choices=("splade", "uniform"), default="splade")
+<<<<<<< Updated upstream
+=======
+    parser.add_argument(
+        "--max-df-ratio",
+        type=float,
+        help="追加候補のDF/文書数がこの値以上なら除外（論文の条件は0.1）",
+    )
+>>>>>>> Stashed changes
     parser.add_argument("--top-k", type=int, default=1000, help="取得文書数")
     parser.add_argument(
         "--query-id", action="append", help="省略すると全評価対象クエリ"
@@ -87,6 +95,13 @@ def main() -> None:
         parser.error("kとtop-kは正の整数で指定してください")
     if not math.isfinite(args.expansion_weight) or args.expansion_weight < 0:
         parser.error("λは有限の非負値で指定してください")
+<<<<<<< Updated upstream
+=======
+    if args.max_df_ratio is not None and (
+        not math.isfinite(args.max_df_ratio) or not 0 < args.max_df_ratio <= 1
+    ):
+        parser.error("--max-df-ratioは有限で0より大きく1以下にしてください")
+>>>>>>> Stashed changes
     args.baseline_metadata = args.baseline_metadata or Path(
         f"results/{args.dataset or 'scifact'}/bm25.run.json"
     )
@@ -106,6 +121,11 @@ def main() -> None:
     ):
         parser.error("クエリIDが重複しているか、ベースラインの評価対象にありません")
     tag = f"splade-{args.weighting}-k{args.k}-lambda{args.expansion_weight:g}"
+<<<<<<< Updated upstream
+=======
+    if args.max_df_ratio is not None:
+        tag += f"-maxdf{args.max_df_ratio:g}"
+>>>>>>> Stashed changes
     output = args.output or Path(f"results/{dataset.name}/{tag}.run")
     if output.resolve() in (
         args.baseline_metadata.resolve(),
@@ -137,6 +157,20 @@ def main() -> None:
         k=args.k,
         expansion_weight=args.expansion_weight,
         weighting=args.weighting,
+<<<<<<< Updated upstream
+=======
+        expansion_filter={
+            "max_df_ratio": args.max_df_ratio,
+            "criterion": "retain df / index document count < max_df_ratio",
+            "stage": "after analysis, before top-k and weight normalization",
+            "original_query_filtered": False,
+            "source": (
+                "https://cs.uwaterloo.ca/~jimmylin/publications/Jedidi_Lin_SIGIR2026.pdf#page=2"
+                if args.max_df_ratio is not None
+                else None
+            ),
+        },
+>>>>>>> Stashed changes
         top_k=args.top_k,
         query_ids=qids,
         queries={qid: baseline["queries"][qid] for qid in qids},
@@ -184,6 +218,10 @@ def main() -> None:
                 top_k=args.top_k,
                 encoded=encoded,
                 exclude_self_match=dataset.exclude_self_match,
+<<<<<<< Updated upstream
+=======
+                max_df_ratio=args.max_df_ratio,
+>>>>>>> Stashed changes
             )
             if not cached:
                 save_cached_query(cache_path, identity, result.sparse_query)
