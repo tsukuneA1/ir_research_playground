@@ -62,9 +62,14 @@ def configure_bm25(searcher: LuceneSearcher, k1: float, b: float) -> Analyzer:
 
 
 def search_query(
-    searcher: LuceneSearcher, query: str | JQuery, qid: str, top_k: int
+    searcher: LuceneSearcher,
+    query: str | JQuery,
+    qid: str,
+    top_k: int,
+    *,
+    exclude_self_match: bool = True,
 ) -> list[Hit]:
-    """クエリを検索し、自己一致と重複を除いて上位文書を返す。
+    """クエリを検索し、指定時の自己一致と重複を除いて上位文書を返す。
 
     スコア降順、同点では外部文書IDの辞書順に並べる。取得境界に同点が
     残る場合は取得件数を増やし、その同点群を取得してから順位を確定する。
@@ -75,8 +80,10 @@ def search_query(
         searcher: 前処理とBM25係数を設定済みの検索器。
         query: 自然文なら検索器側で索引語へ変換する。構築済みのLuceneクエリも
             指定でき、その場合は再度の前処理を行わない。
-        qid: クエリID。同じ外部文書IDを持つ自己一致文書を除外する。
+        qid: クエリID。exclude_self_match=Trueなら同じ外部文書IDを除外する。
         top_k: 除外後に返したい最大件数。正の整数を指定する。
+        exclude_self_match: 同一のクエリID・文書IDを除外するか。MS MARCOの
+            ように両IDが別の体系の場合はFalseにし、偶然同じ数値の文書も残す。
 
     戻り値:
         順位順の検索結果。ヒットが少なければtop_k件未満、なければ空リスト。
@@ -94,7 +101,7 @@ def search_query(
             docid, score = str(hit.docid), float(hit.score)
             if not math.isfinite(score):
                 raise ValueError(f"非有限の検索スコア: {qid=}, {docid=}")
-            if docid != str(qid):
+            if not exclude_self_match or docid != str(qid):
                 scores[docid] = max(scores.get(docid, -math.inf), score)
         ranked = sorted(
             (Hit(docid, score) for docid, score in scores.items()),
